@@ -1,0 +1,286 @@
+//top par styles start
+.top {
+  height: 34px;
+  line-height: 32px;
+  width: 100%;
+  margin: 0 auto;
+  background: $lightBlack;
+  color:$white;
+  .top-bar {
+    width: 1200px;
+    font-weight: 300;
+    margin:0 auto;
+    .top-bar-left {
+      #top-mail{
+        font-size:.9em;
+        padding-right: 15px;
+        border-right: 1px solid darken($lightBlack, 10%);
+      }
+      #top-phone {
+        padding-left: 10px;
+        font-size:.9em;
+      }
+    }
+
+    .top-bar-right {
+      font-family: $textFont;
+    }
+  }
+
+  .colored-line {
+    width: 100%;
+    height: 3px;
+    line-height: 0;
+    background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
+  }
+}
+
+.container {
+  max-width: 100%;
+  margin:0 auto;
+
+  header {
+    width: 1200px;
+    margin:0 auto;
+    height: 70px;
+    line-height: 40px;
+    .logo {
+        img {
+          width: 100%;
+        }
+    }
+    .navigation {
+      ul {
+        li {
+          display: inline-block;
+          margin-left: 30px;
+          height: 70px;
+          line-height: 70px;
+          a {
+            font-size: 1em;
+            font-family: $mainFont;
+            color:lighten($lightBlack, 30%);
+            font-weight: 100;
+            .shop-card {
+              background: #ccc;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .callbacks_container {
+    position:relative;
+    z-index:9;
+    .filter {
+      position:absolute;
+      bottom:10px;
+      z-index:10;
+      width:100%;
+      max-width:80%;
+      left:50%;
+      margin-left:-40%;
+      background:$lightBlack;
+      height:150px;
+    }
+  }
+
+  .content {
+    width: 1200px;
+    margin:0 auto;
+    .top-tour-title {
+      max-width: 100%;
+      font-family: $mainFont;
+      text-align: center;
+      color:$grey;
+    }
+
+    .owl-carousel {
+      img {
+        position: relative;
+        z-index: 9;
+        margin:0;
+        padding: 0;
+      }
+      h3 {
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 10;
+        background: $white;
+        color:lighten($lightBlack, 40%);
+        font-weight: normal;
+        font-family: arial;
+        border:1px solid lighten($lightBlack, 60%);
+        padding:7px 20px;
+        font-size:1.7em;
+        margin:0;
+        opacity: .9;
+      }
+      p {
+        position: absolute;
+        bottom:198px;
+        z-index: 10;
+        color:$white;
+        background: $lightBlack;
+        width: 100%;
+        margin:0;
+        height: 60px;
+        font-family: $mainFont;
+        font-size:1.3em;
+        line-height: 60px;
+        left:0px;
+        padding-left: 0px;
+
+        #tour-title {
+          padding-left: 15px;
+        }
+      }
+
+      .caption {
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        background: $green;
+        font-family: $textFont;
+        color:$white;
+        div {
+          display: inline-block;
+          width: 48%;
+          h4 {
+            padding-left: 15px;
+          }
+          #continent {
+            background-color: darken($green, 10%);
+
+          }
+        }
+      }
+      #description {
+        color: $grey;
+        bottom: 0;
+        font-weight: normal;
+        font-family: $textFont;
+        padding: 15px
+      }
+      button {
+        margin:0px 15px;
+        padding: 12px 18px;
+        color:$grey;
+        font-family:$mainFont;
+        background: $white;
+        border:1px solid lighten($grey, 20%);
+      }
+      .video {
+        margin:0px 15px;
+        padding:13px;
+        color:darken($grey, 28%);
+        background: $white;
+        border:1px solid lighten($grey, 20%);
+      }
+    }
+
+    .new-tour {
+      .single-el {
+        margin-bottom: 30px;
+        border-bottom: 1px solid $lightGray;
+      }
+      .new-tour-els {
+        .new-tour-img {
+          width: 100%;
+
+          img {
+            height:240px;
+            float: left;
+            width: inherit;
+          }
+        }
+        #title {
+          width: 100%;
+          height: 40px;
+          line-height: 43px;
+          padding: 5px;
+          font-size: 1.3em;
+          background: #F9F9F9;
+          color:darken($grey, 8%);
+          border-top: 1px solid #f1f1f1;
+          border-bottom:1px solid #f1f1f1;
+          font-weight: normal;
+          font-family: $mainFont;
+        }
+        #description {
+          color: $grey;
+          bottom: 0;
+          padding: 10px;
+          font-weight: normal;
+          font-family: $textFont;
+        }
+        li {
+          padding: 5px;
+          display: inline-block;
+          a {
+            i {
+              margin:0px 5px;
+              padding:10px;
+              color:darken($grey, 28%);
+              background: $white;
+              border:1px solid lighten($grey, 20%);
+            }
+          }
+        }
+        .new-price {
+          vertical-align:middle;
+          height: 240px;
+          #price {
+            padding-top:20px;
+            h1, h2{
+              color:$white;
+              margin:0;
+              text-align: center;
+              font-family:arial;
+              font-weight:normal;
+            }
+            h2 {
+              font-size:1.2em;
+            }
+          }
+
+          button {
+            text-align:center;
+            display:table;
+            color:$white;
+            font-family:$mainFont;
+            margin:0px auto;
+            padding:10px 15px;
+            background: transparent;
+            border:1px solid lighten($grey, 20%);
+          }
+
+        }
+      }
+
+    }
+    .continental {
+      img {
+        height: 400px;
+      }
+    }
+  }
+
+  footer {
+    width:100%;
+    height:30px;
+    line-height:33px;
+    font-size:.8em;
+    color:$white;
+    background:$lightBlack;
+    p {
+      text-align:center;
+      a {
+        color:$white;
+      }
+    }
+  }
+}

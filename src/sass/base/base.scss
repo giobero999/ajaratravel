@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'bpg-arial';
+    src: url('fonts/bpg/bpg-arial-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/bpg/bpg-arial-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/bpg/bpg-arial-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/bpg/bpg-arial-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/bpg/bpg-arial-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/bpg/bpg-arial-webfont.svg#bpg_arialregular') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'arial-caps';
+    src: url('fonts/arial-caps/bpg-arial-caps-webfont.eot'); /* IE9 Compat Modes */
+    src: url('fonts/arial-caps/bpg-arial-caps-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/arial-caps/bpg-arial-caps-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+         url('fonts/arial-caps/bpg-arial-caps-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+         url('fonts/arial-caps/bpg-arial-caps-webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/arial-caps/bpg-arial-caps-webfont.svg#bpg_arial_capsregular') format('svg'); /* Legacy iOS */
+}
+
+* {
+  margin:0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style:none
+}

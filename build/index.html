@@ -10,38 +10,40 @@
 	<meta name="name" content="content">
 	<title>Gulp StarterKit</title>
 	<link rel="shortcut icon" type="image/png" href="">
-	<link rel="stylesheet" href="css/main.css?rev=8f363b36a5966b0911c50702d4dde55f">
+	<link rel="stylesheet" href="css/main.css?rev=cdfa1e5765c81336879d0a5f0bb0150e">
 </head>
 
 <body>
-	<div class="grid">
-		<div class="top">
-			<div class="top-bar">
-				<div class="col col--4-of-12">
-					<div class="top-bar-left left">
-						<span id="top-mail"><i class="fa fa-envelope-o"></i> info@ajaratravel@gmail.com</span>
-						<span id="top-phone"><i class="fa fa-phone"></i> (032) 2 24 60 60</span>
-					</div>
-				</div>
-				<div class="col col--2-of-12 col--push-6-of-12">
-					<div class="top-bar-right right">
-						<span><i class="fa fa-globe"></i> ენა</span>
-					</div>
-				</div>
-			</div>
-			<div class="colored-line"></div>
-		</div>
-	</div>
-	<div class="container">
 		<header>
-			<div class="grid">
-				<div class="col col--3-of-12">
+			<div class="top">
+				<div class="top-bar">
+					<div class="col-md-6 left">
+						<div class="top-bar-left left">
+							<span id="top-mail"><i class="fa fa-envelope-o"></i> info@ajaratravel@gmail.com</span>
+							<span id="top-phone"><i class="fa fa-phone"></i> (032) 2 24 60 60</span>
+						</div>
+					</div>
+					<div class="col-md-6 right">
+						<div class="top-bar-right right">
+							<span><i class="fa fa-globe"></i> ენა</span>
+						</div>
+					</div>
+				</div>
+				<div class="colored-line"></div>
+			</div>
+		</header>
+
+
+	<div class="wrapper container">
+		<div class="row no-gutter">
+			<div class="row menu">
+				<div class="col-sm-3">
 					<div class="logo">
 						<img src="img/logo.png" alt="ajaratravel">
 					</div>
 				</div>
-				<div class="col col--9-of-12">
-					<div class="navigation">
+				<div class="col-sm-9 right">
+
 						<ul class="right">
 							<li><a href="">მთავარი</a></li>
 							<li><a href="">ჩვენ შესახებ</a></li>
@@ -60,234 +62,309 @@
 								<i class="fa fa-cart-arrow-down shop-card fa-lg"></i>
 							</li>
 						</ul>
+
+				</div>
+			</div>
+			<div class="row slider no-gutter">
+				<div class="col-xs-12 no-gutter">
+					<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
+						<!-- Carousel items -->
+						<div class="carousel-inner">
+							<div class="active item">
+								<img src="img/1.jpg" alt="Chania">
+							</div>
+							<div class="item">
+								<img src="img/1.jpg" alt="Chania">
+							</div>
+							<div class="item">
+								<img src="img/1.jpg" alt="Chania">
+							</div>
+						</div>
+						<!-- Carousel nav -->
+						<a class="carousel-control left" href="#carousel" data-slide="prev"><i class="fa fa-chevron-left 2x"></i></a>
+						<a class="carousel-control right" href="#carousel" data-slide="next"><i class="fa fa-chevron-right 2x"></i></a>
 					</div>
 				</div>
 			</div>
-		</header>
-		<div class="grid">
-			<!-- Slideshow 4 -->
-			<div class="callbacks_container">
-				<ul class="rslides" id="slider4">
-					<li>
-						<img src="img/1.jpg" alt="">
-					</li>
-					<li>
-						<img src="img/2.jpg" alt="">
-					</li>
-					<li>
-						<img src="img/1.jpg" alt="">
-					</li>
-				</ul>
-				<div class="filter"></div>
+			<div class="container ">
+				<div class="row filter no-gutter">
+						<div class="col-md-12 no-gutter" style="margin-top: -181px !important;" >
+							<input id="tab1" type="radio" name="tabs"  checked>
+							<label for="tab1" class="black uppercase">quick search</label>
+							<input id="tab2" type="radio" name="tabs">
+							<label for="tab2" class="black uppercase">advanced</label>
+							<section id="content1" class="black">
+								<div class="row">
+									<div class="col-md-12">
+										<form action="" class="form-horizontal" autocomplete="off">
+											<div class="form-group">
+												<div class="col-md-3">
+													<input type="text" class="form-control" id="destination" placeholder="Type Your Destination" >
+												</div>
+												<div class="col-md-2">
+													<input type="text" class="form-control" id="from" placeholder="From">
+												</div>
+												<div class="col-md-2">
+													<input type="text" class="form-control" id="to" placeholder="To">
+												</div>
+												<div class="col-md-3">
+													<input type="text" class="" id="ion-default">
+												</div>
+												<div class="col-md-2">
+													<input type="submit" class="form-control" id="search" value="search">
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</section>
+
+							<section id="content2" class="black">
+								<div class="row">
+									<div class="col-md-12">
+										<form action="" class="form-horizontal" autocomplete="off">
+										<div class="form-group advanced">
+											<div class="col-sm-6 col-md-3">
+												<select name="" class="select" >
+													<option value="">america</option>
+													<option value="">amerssica</option>
+												</select>
+											</div>
+											<div class="col-sm-6 col-md-3">
+												<select name="" class="select" >
+													<option value="">america</option>
+												</select>
+											</div>
+											<div class="col-sm-6 col-md-3">
+												<select name="" class="select" >
+													<option value="">america</option>
+												</select>
+											</div>
+											<div class="col-sm-6 col-md-3">
+												<select name="" class="select" >
+													<option value="">america</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group ">
+											<div class="col-md-3">
+												<input type="text" class="form-control" id="from" placeholder="From">
+											</div>
+											<div class="col-md-3">
+												<input type="text" class="form-control" id="to" placeholder="To">
+											</div>
+											<div class="col-md-3">
+												<input type="text" class="" id="ion-advanced">
+											</div>
+											<div class="col-md-3">
+												<input type="submit" class="form-control" id="search" value="search">
+											</div>
+										</div>
+										</form>
+									</div>
+								</div>
+							</section>
+						</div>
+				</div>
 			</div>
-		</div>
-		<div class="clear"></div>
-		<div class="content">
-			<div class="grid">
-				<div class="col col--12-of-12 marginBottom">
-					<div>
-						<h2 class="top-tour-title">პოპულარული ტურები</h2>
-						<div class="line"></div>
-					</div>
-				</div>
-				<div class="col col--12-of-12">
-					<div class="owl-carousel">
-					  <div>
-							<h3><i class="fa fa-dollar"></i>1200</h3>
-							<img src="img/gallery/london.jpg" alt="">
-							<p><span id="tour-title">ლონდონი</span></p>
-							<div class="caption">
-								<div class="cont-relax">
-									<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-								</div>
-								<div>
-									<h4><i class="fa fa-info"></i> დასვენება</h4>
-								</div>
-							</div>
-							<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-							<button class="">სრულად</button>
-							<i class="fa fa-film fa-md video"></i>
-						</div>
+			<div class="clear"></div>
+			<div class="container">
+				<div class="col-md-12 marginTop marginBottom">
+					<div class="row">
 						<div>
-							<h3><i class="fa fa-dollar"></i>1200</h3>
-							<img src="img/gallery/berlin.jpg" alt="">
-							<p><span id="tour-title">ლონდონი</span></p>
-							<div class="caption">
-								<div class="cont-relax">
-									<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-								</div>
-								<div>
-									<h4><i class="fa fa-info"></i> დასვენება</h4>
-								</div>
-							</div>
-							<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-							<button class="">სრულად</button>
-							<i class="fa fa-film fa-md video"></i>
-						</div>
-						<div>
-							<h3><i class="fa fa-dollar"></i>1200</h3>
-							<img src="img/gallery/roma.jpg" alt="">
-							<p><span id="tour-title">ბერლინი</span></p>
-							<div class="caption">
-								<div class="cont-relax">
-									<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-								</div>
-								<div>
-									<h4><i class="fa fa-info"></i> დასვენება</h4>
-								</div>
-							</div>
-							<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-							<button class="">სრულად</button>
-							<i class="fa fa-film fa-md video"></i>
-						</div>
-						<div>
-							<h3><i class="fa fa-dollar"></i>1200</h3>
-							<img src="img/gallery/berlin.jpg" alt="">
-							<p><span id="tour-title">რომი</span></p>
-							<div class="caption">
-								<div class="cont-relax">
-									<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-								</div>
-								<div>
-									<h4><i class="fa fa-info"></i> დასვენება</h4>
-								</div>
-							</div>
-							<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-							<button class="">სრულად</button>
-							<i class="fa fa-film fa-md video"></i>
-						</div>
-					</div>
-				</div>
-				<div class="grid">
-					<div class="col col--12-of-12 marginTop">
-						<div>
-							<h2 class="top-tour-title">ახალი ტურები</h2>
+							<h2 class="top-tour-title">პოპულარული ტურები</h2>
 							<div class="line"></div>
 						</div>
 					</div>
-
-					<div class="grid new-tour grid--no-gutter">
-						<div class="col col--3-of-12">filer</div>
-						<div class="col col--9-of-12 new-tour-els">
-							<div class="single-el">
-								<div class="col col--5-of-12">
-									<div class="new-tour-img">
-										<img src="img/gallery/london.jpg" alt="" />
+					<div class="col-md-12">
+						<div class="owl-carousel">
+							<div>
+								<h3><i class="fa fa-dollar"></i>1230</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
 									</div>
 								</div>
-								<div class="col col--5-of-12">
-									<h3 id="title">ლონდონი</h3>
-									<p id="description">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
-									</p>
-									<ul>
-										<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-										<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
-									</ul>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+								<button class="">სრულად</button>
+								<i class="fa fa-film fa-md video"></i>
+							</div>
+
+							<div>
+								<h3><i class="fa fa-dollar"></i>1200</h3>
+								<img src="img/gallery/berlin.jpg" alt="">
+								<p><span id="tour-title">ბერილინი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
 								</div>
-								<div class="col col--2-of-12">
-									<div class="new-price blue" class="">
-										<div style="padding-top:50px" >
-											<div id="price">
-												<h1>1000</h1>
-												<h2>GEL</h2>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+								<button class="">სრულად</button>
+								<i class="fa fa-film fa-md video"></i>
+							</div>
+							<div>
+								<h3><i class="fa fa-dollar"></i>1200</h3>
+								<img src="img/gallery/roma.jpg" alt="">
+								<p><span id="tour-title">ბერლინი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
+								</div>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+								<button class="">სრულად</button>
+								<i class="fa fa-film fa-md video"></i>
+							</div>
+							<div>
+								<h3><i class="fa fa-dollar"></i>1200</h3>
+								<img src="img/gallery/berlin.jpg" alt="">
+								<p><span id="tour-title">რომი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
+								</div>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+								<button class="">სრულად</button>
+								<i class="fa fa-film fa-md video"></i>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-12 marginTop">
+							<div>
+								<h2 class="top-tour-title">ახალი ტურები</h2>
+								<div class="line"></div>
+							</div>
+						</div>
+						<div class="container">
+							<div class="row">
+								<div class="new-tour">
+									<div class="col-md-3">
+										<div class="left-filter black">
+										<h4 id="search-title">search</h4>
+											<div class="col-md-12 no-gutter">
+												<form action="" class="">
+													<div class="col-md-12">
+														<div class="col-sm-12 el-marginBottom ">
+															<select name="" class="select" >
+																<option value="">america</option>
+																<option value="">amerssica</option>
+															</select>
+														</div>
+														<div class="col-sm-12 el-marginBottom">
+															<select name="" class="select" >
+																<option value="">america</option>
+																<option value="">amerssica</option>
+															</select>
+														</div>
+														<div class="col-sm-12 el-marginBottom">
+															<select name="" class="select" >
+																<option value="">america</option>
+																<option value="">amerssica</option>
+															</select>
+														</div>
+														<div class="col-sm-12 el-marginBottom">
+															<select name="" class="select" >
+																<option value="">america</option>
+																<option value="">amerssica</option>
+															</select>
+														</div>
+														<div class="col-sm-6 el-marginBottom">
+															<input type="text" class="form-control" id="left-from" placeholder="From">
+														</div>
+														<div class="col-sm-6 el-marginBottom">
+															<input type="text" class="form-control" id="left-to" placeholder="From">
+														</div>
+
+														<div class="col-sm-12 el-marginBottom">
+															<input type="text" class="" id="ion-left">
+														</div>
+
+														<div class="col-md-12 el-marginBottom">
+															<input type="submit" class="form-control" id="search" value="search">
+														</div>
+
+													</div>
+											</form>
 											</div>
-											<button>სრულად</button>
+
+										</div>
+									</div>
+									<div class="col-md-9 new-tour-els">
+										<div class="single-el">
+											<div class="col-md-4 no-gutter" >
+												<div class="new-tour-img">
+													<img src="img/gallery/roma.jpg" alt="" />
+												</div>
+
+											</div>
+											<div class="col-md-6 no-gutter">
+												<div class="text">
+													<h3 id="title">რომი</h3>
+													<p id="description">
+														Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
+													</p>
+													<ul>
+														<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
+														<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
+														<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
+														<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
+													</ul>
+												</div>
+											</div>
+
+											<div class="col-md-2 no-gutter">
+												<div class="new-price orange" class="">
+													<div style="padding-top:50px">
+														<div id="price">
+															<h1>1000</h1>
+															<h2>GEL</h2>
+														</div>
+														<button>სრულად</button>
+													</div>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
 
-							<div class="single-el">
-								<div class="col col--5-of-12">
-									<div class="new-tour-img">
-										<img src="img/gallery/roma.jpg" alt="" />
-									</div>
-								</div>
-								<div class="col col--5-of-12">
-									<h3 id="title">რომი</h3>
-									<p id="description">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
-									</p>
-									<ul>
-										<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-										<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
-									</ul>
-								</div>
-								<div class="col col--2-of-12">
-									<div class="new-price purple" class="">
-										<div style="padding-top:50px" >
-											<div id="price">
-												<h1>1000</h1>
-												<h2>GEL</h2>
-											</div>
-											<button>სრულად</button>
+						<div class="container">
+							<div class="row">
+								<div class="continental">
+									<div class="col-md-3">
+										<div class="cont-img">
+											<img src="img/gallery/berlin.jpg" alt="">
 										</div>
 									</div>
-								</div>
-							</div>
-
-							<div class="single-el">
-								<div class="col col--5-of-12">
-									<div class="new-tour-img">
-										<img src="img/gallery/berlin.jpg" alt="" />
-									</div>
-								</div>
-								<div class="col col--5-of-12">
-									<h3 id="title">ბერლინი</h3>
-									<p id="description">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
-									</p>
-									<ul>
-										<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-										<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
-									</ul>
-								</div>
-								<div class="col col--2-of-12">
-									<div class="new-price red" class="">
-										<div style="padding-top:50px" >
-											<div id="price">
-												<h1>1000</h1>
-												<h2>GEL</h2>
-											</div>
-											<button>სრულად</button>
+									<div class="col-md-3">
+										<div class="cont-img">
+											<img src="img/gallery/berlin.jpg" alt="">
 										</div>
 									</div>
-								</div>
-							</div>
-
-							<div class="single-el">
-								<div class="col col--5-of-12">
-									<div class="new-tour-img">
-										<img src="img/gallery/roma.jpg" alt="" />
+									<div class="col-md-3">
+										<div class="cont-img">
+											<img src="img/gallery/berlin.jpg" alt="">
+										</div>
 									</div>
-								</div>
-								<div class="col col--5-of-12">
-									<h3 id="title">რომი</h3>
-									<p id="description">
-										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
-									</p>
-									<ul>
-										<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-										<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-										<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
-									</ul>
-								</div>
-								<div class="col col--2-of-12">
-									<div class="new-price orange" class="">
-										<div style="padding-top:50px" >
-											<div id="price">
-												<h1>1000</h1>
-												<h2>GEL</h2>
-											</div>
-											<button>სრულად</button>
+									<div class="col-md-3">
+										<div class="cont-img">
+											<img src="img/gallery/berlin.jpg" alt="">
 										</div>
 									</div>
 								</div>
@@ -296,39 +373,25 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="clear"></div>
+			<div class="clear"></div>
 			<footer>
-				<div>
-					<p>
-						© Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With  In love
-					</p>
-				</div>
+				<p>
+					© Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With In love
+				</p>
 			</footer>
 		</div>
 	</div>
+	</div>
 </body>
 <script src="js/jquery.min.js?rev=cdcf7fad16279eb2f8f69f155a0a2982"></script>
-<script src="js/responsiveslides.min.js"></script>
 <script src="js/owl-carousel.min.js"></script>
+<script src="js/transition.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/ion.rangeSlider.js"></script>
+<script src="js/select2.js"></script>
+<script src="js/datepicker.js"></script>
+<!-- <script src="js/jquery.sticky.js"></script> -->
 <script src="js/functions.js"></script>
-<script>
-	// You can also use "$(window).load(function() {"
-	$(function() {
-
-		// Slideshow 1
-		$("#slider4").responsiveSlides({
-			auto: false,
-			pager: false,
-			nav: true,
-			speed: 500,
-			height:600,
-			namespace: "callbacks",
-		});
-
-	});
-</script>
-
 
 </script>
 

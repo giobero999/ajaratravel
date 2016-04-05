@@ -1,60 +1,87 @@
 //top par styles start
-.top {
-  height: 34px;
-  line-height: 32px;
-  width: 100%;
-  margin: 0 auto;
+.select2-container--default .select2-selection--single {
   background: $lightBlack;
   color:$white;
-  .top-bar {
-    width: 1200px;
-    font-weight: 300;
-    margin:0 auto;
-    .top-bar-left {
-      #top-mail{
-        font-size:.9em;
-        padding-right: 15px;
-        border-right: 1px solid darken($lightBlack, 10%);
-      }
-      #top-phone {
-        padding-left: 10px;
-        font-size:.9em;
-      }
-    }
-
-    .top-bar-right {
-      font-family: $textFont;
-    }
-  }
-
-  .colored-line {
-    width: 100%;
-    height: 3px;
-    line-height: 0;
-    background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
-  }
+  border-radius: 0;
+  height: 45px;
+  padding: 8px 0;
 }
 
-.container {
-  max-width: 100%;
-  margin:0 auto;
+.select2-dropdown {
+    background: $lightBlack;
+    color:$white;
+}
 
-  header {
-    width: 1200px;
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background: $lightBlack
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color:$white;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height:45px;
+}
+
+header{
+  width: 100%;
+  .top {
+    height: 34px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: $lightBlack;
+    color:$white;
+    .top-bar {
+      font-weight: 300;
+      max-width: 1200px;
+      margin:0 auto;
+      padding-top: 6px;
+      .top-bar-left {
+        #top-mail{
+          font-size:.9em;
+          padding-right: 15px;
+          border-right: 1px solid darken($lightBlack, 10%);
+        }
+        #top-phone {
+          padding-left: 10px;
+          font-size:.9em;
+        }
+      }
+
+      .top-bar-right {
+        font-family: $textFont;
+      }
+    }
+
+    .colored-line {
+      width: 100%;
+      height: 3px;
+      margin-top: -6px;
+      background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
+    }
+  }
+
+
+}
+.wrapper {
+  .menu {
+    width: 100%;
+    max-width: 1200px;
     margin:0 auto;
-    height: 70px;
     line-height: 40px;
     .logo {
         img {
           width: 100%;
         }
     }
-    .navigation {
+
       ul {
         li {
           display: inline-block;
           margin-left: 30px;
-          height: 70px;
+          height: 50px;
           line-height: 70px;
           a {
             font-size: 1em;
@@ -67,29 +94,159 @@
             }
           }
         }
+
+    }
+  }
+
+  .slider {
+    position: relative;
+    z-index:-1;
+    .carousel-fade .carousel-inner .item {
+      opacity: .5;
+      @include transition-property(opacity);
+      @include animation-timing-function(ease-in-out);
+
+    }
+    .carousel-fade .carousel-inner .active {
+      opacity: 1;
+      @include transition-property(opacity);
+      @include animation-timing-function(ease-in-out);
+    }
+    .carousel-fade .carousel-inner .active.left,
+    .carousel-fade .carousel-inner .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+    .carousel-fade .carousel-inner .next.left,
+    .carousel-fade .carousel-inner .prev.right {
+      opacity: 1;
+    }
+    .carousel-fade .carousel-control {
+      z-index: 2;
+    }
+
+    .carousel-control {
+      i {
+        position: absolute;
+        top:50%;
+        font-size:30px;
+        margin-top: -15px;
       }
     }
   }
 
-  .callbacks_container {
-    position:relative;
-    z-index:9;
-    .filter {
-      position:absolute;
-      bottom:10px;
-      z-index:10;
-      width:100%;
-      max-width:80%;
-      left:50%;
-      margin-left:-40%;
-      background:$lightBlack;
-      height:150px;
+
+
+
+
+
+  /*START search form styles*/
+  .filter {
+    @media screen and (max-width: 970px) {
+      margin:0 !important;
+      display: none !important;
+    };
+    section {
+      display: none;
+      padding: 11px 5px 10px;
+      border-top: 0px solid #ddd;
+      form {
+        div {
+          margin:0;
+          input {
+            background: lighten($lightBlack, 5%);
+            font-family: $mainFont;
+            font-weight: normal;
+            padding:0 5px;
+            color: $white;
+            font-size: 1.2em;
+            height: 45px;
+            border:none;
+            outline: none;
+            margin:2px 0px;
+            border-radius: 0;
+            &:focus {
+              outline: none;
+              box-shadow: none;
+            }
+          }
+        }
+      }
+    }
+
+    .advanced {
+      margin-bottom: 10px;
+    }
+
+    #tab1, #tab2, #tab3 {
+      display: none;
+    }
+
+    label {
+      display: inline-block;
+      margin: 0 0 0px;
+      padding: 15px 25px;
+      font-weight: 600;
+      text-align: center;
+      color: #bbb;
+      border: 0px solid transparent;
+    }
+
+    label:before {
+      font-family: fontawesome;
+      font-weight: normal;
+      margin-right: 10px;
+    }
+
+    label[for*='1']:before { content: '\f002'; }
+    label[for*='2']:before { content: '\f17d'; }
+
+
+    label:hover {
+      color: #888;
+      cursor: pointer;
+    }
+
+    input:checked + label {
+      color: $green;
+      border: 0px solid #ddd;
+      border-top: 2px solid orange;
+      border-bottom: 0px solid #fff;
+    }
+
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2,
+    #tab3:checked ~ #content3
+     {
+      display: block;
+    }
+
+    #search {
+      background: $green url('../img/filter.png') no-repeat;
+      background-size: cover;
+
+    }
+
+    @media screen and (max-width: 650px) {
+      label {
+        font-size: 0;
+      }
+      label:before {
+        margin: 0;
+        font-size: 18px;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      label {
+        padding: 15px;
+      }
     }
   }
+  /*END search form styles*/
 
-  .content {
-    width: 1200px;
-    margin:0 auto;
+  .container {
     .top-tour-title {
       max-width: 100%;
       font-family: $mainFont;
@@ -140,6 +297,7 @@
       }
 
       .caption {
+        display: flex;
         height: 40px;
         width: 100%;
         line-height: 40px;
@@ -150,6 +308,9 @@
           display: inline-block;
           width: 48%;
           h4 {
+            margin-top: 0;
+            height: 40px;
+            line-height: 40px;
             padding-left: 15px;
           }
           #continent {
@@ -161,6 +322,8 @@
       #description {
         color: $grey;
         bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
         font-weight: normal;
         font-family: $textFont;
         padding: 15px
@@ -185,37 +348,42 @@
     .new-tour {
       .single-el {
         margin-bottom: 30px;
-        border-bottom: 1px solid $lightGray;
       }
       .new-tour-els {
+        margin:0;
+        padding: 0;
         .new-tour-img {
-          width: 100%;
-
           img {
-            height:240px;
-            float: left;
-            width: inherit;
+            height:200px;
+            width: 100%;
+            @media screen and(max-width: 960px) {
+              height: auto;
+            }
           }
         }
-        #title {
-          width: 100%;
-          height: 40px;
-          line-height: 43px;
-          padding: 5px;
-          font-size: 1.3em;
-          background: #F9F9F9;
-          color:darken($grey, 8%);
-          border-top: 1px solid #f1f1f1;
-          border-bottom:1px solid #f1f1f1;
-          font-weight: normal;
-          font-family: $mainFont;
-        }
-        #description {
-          color: $grey;
-          bottom: 0;
-          padding: 10px;
-          font-weight: normal;
-          font-family: $textFont;
+        .text {
+          #title {
+            width: 100%;
+            height: 50px;
+            line-height: 42px;
+            padding: 5px;
+            padding-left: 10px;
+            margin:0;
+            font-size: 1.3em;
+            background: #F9F9F9;
+            color:darken($grey, 8%);
+            border-top: 1px solid #f1f1f1;
+            border-bottom:1px solid #f1f1f1;
+            font-weight: normal;
+            font-family: $mainFont;
+          }
+          #description {
+            color: $grey;
+            bottom: 0;
+            padding: 10px;
+            font-weight: normal;
+            font-family: $textFont;
+          }
         }
         li {
           padding: 5px;
@@ -232,7 +400,7 @@
         }
         .new-price {
           vertical-align:middle;
-          height: 240px;
+          height: 200px;
           #price {
             padding-top:20px;
             h1, h2{
@@ -261,18 +429,69 @@
         }
       }
 
+      .left-filter {
+        margin: 0;
+        padding: 0;
+        background: $lightBlack;
+        width: 100%;
+        min-height: 454px;
+        height: auto;
+        padding: 12px 0;
+        #search-title {
+          width: 100%;
+          background: $blue $bgShadow;
+          color:$white;
+          text-align: center;
+          font-size:1.5em;
+          text-transform: uppercase;
+          margin-top: -12px;
+          height: 40px;
+          line-height: 42px;
+        }
+        input {
+          height: 100%;
+          background: lighten($lightBlack, 5%);
+          font-family: $mainFont;
+          font-weight: normal;
+          padding:0 5px;
+          color: $white;
+          font-size: 1.2em;
+          height: 45px;
+          border:none;
+          outline: none;
+          margin:3px 0px;
+          border-radius: 0;
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+        }
+        select {
+          margin-bottom: 10px !important;
+        }
+        #search {
+          background: $blue $bgShadow;
+          background-size: cover;
+          background-repeat: no-repeat;
+        }
+      }
+
     }
     .continental {
-      img {
-        height: 400px;
+      .cont-img {
+        width: 100%;
+        img {
+          width: 100%;
+          height: 350px;
+        }
       }
     }
   }
 
   footer {
-    width:100%;
+    width: 100%;
     height:30px;
-    line-height:33px;
+    line-height:30px;
     font-size:.8em;
     color:$white;
     background:$lightBlack;

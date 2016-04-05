@@ -136,8 +136,9 @@
 .callbacks_nav {
   position: absolute;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
-  top: 52%;
-  left: 20px;
+  top: 50%;
+  margin-top: -30px;
+  left: 0px;
   opacity: 0.7;
   z-index: 3;
   text-indent: -9999px;

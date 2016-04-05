@@ -253,13 +253,36 @@ header{
       text-align: center;
       color:$grey;
     }
-
     .owl-carousel {
+      .single-tour{
+        overflow:hidden;
+        &:hover img{
+          @include transform (scale(1.05) rotate(2deg));
+          z-index:-1111;
+        }
+        &:hover h6 {
+          opacity:1;
+          @include transform(translate(-24%, -50%));
+        }
+      }
       img {
         position: relative;
         z-index: 9;
         margin:0;
         padding: 0;
+        @include transition (all, 0.5s, linear)
+        z-index:1;
+
+      }
+      h6 {
+        @include position(absolute, 23% null null 44%);
+        opacity:0;
+        @include transition(opacity, .3s, ease-in);
+        padding: 10px 20px;
+        color:$white;
+        font-size:1.5em;
+        z-index: 20;
+        border: 1px solid $white;
       }
       h3 {
         position: absolute;
@@ -278,7 +301,7 @@ header{
       }
       p {
         position: absolute;
-        bottom:198px;
+        bottom:196px;
         z-index: 10;
         color:$white;
         background: $lightBlack;
@@ -304,6 +327,7 @@ header{
         background: $green;
         font-family: $textFont;
         color:$white;
+        z-index:10;
         div {
           display: inline-block;
           width: 48%;
@@ -345,9 +369,12 @@ header{
       }
     }
 
-    .new-tour {
+    .new-tour-panel {
+      .new-tour {
+        padding-right:0;
+      }
       .single-el {
-        margin-bottom: 30px;
+        margin-bottom: 15px !important;
       }
       .new-tour-els {
         margin:0;
@@ -379,14 +406,14 @@ header{
           }
           #description {
             color: $grey;
-            bottom: 0;
+            margin:0;
             padding: 10px;
             font-weight: normal;
             font-family: $textFont;
           }
         }
         li {
-          padding: 5px;
+          padding: 0 5px;
           display: inline-block;
           a {
             i {
@@ -433,20 +460,17 @@ header{
         margin: 0;
         padding: 0;
         background: $lightBlack;
-        width: 100%;
-        min-height: 454px;
+        min-height: 450px;
         height: auto;
-        padding: 12px 0;
         #search-title {
-          width: 100%;
           background: $blue $bgShadow;
           color:$white;
           text-align: center;
           font-size:1.5em;
           text-transform: uppercase;
-          margin-top: -12px;
           height: 40px;
-          line-height: 42px;
+          line-height: 41px;
+          margin-bottom: 14px;
         }
         input {
           height: 100%;
@@ -470,8 +494,10 @@ header{
           margin-bottom: 10px !important;
         }
         #search {
-          background: $blue $bgShadow;
+          background: $red $bgShadow;
           background-size: cover;
+          margin:0;
+          padding:0;
           background-repeat: no-repeat;
         }
       }
@@ -481,25 +507,25 @@ header{
       .cont-img {
         width: 100%;
         img {
-          width: 100%;
-          height: 350px;
+          width:100%;
+          height: 300px;
         }
       }
     }
   }
+}
 
-  footer {
-    width: 100%;
-    height:30px;
-    line-height:30px;
-    font-size:.8em;
-    color:$white;
-    background:$lightBlack;
-    p {
-      text-align:center;
-      a {
-        color:$white;
-      }
+footer {
+  width: 100%;
+  height:30px;
+  line-height:30px;
+  font-size:.8em;
+  color:$white;
+  background:$lightBlack;
+  p {
+    text-align:center;
+    a {
+      color:$white;
     }
   }
 }

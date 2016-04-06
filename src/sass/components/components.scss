@@ -84,3 +84,13 @@
   padding:0 !important;
   margin:0 !important;
 }
+
+
+.favorite {
+  position: absolute;
+  z-index:11;
+  right:10px;
+  top:10px;
+  color:$red;
+  cursor: pointer;
+}

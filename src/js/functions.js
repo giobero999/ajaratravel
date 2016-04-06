@@ -103,4 +103,8 @@ $(document).ready(function(){
     $(this).tooltip('show');
   });
 
+  $('.favorite').on('click', function() {
+    $(this).toggleClass("fa-heart-o");
+  });
+
 }); //end ready

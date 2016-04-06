@@ -1,7 +1,7 @@
 $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
+  $(".top-tours").owlCarousel({
     nav:true,
-    margin:10,
+    margin:15,
     mouseDrag:false,
     dots:true,
     autoHeight: false,
@@ -13,7 +13,27 @@ $(document).ready(function(){
             nav:true
         },
         600:{
+            items:2,
+            nav:false
+        },
+        1000:{
             items:3,
+            nav:true,
+            loop:false
+        }
+    }
+  });
+
+  $('.continental').owlCarousel ({
+    items:7,
+    margin:10,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
             nav:false
         },
         1000:{
@@ -61,42 +81,26 @@ $(document).ready(function(){
     minimumResultsForSearch: -1
   });
 
-  $(function() {
-    $( "#from" ).datepicker({
+    $( ".from-date" ).datepicker({
       defaultDate: "+1w",
       changeMonth: true,
       numberOfMonths: 1,
       onClose: function( selectedDate ) {
-        $( "#to" ).datepicker( "option", "minDate", selectedDate );
+        $( ".to" ).datepicker( "option", "minDate", selectedDate );
       }
     });
-    $( "#to" ).datepicker({
+    $( ".to-date" ).datepicker({
       defaultDate: "+1w",
       changeMonth: true,
       numberOfMonths: 1,
       onClose: function( selectedDate ) {
-        $( "#from" ).datepicker( "option", "maxDate", selectedDate );
+        $( ".from" ).datepicker( "option", "maxDate", selectedDate );
       }
     });
-  });
 
-  $(function() {
-    $( "#left-from" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      onClose: function( selectedDate ) {
-        $( "#to" ).datepicker( "option", "minDate", selectedDate );
-      }
-    });
-    $( "#left-to" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      onClose: function( selectedDate ) {
-        $( "#from" ).datepicker( "option", "maxDate", selectedDate );
-      }
-    });
+  $('.tool').hover(function(){
+    console.log("hover");
+    $(this).tooltip('show');
   });
 
 }); //end ready

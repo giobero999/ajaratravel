@@ -50,24 +50,35 @@
 }
 
 .blue {
-  background:$blue;
+  background:$blue $bgShadow no-repeat;
+  background-size: cover;
+}
+
+.green {
+  background:$green $bgShadow no-repeat;
+  background-size: cover;
 }
 
 .orange {
-  background:$orange;
+  background:$orange $bgShadow no-repeat;
+  background-size: cover;
 }
 
 .purple {
-  background:$purple;
+  background:$purple $bgShadow no-repeat;
+  background-size: cover;
 }
 
 .red {
-  background:$red;
+  background:$red $bgShadow no-repeat;
+  background-size: cover;
 }
 
 .black {
   background: $lightBlack;
 }
+
+
 
 .no-gutter {
   padding:0 !important;

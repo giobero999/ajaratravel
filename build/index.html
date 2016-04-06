@@ -97,10 +97,10 @@
 													<input type="text" class="form-control" id="destination" placeholder="Type Your Destination" >
 												</div>
 												<div class="col-md-2">
-													<input type="text" class="form-control" id="from" placeholder="From">
+													<input type="text" class="form-control from-date" id="from" placeholder="From">
 												</div>
 												<div class="col-md-2">
-													<input type="text" class="form-control" id="to" placeholder="To">
+													<input type="text" class="form-control to-date" id="to" placeholder="To">
 												</div>
 												<div class="col-md-3">
 													<input type="text" class="" id="ion-default">
@@ -143,10 +143,10 @@
 										</div>
 										<div class="form-group ">
 											<div class="col-md-3">
-												<input type="text" class="form-control" id="from" placeholder="From">
+												<input type="text" class="form-control from-date" placeholder="From">
 											</div>
 											<div class="col-md-3">
-												<input type="text" class="form-control" id="to" placeholder="To">
+												<input type="text" class="form-control to-date"  placeholder="To">
 											</div>
 											<div class="col-md-3">
 												<input type="text" class="" id="ion-advanced">
@@ -163,14 +163,14 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="container">
-				<div class="row  marginTop marginBottom">
+			<div class="container marginTop marginBottom">
+				<div class="row  ">
 					<div class="col-md-12">
 						<h2 class="top-tour-title">პოპულარული ტურები</h2>
 						<div class="line"></div>
 					</div>
 					<div class="col-md-12">
-						<div class="owl-carousel">
+						<div class="owl-carousel top-tours">
 							<div class="single-tour">
 								<h3><i class="fa fa-dollar"></i>1200</h3>
 								<!-- <h6><i class="fa fa-dollar"></i>details</h6> -->
@@ -257,9 +257,9 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="container">
-				<div class="row new-tour no-gutter">
-					<div class="col-md-12 marginTop">
+			<div class="container marginTop marginBottom">
+				<div class="row new-tour ">
+					<div class="col-md-12 ">
 						<div>
 							<h2 class="top-tour-title">ახალი ტურები</h2>
 							<div class="line"></div>
@@ -272,9 +272,9 @@
 					<div class=" new-tour-panel">
 						<div class="col-md-3 left-filter black">
 							<div class="row no-gutter">
-								<h4 id="search-title">search</h4>
+								<h4 id="search-title">Advanced Search</h4>
 								<form action="" class="">
-									<div class="col-md-12">
+									<div class="col-md-12 el-marginBottom">
 										<select name="" class="select" >
 											<option value="">america</option>
 											<option value="">amerssica</option>
@@ -299,10 +299,10 @@
 										</select>
 									</div>
 									<div class="col-sm-6 el-marginBottom">
-										<input type="text" class="form-control" id="left-from" placeholder="From">
+										<input type="text" class="form-control from-date" id="left-from" placeholder="From">
 									</div>
 									<div class="col-sm-6 el-marginBottom">
-										<input type="text" class="form-control" id="left-to" placeholder="From">
+										<input type="text" class="form-control to-date" id="left-to" placeholder="To">
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<input type="text" class="" id="ion-left">
@@ -328,21 +328,37 @@
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
 											</p>
 											<ul>
-												<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-												<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-												<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-												<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="ევროპა">
+														<i class="fa fa-location-arrow fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="დასვენება">
+														<i class="fa fa-tree fa-md"></i></a>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="3 ადამიანი">
+														<i class="fa fa-users fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="2-5 დღე">
+														<i class="fa fa-calendar fa-md"></i>
+													</button>
+												</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-2 no-gutter">
 										<div class="new-price orange" class="">
-											<div style="padding-top:50px">
+											<div>
 												<div id="price">
 													<h1>1000</h1>
 													<h2>GEL</h2>
 												</div>
-												<button>სრულად</button>
+												<a href="">სრულად</a>
 											</div>
 										</div>
 									</div>
@@ -352,7 +368,6 @@
 										<div class="new-tour-img">
 											<img src="img/gallery/roma.jpg" alt="" />
 										</div>
-
 									</div>
 									<div class="col-md-6 no-gutter">
 										<div class="text">
@@ -361,22 +376,85 @@
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
 											</p>
 											<ul>
-												<li><a href=""><i class="fa fa-film fa-md video"></i></a></li>
-												<li><a href=""><i class="fa fa-location-arrow fa-md"></i></a></li>
-												<li><a href=""><i class="fa fa-tree fa-md"></i></a></li>
-												<li><a href=""><i class="fa fa-users fa-md"></i></a></li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="ევროპა">
+														<i class="fa fa-location-arrow fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="კულტურა">
+														<i class="fa fa-tree fa-md"></i></a>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="3 ადამიანი">
+														<i class="fa fa-users fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="2-5 დღე">
+														<i class="fa fa-calendar fa-md"></i>
+													</button>
+												</li>
 											</ul>
 										</div>
 									</div>
-
 									<div class="col-md-2 no-gutter">
 										<div class="new-price red" class="">
-											<div style="padding-top:50px">
+											<div>
 												<div id="price">
 													<h1>1000</h1>
 													<h2>GEL</h2>
 												</div>
-												<button>სრულად</button>
+												<a href="#">სრულად</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row single-el no-gutter">
+									<div class="col-md-4 no-gutter" >
+										<div class="new-tour-img">
+											<img src="img/gallery/london.jpg" alt="" />
+										</div>
+									</div>
+									<div class="col-md-6 no-gutter">
+										<div class="text">
+											<h3 id="title">რომი</h3>
+											<p id="description">
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
+											</p>
+											<ul>
+												<li>
+													<button type="button" class="btn btn-default tool" title="აზია">
+														<i class="fa fa-location-arrow fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="ლუქსი">
+														<i class="fa fa-tree fa-md"></i></a>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="3 ადამიანი">
+														<i class="fa fa-users fa-md"></i>
+													</button>
+												</li>
+												<li>
+													<button type="button" class="btn btn-default tool" title="2-5 დღე">
+														<i class="fa fa-calendar fa-md"></i>
+													</button>
+												</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-md-2 no-gutter">
+										<div class="new-price purple " class="">
+											<div style="">
+												<div id="price">
+													<h1>1000</h1>
+													<h2>GEL</h2>
+												</div>
+												<a href="#">სრულად</a>
 											</div>
 										</div>
 									</div>
@@ -386,8 +464,8 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="container">
-				<div class="row new-tour no-gutter">
+			<div class="container marginTop marginBottom">
+				<div class="row new-tour">
 					<div class="col-md-12 marginTop">
 						<div>
 							<h2 class="top-tour-title">მსოფლიო</h2>
@@ -397,24 +475,35 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row">
-					<div class="continental">
-						<div class="col-md-3">
+				<div class="row no-gutter">
+					<div class="owl-carousel continental">
+						<div class="continent">
+							<h3 class="uppercase">ევროპა</h3>
+							<a href="#" class="view-all uppercase">ყველა</a>
 							<div class="cont-img">
 								<img src="img/gallery/berlin.jpg" alt="">
 							</div>
 						</div>
-						<div class="col-md-3">
+
+						<div class="continent">
+							<h3 class="uppercase">ევროპა</h3>
+							<a href="#" class="view-all uppercase">ყველა</a>
 							<div class="cont-img">
 								<img src="img/gallery/berlin.jpg" alt="">
 							</div>
 						</div>
-						<div class="col-md-3">
+
+						<div class="continent">
+							<h3 class="uppercase">ევროპა</h3>
+							<a href="#" class="view-all uppercase">ყველა</a>
 							<div class="cont-img">
 								<img src="img/gallery/berlin.jpg" alt="">
 							</div>
 						</div>
-						<div class="col-md-3">
+
+						<div class="continent">
+							<h3 class="uppercase">ევროპა</h3>
+							<a href="#" class="view-all uppercase">ყველა</a>
 							<div class="cont-img">
 								<img src="img/gallery/berlin.jpg" alt="">
 							</div>
@@ -437,6 +526,7 @@
 <script src="js/owl-carousel.min.js"></script>
 <script src="js/transition.js"></script>
 <script src="js/carousel.js"></script>
+<script src="js/tooltip.js"></script>
 <script src="js/ion.rangeSlider.js"></script>
 <script src="js/select2.js"></script>
 <script src="js/datepicker.js"></script>

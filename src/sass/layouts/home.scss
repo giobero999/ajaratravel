@@ -257,7 +257,7 @@ header{
       .single-tour{
         overflow:hidden;
         &:hover img{
-          @include transform (scale(1.05) rotate(2deg));
+          @include transform(scale(1.05) rotate(2deg));
           z-index:-1111;
         }
         &:hover h6 {
@@ -270,7 +270,7 @@ header{
         z-index: 9;
         margin:0;
         padding: 0;
-        @include transition (all, 0.5s, linear)
+        @include transition(all, 0.5s, linear)
         z-index:1;
 
       }
@@ -415,21 +415,25 @@ header{
         li {
           padding: 0 5px;
           display: inline-block;
-          a {
+          .tool {
+            border-radius: 0;
+            background: $white;
             i {
-              margin:0px 5px;
-              padding:10px;
               color:darken($grey, 28%);
-              background: $white;
-              border:1px solid lighten($grey, 20%);
+
             }
           }
         }
         .new-price {
           vertical-align:middle;
           height: 200px;
+          > div{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
           #price {
-            padding-top:20px;
             h1, h2{
               color:$white;
               margin:0;
@@ -442,8 +446,9 @@ header{
             }
           }
 
-          button {
+          a {
             text-align:center;
+            text-decoration: none;
             display:table;
             color:$white;
             font-family:$mainFont;
@@ -463,11 +468,11 @@ header{
         min-height: 450px;
         height: auto;
         #search-title {
-          background: $blue $bgShadow;
+          background: $green $bgShadow;
           color:$white;
           text-align: center;
+          font-weight: normal;
           font-size:1.5em;
-          text-transform: uppercase;
           height: 40px;
           line-height: 41px;
           margin-bottom: 14px;
@@ -504,11 +509,49 @@ header{
 
     }
     .continental {
-      .cont-img {
-        width: 100%;
-        img {
-          width:100%;
-          height: 300px;
+      .continent {
+        position: relative;
+        font-family: $mainFont;
+        h3 {
+          font-family: $mainFont;
+          position: absolute;
+          left:50%;
+          opacity: 1;
+          transition: all .3s ease-in;
+          @include transform(translateX(-50%));
+        }
+        .view-all {
+          position: absolute;
+          z-index:11;
+          border:2px solid $white;
+          padding:0px 35px;
+          height: 50px;
+          line-height: 48px;
+          color:$white;
+          font-size: 1.3em;
+          opacity:0;
+          text-decoration: none;
+          left:50%;
+          top:50%;
+          @include transform(translate(-50%, -50%));
+          transition: opacity .3s ease-in;
+        }
+        .cont-img {
+          width: 100%;
+          overflow: hidden;
+          img {
+              height:470px;
+          }
+        }
+        &:hover img{
+          @include transform(scale(1.05) rotate(2deg));
+          z-index:-1111;
+        }
+        &:hover h3 {
+          opacity:0;
+        }
+        &:hover .view-all {
+          opacity:1;
         }
       }
     }

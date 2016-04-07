@@ -9,22 +9,26 @@ var plumber = require('gulp-plumber');
 var uglify = require('gulp-uglify');
 var minifyCss = require('gulp-minify-css');
 var uncss = require('gulp-uncss');
-var browserSync = require('browser-sync').create();
+var php = require('gulp-connect-php');
+var browserSync = require('browser-sync');
 
-
-gulp.task('serve', ['styles', 'scripts'], function() {
+gulp.task('php', function() {
+    php.server({ base: 'build', port: 8010, keepalive: true});
+});
+gulp.task('browser-sync',['php', 'styles', 'scripts'], function() {
     browserSync.init({
-        server: "./build",
-        port:8000
+        proxy: '127.0.0.1:8010',
+        port: 8080,
+        open: true,
+        notify: false
     });
-
 });
 
 
 gulp.task('uncss', function () {
     return gulp.src('./build/css/main.css')
         .pipe(uncss({
-            html: ['./build/index.html']
+            html: ['./build/index.php']
         }))
         .pipe(minifyCss({compatibility: 'ie8'}))
         .pipe(gulp.dest('./build/css/'));
@@ -36,16 +40,16 @@ gulp.task('styles', function () {
       .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
     .pipe(plumber())
-    .pipe(gulp.dest('./build/css/'))
-    .pipe(browserSync.stream());
+    .pipe(gulp.dest('./build/css/'));
+
 });
 
 gulp.task('scripts', function() {
   return gulp.src(['./src/js/*.js'])
     .pipe(plumber())
     .pipe(uglify())
-    .pipe(gulp.dest('./build/js/'))
-    .pipe(browserSync.stream());
+    .pipe(gulp.dest('./build/js/'));
+
 });
 
 gulp.task('rev', function() {
@@ -58,9 +62,9 @@ gulp.task('rev', function() {
 gulp.task('watch', function() {
   gulp.watch('./src/sass/**/*.*', ['styles']);
   gulp.watch(['./src/js/functions.js'], ['scripts']);
-  gulp.watch("./build/*.html").on('change', browserSync.reload);
+  gulp.watch("./build/*.php");
 });
 
-gulp.task('builder', ['styles', 'scripts', 'uncss', 'rev']);
+// gulp.task('builder', ['styles', 'scripts', 'uncss', 'rev']);
 
-gulp.task('default', ['serve',  'watch']);
+gulp.task('default', ['browser-sync',  'watch']);

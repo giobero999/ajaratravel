@@ -70,7 +70,6 @@ header{
           font-size:.9em;
         }
       }
-
       .top-bar-right {
         font-family: $textFont;
       }
@@ -83,21 +82,20 @@ header{
       background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
     }
   }
-
-
-}
-.wrapper {
-  .menu {
-    width: 100%;
-    max-width: 1200px;
-    margin:0 auto;
-    line-height: 40px;
-    .logo {
-        img {
-          width: 100%;
-        }
-    }
-
+  .sticky-nav {
+    width:100%;
+    background:#fff;
+    .menu {
+      width: 100%;
+      max-width: 1200px;
+      margin:0 auto;
+      background:#fff;
+      line-height: 40px;
+      .logo {
+          img {
+            width: 100%;
+          }
+      }
       .mega-menu {
         display: block;
         li {
@@ -119,17 +117,15 @@ header{
         @media screen and (max-width:1024px) {
           display: none;
         }
-
       }
-
     }
-
+  }
+}
+.wrapper {
   .slider {
     position: relative;
     z-index:-1;
   }
-
-
   /*START search form styles*/
   .filter {
     @media screen and (max-width: 1024px) {
@@ -547,10 +543,11 @@ header{
           overflow: hidden;
           img {
               height:400px;
+              transition: all 1.4s ease-in-out;
           }
         }
         &:hover img{
-          @include transform(scale(1.05) rotate(2deg));
+          @include transform(scale(1.2) rotate(2deg));
           z-index:-1111;
         }
         &:hover h3 {

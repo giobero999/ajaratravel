@@ -1,90 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-	<meta property="og:image" content="" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-	<meta name="description" content="" />
-	<meta name="name" content="content">
-	<title>ajaratravel.ge</title>
-	<link rel="shortcut icon" type="image/png" href="">
-	<link rel="stylesheet" href="css/main.css?rev=d83ab2b4cfd200602aea4696ada9262c">
-</head>
+ <?php include('head.php'); ?>
 
 <body>
-	<header>
-		<div class="top">
-			<div class="top-bar">
-				<div class="col-md-6 left">
-					<div class="top-bar-left left">
-						<span id="top-mail"><i class="fa fa-envelope-o"></i> info@ajaratravel@gmail.com</span>
-						<span id="top-phone"><i class="fa fa-phone"></i> (032) 2 24 60 60</span>
-					</div>
-				</div>
-				<div class="col-md-6 right">
-					<div class="top-bar-right right">
-						<span><i class="fa fa-globe"></i> ენა</span>
-					</div>
-				</div>
-			</div>
-			<div class="colored-line"></div>
-		</div>
-	</header>
+	<?php include('header.php'); ?>
 	<div class="wrapper container">
-		<div class="row no-gutter">
-			<div class="row menu">
-				<div class="col-xs-6 col-sm-3 col-md-3">
-					<div class="logo">
-						<img src="img/logo.png" alt="ajaratravel">
-					</div>
-				</div>
-				<div class="col-sm-9 right mega-menu">
-					<ul class=" right">
-						<li><a href="">მთავარი</a></li>
-						<li><a href="">ჩვენ შესახებ</a></li>
-						<li>
-							<a href="">ტურები</a>
-							<ul class="hidden">
-								<li><a href="">საქართველოში</a></li>
-								<li><a href="">საზღვარგარეთ</a></li>
-							</ul>
-						</li>
-						<li><a href="">გალერეა</a></li>
-						<li><a href="" class="uppercase">affords</a></li>
-						<li><a href="">კონტაქტი</a></li>
-						<li>
-							<i class="fa fa-cart-arrow-down shop-card fa-lg"></i>
-						</li>
-					</ul>
-				</div>
-
-				<!--START mobile menu -->
-				<div class="col-xs-6 col-sm-9 col-md-9 mobile-nav hidden">
-					<span  class="burger right"><i class="fa fa-bars fa-2x "></i></span>
-					<div class="mobile-menu hidden">
-						<ul class="right">
-							<i class="fa fa-times fa-2x close-mobile-menu"></i>
-							<li><a href="">მთავარი</a></li>
-							<li><a href="">ჩვენ შესახებ</a></li>
-							<li>
-								<a href="">ტურები</a>
-								<ul class="hidden">
-									<li><a href="">საქართველოში</a></li>
-									<li><a href="">საზღვარგარეთ</a></li>
-								</ul>
-							</li>
-							<li><a href="">გალერეა</a></li>
-							<li><a href="" class="uppercase">offers</a></li>
-							<li><a href="">კონტაქტი</a></li>
-						</ul>
-					</div>
-				</div>
-				<!--END mobile menu -->
-			</div>
-
-
 			<div class="row slider no-gutter">
 				<div class="col-xs-12 no-gutter">
 					<ul id="slippry-demo">
@@ -194,8 +115,8 @@
 						</div>
 				</div>
 			</div>
-			<div class="container marginTop">
-				<div class="row new-tour ">
+			<div class="container">
+				<div class="row new-tour">
 					<div class="col-md-12 ">
 						<div>
 							<h2 class="top-tour-title">კატეგორიები</h2>
@@ -205,7 +126,7 @@
 				</div>
 			</div>
 			<div class="container">
-				<div class="row no-gutter">
+				<div class="row">
 					<div class="owl-carousel categories">
 						<div><a href=""><i class="fa fa-tree fa-2x"></i><p>დასვენება</p></a></div>
 						<div><a href=""><i class="fa fa-futbol-o fa-2x"></i><p>სპორტი</p></a></div>
@@ -602,28 +523,9 @@
 		<div class="clear"></div>
 	</div>
 	<div class="marginBottom"></div>
-	<footer>
-		<p>
-			© Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With In love
-		</p>
-	</footer>
+<?php include('footer.php'); ?>
 
 </body>
-<script src="js/jquery.min.js?rev=cdcf7fad16279eb2f8f69f155a0a2982"></script>
-<script src="js/owl-carousel.min.js"></script>
-<script src="js/transition.js"></script>
-<script src="js/slippry.min.js"></script>
-<script src="js/tooltip.js"></script>
-<script src="js/ion.rangeSlider.js"></script>
-<script src="js/select2.js"></script>
-<script src="js/datepicker.js"></script>
-<!-- <script src="js/jquery.sticky.js"></script> -->
-<script src="js/functions.js"></script>
 
-<script>
-
-</script>
-
-</script>
 
 </html>

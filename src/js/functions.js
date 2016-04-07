@@ -1,25 +1,57 @@
 $(document).ready(function(){
+  $('.categories').owlCarousel ({
+    items:7,
+    margin:10,
+    navText:false,
+    touchDrag:true,
+    mouseDrag:true,
+    autoplay:true,
+    lazyLoad:false,
+    dots:false,
+    responsive:{
+        0:{
+            items:2,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:true
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:true
+        }
+    }
+  });
   $(".top-tours").owlCarousel({
-    nav:true,
+    nav:'false',
+    loop:true,
     margin:15,
     mouseDrag:false,
     dots:true,
     autoHeight: false,
+    autoplay:true,
+    lazyLoad:true,
+    autoplayTimeout:4000,
+    autoplayHoverPause:true,
     autoHeightClass: 'owl-height',
     responsiveClass:true,
+    touchDrag:true,
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
             items:2,
-            nav:false
+            nav:true
         },
         1000:{
             items:3,
             nav:true,
-            loop:false
+            loop:true,
+            lazyLoad:true
         }
     }
   });
@@ -27,6 +59,10 @@ $(document).ready(function(){
   $('.continental').owlCarousel ({
     items:7,
     margin:10,
+    navText:false,
+    touchDrag:true,
+    mouseDrag:true,
+    dots:false,
     responsive:{
         0:{
             items:1,
@@ -37,16 +73,20 @@ $(document).ready(function(){
             nav:false
         },
         1000:{
-            items:3,
+            items:4,
             nav:true,
             loop:false
         }
     }
   });
 
-  $('.carousel').carousel({
-		interval: 3000
-	});
+
+
+    $('#slippry-demo').slippry({
+      captions:false,
+      speed:3000,
+    });
+
 
 
   var mql = window.matchMedia("screen and (max-width: 800px)");
@@ -105,6 +145,17 @@ $(document).ready(function(){
 
   $('.favorite').on('click', function() {
     $(this).toggleClass("fa-heart-o");
+  });
+
+
+  $(".burger").on('click', function() {
+    $(".mobile-menu").animate({"right":0},300).removeClass("hidden");
+    $('body').css({"overflow":"hidden"});
+  });
+
+  $(".close-mobile-menu").click(function() {
+    $(".mobile-menu").animate({"right":"-280px"},300).addClass("hidden");
+    $('body').css({"overflow":"scroll"});
   });
 
 }); //end ready

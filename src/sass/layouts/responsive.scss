@@ -1,0 +1,72 @@
+/* responsive styles */
+@media screen and (max-width:1024px) {
+  body {
+  }
+  .mobile-nav {
+    display: block !important;
+    height: 45px;
+    line-height: 65px;
+    color:$lightBlack;
+    cursor:pointer;
+    .burger {
+      position: relative;
+    }
+    .mobile-menu {
+      @include position(absolute, 0 -280px null null);
+      height: 100vh;
+      z-index: 100;
+      padding: 5px;
+      background: $lightBlack;
+      font-family: $mainFont;
+      .close-mobile-menu {
+        position: absolute;
+        left: -47px;
+        top: -1px;
+        padding: 13px;
+        z-index: 100px;
+        color:$lightBlack !important;
+      }
+      li {
+        background: lighten($lightBlack, 10%);
+        width: 250px;
+        padding: 20px 30px;
+        height: 30px;
+        line-height: 0px;
+        margin-bottom: 0px;
+        border-bottom: 1px solid darken($green, 5%);
+        a{
+          color:$white;
+        }
+      }
+    }
+  }
+  .left-filter{
+    margin-bottom: 20px !important;
+  }
+  .new-tour {
+    padding-left: 0 !important;
+
+    .single-el {
+      margin-top: 20px;
+      .text {
+         ul {
+          margin-bottom: 5px !important;
+        }
+      }
+    }
+
+  }
+}
+
+@media screen and (max-width:965px) {
+  #top-mail {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:520px) {
+  #top-mail {
+    display: none;
+  }
+}

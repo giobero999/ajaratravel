@@ -10,7 +10,7 @@
 	<meta name="name" content="content">
 	<title>ajaratravel.ge</title>
 	<link rel="shortcut icon" type="image/png" href="">
-	<link rel="stylesheet" href="css/main.css?rev=cdfa1e5765c81336879d0a5f0bb0150e">
+	<link rel="stylesheet" href="css/main.css?rev=d83ab2b4cfd200602aea4696ada9262c">
 </head>
 
 <body>
@@ -35,13 +35,13 @@
 	<div class="wrapper container">
 		<div class="row no-gutter">
 			<div class="row menu">
-				<div class="col-sm-3">
+				<div class="col-xs-6 col-sm-3 col-md-3">
 					<div class="logo">
 						<img src="img/logo.png" alt="ajaratravel">
 					</div>
 				</div>
-				<div class="col-sm-9 right">
-					<ul class="right">
+				<div class="col-sm-9 right mega-menu">
+					<ul class=" right">
 						<li><a href="">მთავარი</a></li>
 						<li><a href="">ჩვენ შესახებ</a></li>
 						<li>
@@ -59,31 +59,50 @@
 						</li>
 					</ul>
 				</div>
+
+				<!--START mobile menu -->
+				<div class="col-xs-6 col-sm-9 col-md-9 mobile-nav hidden">
+					<span  class="burger right"><i class="fa fa-bars fa-2x "></i></span>
+					<div class="mobile-menu hidden">
+						<ul class="right">
+							<i class="fa fa-times fa-2x close-mobile-menu"></i>
+							<li><a href="">მთავარი</a></li>
+							<li><a href="">ჩვენ შესახებ</a></li>
+							<li>
+								<a href="">ტურები</a>
+								<ul class="hidden">
+									<li><a href="">საქართველოში</a></li>
+									<li><a href="">საზღვარგარეთ</a></li>
+								</ul>
+							</li>
+							<li><a href="">გალერეა</a></li>
+							<li><a href="" class="uppercase">offers</a></li>
+							<li><a href="">კონტაქტი</a></li>
+						</ul>
+					</div>
+				</div>
+				<!--END mobile menu -->
 			</div>
+
+
 			<div class="row slider no-gutter">
 				<div class="col-xs-12 no-gutter">
-					<div id="carousel" class="carousel slide carousel-fade" data-ride="carousel">
-						<!-- Carousel items -->
-						<div class="carousel-inner">
-							<div class="active item">
-								<img src="img/1.jpg" alt="Chania">
-							</div>
-							<div class="item">
-								<img src="img/1.jpg" alt="Chania">
-							</div>
-							<div class="item">
-								<img src="img/1.jpg" alt="Chania">
-							</div>
-						</div>
-						<!-- Carousel nav -->
-						<a class="carousel-control left" href="#carousel" data-slide="prev"><i class="fa fa-chevron-left 2x"></i></a>
-						<a class="carousel-control right" href="#carousel" data-slide="next"><i class="fa fa-chevron-right 2x"></i></a>
-					</div>
+					<ul id="slippry-demo">
+					  <li>
+					    <a href="#slide1"><img src="img/Georgia.jpg" alt="Welcome to Slippry!"></a>
+					  </li>
+						<li>
+					    <a href="#slide1"><img src="img/paris.jpg" alt="Welcome to Slippry!"></a>
+					  </li>
+						<li>
+					    <a href="#slide3"><img src="img/2.jpg" ></a>
+					  </li>
+					</ul>
 				</div>
 			</div>
 			<div class="container ">
 				<div class="row filter no-gutter">
-						<div class="col-md-12 no-gutter" style="margin-top: -181px !important;" >
+						<div class="col-md-12 no-gutter" style="margin-top: -210px !important;" >
 							<input id="tab1" type="radio" name="tabs"  checked>
 							<label for="tab1" class="black uppercase">quick search</label>
 							<input id="tab2" type="radio" name="tabs">
@@ -121,23 +140,36 @@
 										<div class="form-group advanced">
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">america</option>
-													<option value="">amerssica</option>
+													<option value="">All Destinations</option>
+													<option value="">Europe</option>
+													<option value="">Asia</option>
+													<option value="">America</option>
 												</select>
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">america</option>
+													<option value="">All Typologies</option>
+													<option value="">Relax</option>
+													<option value="">Cultural</option>
+													<option value="">Luxury</option>
+													<option value="">Sport</option>
 												</select>
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">america</option>
+													<option value="">All Duration</option>
+													<option value="">1 - 3 Days</option>
+													<option value="">2 - 6 Days</option>
+													<option value="">3 - 9 Days</option>
 												</select>
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">america</option>
+													<option value="">All People</option>
+													<option value="">1 person</option>
+													<option value="">2 person</option>
+													<option value="">3 person</option>
+													<option value="">20 person</option>
 												</select>
 											</div>
 										</div>
@@ -162,18 +194,48 @@
 						</div>
 				</div>
 			</div>
+			<div class="container marginTop">
+				<div class="row new-tour ">
+					<div class="col-md-12 ">
+						<div>
+							<h2 class="top-tour-title">კატეგორიები</h2>
+							<div class="line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row no-gutter">
+					<div class="owl-carousel categories">
+						<div><a href=""><i class="fa fa-tree fa-2x"></i><p>დასვენება</p></a></div>
+						<div><a href=""><i class="fa fa-futbol-o fa-2x"></i><p>სპორტი</p></a></div>
+						<div><a href=""><i class="fa fa-anchor fa-2x"></i><p>ზღვა</p></a></div>
+						<div><a href=""><i class="fa fa-graduation-cap fa-2x"></i><p>შემეცნებითი</p></a></div>
+						<div><a href=""><i class="fa fa-microphone fa-2x"></i><p>კონცერტი</p></a></div>
+						<div><a href=""><i class="fa fa-ship fa-2x"></i><p>კრუიზები</p></a></div>
+						<div><a href=""><i class="fa fa-hourglass-start fa-2x"></i><p>სხვა</p></a></div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="container marginTop marginBottom">
+				<div class="row new-tour">
+					<div class="col-md-12 ">
+						<div>
+							<h2 class="top-tour-title">პოპულარული ტურები</h2>
+							<div class="line"></div>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="clear"></div>
 			<div class="container marginTop marginBottom">
 				<div class="row  ">
 					<div class="col-md-12">
-						<h2 class="top-tour-title">პოპულარული ტურები</h2>
-						<div class="line"></div>
-					</div>
-					<div class="col-md-12">
 						<div class="owl-carousel top-tours">
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><i class="fa fa-dollar"></i>1200</h3>
+								<h3><span>1200</span> GEL</h3>
 								<!-- <h6><i class="fa fa-dollar"></i>details</h6> -->
 								<img src="img/gallery/berlin.jpg" alt="">
 								<p><span id="tour-title">ბერლინი</span></p>
@@ -208,7 +270,7 @@
 							</div>
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><i class="fa fa-dollar"></i>1000</h3>
+								<h3><span>1200</span> GEL</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -225,7 +287,7 @@
 							</div>
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><i class="fa fa-dollar"></i>1400</h3>
+								<h3><span>1200</span> GEL</h3>
 								<img src="img/gallery/roma.jpg" alt="">
 								<p><span id="tour-title">რომა</span></p>
 								<div class="caption">
@@ -281,26 +343,36 @@
 								<form action="" class="">
 									<div class="col-md-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">america</option>
-											<option value="">amerssica</option>
+											<option value="">All Destinations</option>
+											<option value="">Europe</option>
+											<option value="">Asia</option>
+											<option value="">America</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">america</option>
-											<option value="">amerssica</option>
+											<option value="">All Typologies</option>
+											<option value="">Relax</option>
+											<option value="">Cultural</option>
+											<option value="">Luxury</option>
+											<option value="">Sport</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">america</option>
-											<option value="">amerssica</option>
+											<option value="">All Duration</option>
+											<option value="">1 - 3 Days</option>
+											<option value="">2 - 6 Days</option>
+											<option value="">3 - 9 Days</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">america</option>
-											<option value="">amerssica</option>
+											<option value="">All People</option>
+											<option value="">1 person</option>
+											<option value="">2 person</option>
+											<option value="">3 person</option>
+											<option value="">20 person</option>
 										</select>
 									</div>
 									<div class="col-sm-6 el-marginBottom">
@@ -510,10 +582,17 @@
 						</div>
 
 						<div class="continent">
-							<h3 class="uppercase">ევროპა</h3>
+							<h3 class="uppercase">აზია</h3>
 							<a href="#" class="view-all uppercase">ყველა</a>
 							<div class="cont-img">
-								<img src="img/gallery/berlin.jpg" alt="">
+								<img src="img/1.jpg" alt="">
+							</div>
+						</div>
+						<div class="continent">
+							<h3 class="uppercase">აზია</h3>
+							<a href="#" class="view-all uppercase">ყველა</a>
+							<div class="cont-img">
+								<img src="img/1.jpg" alt="">
 							</div>
 						</div>
 					</div>
@@ -533,13 +612,17 @@
 <script src="js/jquery.min.js?rev=cdcf7fad16279eb2f8f69f155a0a2982"></script>
 <script src="js/owl-carousel.min.js"></script>
 <script src="js/transition.js"></script>
-<script src="js/carousel.js"></script>
+<script src="js/slippry.min.js"></script>
 <script src="js/tooltip.js"></script>
 <script src="js/ion.rangeSlider.js"></script>
 <script src="js/select2.js"></script>
 <script src="js/datepicker.js"></script>
 <!-- <script src="js/jquery.sticky.js"></script> -->
 <script src="js/functions.js"></script>
+
+<script>
+
+</script>
 
 </script>
 

@@ -89,13 +89,13 @@ $(document).ready(function(){
 
 
 
-  var mql = window.matchMedia("screen and (max-width: 800px)");
-  if (mql.matches){ // if media query matches
-   $('.wrapper, header, footer, .slider, .filter').addClass('container');
-  }
-  else{
-   $('.wrapper, header, footer, .slider .filter').removeClass('container');
-  }
+  // var mql = window.matchMedia("screen and (max-width: 800px)");
+  // if (mql.matches){ // if media query matches
+  //  $('.wrapper, header, footer, .slider, .filter').addClass('container');
+  // }
+  // else{
+  //  $('.wrapper, header, footer, .slider .filter').removeClass('container');
+  // }
 
   $("#ion-default, #ion-left").ionRangeSlider({
     type: "double",

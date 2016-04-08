@@ -121,7 +121,6 @@
   @media screen and (max-width:580px) {
     min-height: auto;
     max-height: 300px;
-    display: none;
   }
 }
   .sy-slides-wrap:hover .sy-controls {
@@ -317,6 +316,7 @@
 
 /* pager bubbles */
 .sy-pager {
+  display: none !important;
   overflow: hidden;
   *zoom: 1;
   display: block;

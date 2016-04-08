@@ -3,7 +3,7 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper container about-us">
+  	<div class="wrapper  about-us">
   		<?php include('nav.php'); ?>
       <div class="page-image">
         <h3>ჩვენ შესახებ</h3>

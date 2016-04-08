@@ -5,7 +5,7 @@
 
 <body>
 	<?php include('header.php'); ?>
-	<div class="wrapper container">
+	<div class="wrapper ">
 			<div class="row slider no-gutter">
 				<div class="col-xs-12 no-gutter">
 					<ul id="slippry-demo">
@@ -21,13 +21,13 @@
 					</ul>
 				</div>
 			</div>
-			<div class="container ">
+			<div class="container marginTop">
 				<div class="row filter no-gutter">
-						<div class="col-md-12 no-gutter" style="margin-top: -210px !important;" >
+						<div class="col-md-12 no-gutter" style="margin-top: -205px !important;" >
 							<input id="tab1" type="radio" name="tabs"  checked>
-							<label for="tab1" class="black uppercase">quick search</label>
+							<label for="tab1" class="black"> ძიება</label>
 							<input id="tab2" type="radio" name="tabs">
-							<label for="tab2" class="black uppercase">advanced</label>
+							<label for="tab2" class="black"> დაწვრილებით</label>
 							<section id="content1" class="black">
 								<div class="row">
 									<div class="col-md-12">

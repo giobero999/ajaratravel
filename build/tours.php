@@ -3,13 +3,13 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper container tours-page">
+  	<div class="wrapper  tours-page">
   		<?php include('nav.php'); ?>
       <div class="page-image">
         <h3>ტურები</h3>
       </div>
       <div class='container marginTop'>
-        <div class='row no-gutter'>
+        <div class='row'>
             <div class="col-md-12">
               <div class="container ">
                   <div class=" new-tour-panel">

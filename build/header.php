@@ -48,8 +48,8 @@
         <div class="mobile-menu hidden">
           <ul class="right">
             <i class="fa fa-times fa-2x close-mobile-menu"></i>
-            <li><a href="">მთავარი</a></li>
-            <li><a href="">ჩვენ შესახებ</a></li>
+            <li><a href="index.php">მთავარი</a></li>
+            <li><a href="about.php">ჩვენ შესახებ</a></li>
             <li>
               <a href="">ტურები</a>
               <ul class="hidden">

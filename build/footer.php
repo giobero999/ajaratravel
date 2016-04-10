@@ -1,6 +1,6 @@
 <footer>
   <p>
-    © Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With In love
+    © Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With love
   </p>
 </footer>
 <script src="js/jquery.js"></script>
@@ -14,4 +14,5 @@
 <script src="js/jquery.themepunch.plugins.min.js"></script>
 <script src="js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/flex-slider.js"></script>
+<script src="js/collapse.js"></script>
 <script src="js/functions.js"></script>

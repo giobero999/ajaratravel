@@ -35,7 +35,7 @@
           </li>
           <li><a href="gallery.php">გალერეა</a></li>
           <li><a href="offers.php" class="uppercase">offers</a></li>
-          <li><a href="">კონტაქტი</a></li>
+          <li><a href="contact.php">კონტაქტი</a></li>
           <li>
             <i class="fa fa-cart-arrow-down shop-card fa-lg"></i>
           </li>
@@ -51,15 +51,15 @@
             <li><a href="index.php">მთავარი</a></li>
             <li><a href="about.php">ჩვენ შესახებ</a></li>
             <li>
-              <a href="">ტურები</a>
+              <a href="tours.php">ტურები</a>
               <ul class="hidden">
                 <li><a href="">საქართველოში</a></li>
                 <li><a href="">საზღვარგარეთ</a></li>
               </ul>
             </li>
-            <li><a href="">გალერეა</a></li>
+            <li><a href="gallery.php">გალერეა</a></li>
             <li><a href="offers.php" class="uppercase">offers</a></li>
-            <li><a href="">კონტაქტი</a></li>
+            <li><a href="contact.php">კონტაქტი</a></li>
           </ul>
         </div>
       </div>

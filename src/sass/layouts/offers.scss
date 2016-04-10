@@ -103,17 +103,20 @@
         font-family: $textFont;
         padding: 5px 5px;
       }
-      button {
-        margin:0px 15px 12px;
-        padding: 12px 18px;
-        color:$grey;
-        font-family:$mainFont;
-        background: $white;
-        border:1px solid lighten($grey, 20%);
+      .info {
+        display:inline-block;
+        margin:24px 15px;
+        a {
+          padding: 12px 18px;
+          color:$grey;
+          font-family:$mainFont;
+          background: $white;
+          border:1px solid lighten($grey, 20%);
+        }
       }
       .video {
-        margin:0px 15px;
-        padding:13px;
+        display:grid !important;
+        padding:12px;
         color:darken($grey, 28%);
         background: $white;
         border:1px solid lighten($grey, 20%);
@@ -124,8 +127,6 @@
   .numbers {
     margin:0 auto;
   }
-
-
 }
 
 //END about us

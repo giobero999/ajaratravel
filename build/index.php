@@ -58,7 +58,7 @@
 										<div class="form-group advanced">
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">All Destinations</option>
+													<option value="">ყველა მიმართულება</option>
 													<option value="">Europe</option>
 													<option value="">Asia</option>
 													<option value="">America</option>
@@ -66,7 +66,7 @@
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">All Typologies</option>
+													<option value="">ყველა </option>
 													<option value="">Relax</option>
 													<option value="">Cultural</option>
 													<option value="">Luxury</option>
@@ -75,7 +75,7 @@
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">All Duration</option>
+													<option value="">ყველა დროით</option>
 													<option value="">1 - 3 Days</option>
 													<option value="">2 - 6 Days</option>
 													<option value="">3 - 9 Days</option>
@@ -83,7 +83,7 @@
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">All People</option>
+													<option value="">ყველა ადამიანი</option>
 													<option value="">1 person</option>
 													<option value="">2 person</option>
 													<option value="">3 person</option>
@@ -153,25 +153,7 @@
 						<div class="owl-carousel top-tours top-tours-slider">
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><span>1200</span> GEL</h3>
-								<!-- <h6><i class="fa fa-dollar"></i>details</h6> -->
-								<img src="img/gallery/roma.jpg" alt="">
-								<p><span id="tour-title"><span>ლონდონი</span> - <span>5</span> <span>დღე</span></span></p>
-								<div class="caption">
-									<div class="cont-relax">
-										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-									</div>
-									<div>
-										<h4><i class="fa fa-info"></i> დასვენება</h4>
-									</div>
-								</div>
-								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<a href="tour-details.php">სრულად</a>
-								<i class="fa fa-film fa-md video"></i>
-							</div>
-							<div class="single-tour">
-								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><i class="fa fa-dollar"></i>1200</h3>
+								<h3>1200 GEL</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -183,12 +165,14 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<a href="tour-details.php">სრულად</a>
-								<i class="fa fa-film fa-md video"></i>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
+                <i class="fa fa-film fa-md video"></i>
 							</div>
-							<div class="single-tour">
+              <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><span>1200</span> GEL</h3>
+								<h3>1200 GEL</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -200,14 +184,16 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<a href="tour-details.php">სრულად</a>
-								<i class="fa fa-film fa-md video"></i>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
+                <i class="fa fa-film fa-md video"></i>
 							</div>
-							<div class="single-tour">
+              <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><span>1200</span> GEL</h3>
-								<img src="img/gallery/roma.jpg" alt="">
-								<p><span id="tour-title">რომა</span></p>
+								<h3>1200 GEL</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
 									<div class="cont-relax">
 										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
@@ -217,14 +203,15 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<a href="tour-details.php">სრულად</a>
-								<i class="fa fa-film fa-md video"></i>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
 							</div>
-							<div class="single-tour">
+              <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3><i class="fa fa-dollar"></i>1200</h3>
-								<img src="img/gallery/roma.jpg" alt="">
-								<p><span id="tour-title">ბერლინი</span></p>
+								<h3>1200 GEL</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
 									<div class="cont-relax">
 										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
@@ -234,8 +221,28 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<a href="tour-details.php">სრულად</a>
-								<i class="fa fa-film fa-md video"></i>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
+                <i class="fa fa-film fa-md video"></i>
+							</div>
+              <div class="single-tour">
+								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
+								<h3>1200 GEL</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
+								</div>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
 							</div>
 						</div>
 					</div>

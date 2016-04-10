@@ -5,7 +5,7 @@
   	<?php include('header.php'); ?>
   	<div class="wrapper  tours-page">
   		<?php include('nav.php'); ?>
-      <div class="page-image">
+      <div class="page-cover tour-cover">
         <h3>ტურები</h3>
       </div>
       <div class='container marginTop'>

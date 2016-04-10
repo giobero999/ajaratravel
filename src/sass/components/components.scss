@@ -94,3 +94,166 @@
   color:$red;
   cursor: pointer;
 }
+
+.page-cover {
+  width:100%;
+  height:300px;
+  background:$lightBlack url('../img/1.jpg') no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  h3 {
+    text-align:center;
+    font-family:$mainFont;
+    color:$white;
+    height:300px;
+    line-height:0;
+    font-size: 3em;
+    font-weight: bolder;
+    @include transform(translateY(150px));
+
+  }
+  img {
+    width:100%;
+    height:inherit;
+  }
+}
+#about-text {
+  font-family:$textFont;
+  font-size:1.2em;
+  color:$grey;
+  text-align:center;
+}
+
+.mask {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: $lightBlack;
+  opacity: 0.7;
+  display: none;
+  z-index: -100;
+}
+
+ textarea {
+  height: 100%;
+  background: lighten($lightBlack, 5%);
+  font-family: $mainFont;
+  font-weight: normal;
+  padding:0 5px;
+  color: $white;
+  font-size: 1.2em;
+  height: 45px;
+  border:none;
+  outline: none;
+  margin:3px 0px;
+  border-radius: 0;
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.filter {
+  @media screen and (max-width: 1024px) {
+
+  };
+  section {
+    display: none;
+    padding: 11px 5px 10px;
+    border-top: 0px solid #ddd;
+    form {
+      div {
+        margin:0;
+        input, textarea {
+          background: lighten($lightBlack, 5%);
+          font-family: $mainFont;
+          font-weight: normal;
+          padding:0 5px;
+          color: $white;
+          font-size: 1.2em;
+          height: 45px;
+          border:none;
+          outline: none;
+          margin:2px 0px;
+          border-radius: 0;
+          &:focus {
+            outline: none;
+            box-shadow: none;
+          }
+        }
+      }
+    }
+  }
+
+  .advanced {
+    margin-bottom: 10px;
+  }
+
+  #tab1, #tab2, #tab3 {
+    display: none;
+  }
+
+  label {
+    display: inline-block;
+    margin: 0 0 0px;
+    font-family:$mainFont;
+    padding: 15px 25px;
+    font-weight: 600;
+    text-align: center;
+    color: #bbb;
+    border: 0px solid transparent;
+  }
+
+  label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+  }
+
+  label[for*='1']:before { content: '\f002'; }
+  label[for*='2']:before { content: '\f17d'; }
+
+
+  label:hover {
+    color: #888;
+    cursor: pointer;
+  }
+
+  input:checked + label {
+    color: $green;
+    border: 0px solid #ddd;
+    border-top: 2px solid orange;
+    border-bottom: 0px solid #fff;
+  }
+
+  #tab1:checked ~ #content1,
+  #tab2:checked ~ #content2,
+  #tab3:checked ~ #content3
+   {
+    display: block;
+  }
+
+  #search {
+    background: $green url('../img/filter.png') no-repeat;
+    background-size: cover;
+
+  }
+
+  @media screen and (max-width: 650px) {
+    label {
+      font-size: 0;
+    }
+    label:before {
+      margin: 0;
+      font-size: 18px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    label {
+      padding: 15px;
+    }
+  }
+}

@@ -7,22 +7,19 @@
 	<?php include('header.php'); ?>
 	<div class="wrapper ">
 			<div class="row slider no-gutter">
-				<div class="col-xs-12 no-gutter">
-					<ul id="slippry-demo">
-					  <li>
-					    <a href="#slide1"><img src="img/Georgia.jpg" alt="Welcome to Slippry!"></a>
-					  </li>
-						<li>
-					    <a href="#slide1"><img src="img/paris.jpg" alt="Welcome to Slippry!"></a>
-					  </li>
-						<li>
-					    <a href="#slide3"><img src="img/2.jpg" ></a>
-					  </li>
-					</ul>
-				</div>
+        <div class="fullscreenbanner">
+          <ul>
+           <li data-transition="boxslide" data-slotamount="7">
+             <img src="img/gallery/image1.jpg">
+            </li>
+            <li data-transition="boxslide" data-slotamount="7">
+              <img src="img/gallery/image2.jpg">
+             </li>
+          </ul>
+        </div>
 			</div>
 			<div class="container marginTop">
-				<div class="row filter no-gutter">
+				<div class="row filter main-filter no-gutter">
 						<div class="col-md-12 no-gutter" style="margin-top: -205px !important;" >
 							<input id="tab1" type="radio" name="tabs"  checked>
 							<label for="tab1" class="black"> ძიება</label>
@@ -153,13 +150,13 @@
 			<div class="container marginTop marginBottom">
 				<div class="row  ">
 					<div class="col-md-12">
-						<div class="owl-carousel top-tours">
+						<div class="owl-carousel top-tours top-tours-slider">
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
 								<h3><span>1200</span> GEL</h3>
 								<!-- <h6><i class="fa fa-dollar"></i>details</h6> -->
-								<img src="img/gallery/berlin.jpg" alt="">
-								<p><span id="tour-title">ბერლინი</span></p>
+								<img src="img/gallery/roma.jpg" alt="">
+								<p><span id="tour-title"><span>ლონდონი</span> - <span>5</span> <span>დღე</span></span></p>
 								<div class="caption">
 									<div class="cont-relax">
 										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
@@ -169,14 +166,14 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<button class="">სრულად</button>
+								<a href="tour-details.php">სრულად</a>
 								<i class="fa fa-film fa-md video"></i>
 							</div>
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
 								<h3><i class="fa fa-dollar"></i>1200</h3>
-								<img src="img/gallery/roma.jpg" alt="">
-								<p><span id="tour-title">ბერლინი</span></p>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
 									<div class="cont-relax">
 										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
@@ -186,7 +183,7 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<button class="">სრულად</button>
+								<a href="tour-details.php">სრულად</a>
 								<i class="fa fa-film fa-md video"></i>
 							</div>
 							<div class="single-tour">
@@ -203,7 +200,7 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<button class="">სრულად</button>
+								<a href="tour-details.php">სრულად</a>
 								<i class="fa fa-film fa-md video"></i>
 							</div>
 							<div class="single-tour">
@@ -220,7 +217,7 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<button class="">სრულად</button>
+								<a href="tour-details.php">სრულად</a>
 								<i class="fa fa-film fa-md video"></i>
 							</div>
 							<div class="single-tour">
@@ -237,7 +234,7 @@
 									</div>
 								</div>
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-								<button class="">სრულად</button>
+								<a href="tour-details.php">სრულად</a>
 								<i class="fa fa-film fa-md video"></i>
 							</div>
 						</div>
@@ -257,8 +254,8 @@
 			</div>
 			<div class="clear"></div>
 			<div class="container ">
-					<div class=" new-tour-panel">
-						<div class="col-md-3 left-filter black">
+					<div class="new-tour-panel">
+						<div class="col-md-3 filter left-filter black">
 							<div class="row no-gutter">
 								<h4 id="search-title">Advanced Search</h4>
 								<form action="" class="">
@@ -334,7 +331,7 @@
 												</li>
 												<li>
 													<button type="button" class="btn btn-default tool" title="დასვენება">
-														<i class="fa fa-tree fa-md"></i></a>
+														<i class="fa fa-tree fa-md"></i>
 													</button>
 												</li>
 												<li>
@@ -383,7 +380,7 @@
 												</li>
 												<li>
 													<button type="button" class="btn btn-default tool" title="კულტურა">
-														<i class="fa fa-tree fa-md"></i></a>
+														<i class="fa fa-tree fa-md"></i>
 													</button>
 												</li>
 												<li>
@@ -432,7 +429,7 @@
 												</li>
 												<li>
 													<button type="button" class="btn btn-default tool" title="ლუქსი">
-														<i class="fa fa-tree fa-md"></i></a>
+														<i class="fa fa-tree fa-md"></i>
 													</button>
 												</li>
 												<li>

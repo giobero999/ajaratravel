@@ -1,0 +1,73 @@
+// START tour-details us styles
+.tour-details {
+  #about-text {
+    font-family:$textFont;
+    font-size:1.2em;
+    color:$grey;
+    text-align:center;
+  }
+  .flexslider {
+    .slides {
+      border-top:0px solid $green;
+    }
+  }
+
+  .book-it {
+    #content1, #content2 {
+      padding:15px;
+    }
+    input {
+      margin:10px 0;
+    }
+    textarea {
+      padding:5px 7px;
+      height:100px;
+    }
+  }
+
+  .tour-name {
+    height: 26px;
+    line-height: 26px;
+    background: $white;
+    color:$red;
+    font-size:1.8em;
+    font-family:$mainFont;
+    margin-bottom:10px;
+    h3 {
+      float:left;
+      text-align:left;
+    }
+
+    #tour-cat {
+      float:right;
+      font-family:$mainFont;
+      font-size:.6em;
+      color:$green;
+      text-align:right;
+    }
+  }
+  .people {
+    height: 100px;
+    line-height: 100px;
+    background: $red $bgShadow no-repeat;
+    background-size:cover;
+    color:$white;
+    text-align:center;
+    font-size:1.7em;
+    font-family:$mainFont;
+    margin-bottom:10px;
+  }
+  .use-visa {
+    height: 80px;
+    line-height: 80px;
+    background: $orange $bgShadow no-repeat;
+    background-size:cover;
+    color:$white;
+    text-align:center;
+    font-size:1.4em;
+    font-family:$mainFont;
+    margin-bottom:10px;
+  }
+}
+
+//END about us

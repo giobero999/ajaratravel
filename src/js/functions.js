@@ -24,7 +24,7 @@ $(document).ready(function(){
         }
     }
   });
-  $(".top-tours").owlCarousel({
+  $(".top-tours-slider").owlCarousel({
     nav:'false',
     loop:true,
     margin:15,
@@ -82,20 +82,7 @@ $(document).ready(function(){
 
 
 
-    $('#slippry-demo').slippry({
-      captions:false,
-      speed:3000,
-    });
 
-
-
-  // var mql = window.matchMedia("screen and (max-width: 800px)");
-  // if (mql.matches){ // if media query matches
-  //  $('.wrapper, header, footer, .slider, .filter').addClass('container');
-  // }
-  // else{
-  //  $('.wrapper, header, footer, .slider .filter').removeClass('container');
-  // }
 
   $("#ion-default, #ion-left").ionRangeSlider({
     type: "double",
@@ -154,8 +141,94 @@ $(document).ready(function(){
   });
 
   $(".close-mobile-menu").click(function() {
-    $(".mobile-menu").animate({"right":"-280px"},300).addClass("hidden");
+    $(".mobile-menu").animate({"right":"-300px"},300).addClass("hidden");
     $('body').css({"overflow":"scroll"});
   });
+
+
+  $(function(){
+		var $gallery = $('.gallery a').simpleLightbox();
+
+		$gallery.on('show.simplelightbox', function(){
+			console.log('Requested for showing');
+		})
+		.on('shown.simplelightbox', function(){
+			console.log('Shown');
+		})
+		.on('close.simplelightbox', function(){
+			console.log('Requested for closing');
+		})
+		.on('closed.simplelightbox', function(){
+			console.log('Closed');
+		})
+		.on('change.simplelightbox', function(){
+			console.log('Requested for change');
+		})
+		.on('next.simplelightbox', function(){
+			console.log('Requested for next');
+		})
+		.on('prev.simplelightbox', function(){
+			console.log('Requested for prev');
+		})
+		.on('nextImageLoaded.simplelightbox', function(){
+			console.log('Next image loaded');
+		})
+		.on('prevImageLoaded.simplelightbox', function(){
+			console.log('Prev image loaded');
+		})
+		.on('changed.simplelightbox', function(){
+			console.log('Image changed');
+		})
+		.on('nextDone.simplelightbox', function(){
+			console.log('Image changed to next');
+		})
+		.on('prevDone.simplelightbox', function(){
+			console.log('Image changed to prev');
+		})
+		.on('error.simplelightbox', function(e){
+			console.log('No image found, go to the next/prev');
+			console.log(e);
+		});
+	});
+
+
+
+      $('.fullscreenbanner').revolution({
+         delay:9000,
+         startwidth:960,
+         startheight:500,
+         startWithSlide:0,
+         hideThumbs:0,
+         parallax:"mouse",
+         thumbWidth:100,
+         thumbHeight:50,
+         thumbAmount:3
+      });
+
+      $('#carousel').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: true,
+        slideshow: false,
+        itemWidth: 120,
+        itemMargin: 5,
+        asNavFor: '#slider'
+      });
+
+      $('#slider').flexslider({
+        animation: "slide",
+        controlNav: false,
+        animationLoop: false,
+        slideshow: false,
+        sync: "#carousel"
+      });
+
+
+
+
+
+
+
+
 
 }); //end ready

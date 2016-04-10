@@ -1,0 +1,131 @@
+// START about us styles
+.offers {
+  .all-tours {
+    .offers-tours{
+      position:relative;
+      border:1px solid lighten($lightBlack, 60%);
+      margin-bottom: 10px;
+      overflow:hidden;
+      &:hover img{
+        @include transform(scale(1.2) rotate(2deg));
+        z-index:-1111;
+      }
+      &:hover h6 {
+        opacity:1;
+        @include transform(translate(-24%, -50%));
+      }
+
+      img {
+        position: relative;
+        width:100%;
+        max-height:290px;
+        height:350px;
+        z-index: 9;
+        margin:0;
+        padding: 0;
+        @include transition(all, 2.5s, ease-in-out);
+        z-index:1;
+        @media screen and (max-width: 767px) {
+          height:auto !important;
+          max-height:auto !important;
+        }
+
+      }
+      h6 {
+        @include position(absolute, 23% null null 44%);
+        opacity:0;
+        @include transition(opacity, .3s, ease-in);
+        padding: 10px 20px;
+        color:$white;
+        z-index: 20;
+        border: 1px solid $white;
+      }
+      h3 {
+        position: absolute;
+        left:0;
+        top:0;
+        z-index: 10;
+        background: $white;
+        color:lighten($lightBlack, 40%);
+        font-weight: 100;
+        font-family: arial;
+        border:1px solid lighten($lightBlack, 60%);
+        padding:7px 20px;
+        font-size:1.4em;
+        margin:0;
+        opacity: .9;
+      }
+      p {
+        color:$white;
+        background: $lightBlack;
+        width: 100%;
+        margin:0;
+        height:45px !important;
+        line-height:45px !important;
+        font-family: $mainFont;
+        font-size:1.3em;
+        padding-left: 0px;
+        #tour-title {
+          padding-left: 15px;
+        }
+      }
+
+      .caption {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        background: $red;
+        font-family: $textFont;
+        color:$white;
+        z-index:10;
+        div {
+          display: inline-block;
+          width: 48%;
+          h4 {
+            margin-top: 0;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 15px;
+          }
+          #continent {
+            background: darken($red, 8%) $bgShadow no-repeat;
+          }
+        }
+      }
+      #description {
+        color: $grey;
+        width : 100%;
+        bottom: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-weight: normal;
+        font-family: $textFont;
+        padding: 5px 5px;
+      }
+      button {
+        margin:0px 15px 12px;
+        padding: 12px 18px;
+        color:$grey;
+        font-family:$mainFont;
+        background: $white;
+        border:1px solid lighten($grey, 20%);
+      }
+      .video {
+        margin:0px 15px;
+        padding:13px;
+        color:darken($grey, 28%);
+        background: $white;
+        border:1px solid lighten($grey, 20%);
+      }
+    }
+  }
+
+  .numbers {
+    margin:0 auto;
+  }
+
+
+}
+
+//END about us

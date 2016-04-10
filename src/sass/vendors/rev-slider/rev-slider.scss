@@ -1,0 +1,101 @@
+
+
+/**********************************************
+-	FULLSCREEN AND FULLWIDHT CONTAINERS	-
+**********************************************/
+.fullscreen-container {
+width:100%;
+position:relative;
+padding:0;
+}
+.fullwidthbanner-container{
+width:100%;
+position:relative;
+padding:0;
+overflow:hidden;
+}
+.fullwidthbanner-container .fullwidthbanner{
+width:100%;
+position:relative;
+}
+
+
+.noFilterClass {
+filter:none !important;
+}
+/******************************
+-	SHADOWS		-
+******************************/
+.tp-bannershadow  {
+position:absolute;
+margin-left:auto;
+margin-right:auto;
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+}
+
+
+
+
+
+
+/***************************************
+-	RESPONSIVE SETTINGS 	-
+
+/*********************************************
+-	BASIC SETTINGS FOR THE BANNER	-
+***********************************************/
+.tp-simpleresponsive img {
+-moz-user-select: none;
+-khtml-user-select: none;
+-webkit-user-select: none;
+-o-user-select: none;
+}
+.tp-simpleresponsive a{	text-decoration:none;}
+.tp-simpleresponsive ul {
+list-style:none;
+padding:0;
+margin:0;
+}
+.tp-simpleresponsive >ul >li{
+list-stye:none;
+position:absolute;
+visibility:hidden;
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+.tparrows.preview1,
+.tparrows.preview1:after	{	width:80px; height:80px;line-height:80px; font-size:24px;}
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.tparrows.preview1,
+.tparrows.preview1:after	{	width:60px; height:60px;line-height:60px;font-size:20px;}
+}
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+.tparrows.preview1,
+.tparrows.preview1:after	{	width:40px; height:40px;line-height:40px; font-size:12px;}
+}
+
+
+/******************************
+-	LOADER FORMS	-
+********************************/
+.tp-loader 	{
+top:50%; left:50%;
+z-index:10000;
+position:absolute;
+
+}
+
+.tp-loader.spinner0 {
+width: 40px;
+height: 40px;
+background:url(../img/cube.svg) no-repeat center center;
+margin-top:-20px;
+margin-left:-20px;
+}

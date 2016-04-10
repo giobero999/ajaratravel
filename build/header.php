@@ -33,8 +33,8 @@
               <li><a href="">საზღვარგარეთ</a></li>
             </ul>
           </li>
-          <li><a href="">გალერეა</a></li>
-          <li><a href="" class="uppercase">offers</a></li>
+          <li><a href="gallery.php">გალერეა</a></li>
+          <li><a href="offers.php" class="uppercase">offers</a></li>
           <li><a href="">კონტაქტი</a></li>
           <li>
             <i class="fa fa-cart-arrow-down shop-card fa-lg"></i>
@@ -58,7 +58,7 @@
               </ul>
             </li>
             <li><a href="">გალერეა</a></li>
-            <li><a href="" class="uppercase">offers</a></li>
+            <li><a href="offers.php" class="uppercase">offers</a></li>
             <li><a href="">კონტაქტი</a></li>
           </ul>
         </div>

@@ -2,6 +2,11 @@
 @media screen and (max-width:1024px) {
   body {
   }
+
+  .main-filter {
+    margin:0 !important;
+    display: none !important;
+  }
   .mobile-nav {
     display: block !important;
     height: 45px;
@@ -61,6 +66,13 @@
 @media screen and (max-width:965px) {
   #top-mail {
     display: none;
+  }
+
+  #slider-demo {
+    height:400px;
+    img {
+      height:400px;
+    }
   }
 }
 

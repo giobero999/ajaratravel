@@ -5,7 +5,7 @@
   	<?php include('header.php'); ?>
   	<div class="wrapper  about-us">
   		<?php include('nav.php'); ?>
-      <div class="page-image">
+      <div class="page-cover">
         <h3>ჩვენ შესახებ</h3>
       </div>
       <div class='container marginTop'>

@@ -30,6 +30,7 @@
 }
 
 .line {
+  @include fadeInUp();
   width: 80px;
   height: 3px;
   background: $grey;
@@ -156,9 +157,7 @@
 }
 
 .filter {
-  @media screen and (max-width: 1024px) {
-
-  };
+  @include fadeInUp();
   section {
     display: none;
     padding: 11px 5px 10px;
@@ -256,4 +255,8 @@
       padding: 15px;
     }
   }
+}
+
+footer {
+  height: 100%;
 }

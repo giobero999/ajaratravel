@@ -3,7 +3,7 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper  contact">
+  	<div class="wrapper contact ">
   		<?php include('nav.php'); ?>
       <div class="page-cover">
         <h3>კონტაქტი</h3>

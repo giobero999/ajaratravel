@@ -3,7 +3,7 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper ga">
+  	<div class="wrapper gallery-page wow">
   		<?php include('nav.php'); ?>
       <div class="page-cover gallery-cover">
         <h3>გალერეა</h3>

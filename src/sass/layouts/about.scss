@@ -1,5 +1,6 @@
 // START about us styles
 .about-us {
+  @include fadeInUp();
   #about-text {
     font-family:$textFont;
     font-size:1.2em;

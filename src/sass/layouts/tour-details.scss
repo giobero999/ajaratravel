@@ -1,5 +1,6 @@
 // START tour-details us styles
 .tour-details {
+  @include fadeInUp();
   #about-text {
     font-family:$textFont;
     font-size:1.2em;

@@ -81,9 +81,6 @@ $(document).ready(function(){
   });
 
 
-
-
-
   $("#ion-default, #ion-left").ionRangeSlider({
     type: "double",
     grid: false,
@@ -148,83 +145,45 @@ $(document).ready(function(){
 
   $(function(){
 		var $gallery = $('.gallery a').simpleLightbox();
-
-		$gallery.on('show.simplelightbox', function(){
-			console.log('Requested for showing');
-		})
-		.on('shown.simplelightbox', function(){
-			console.log('Shown');
-		})
-		.on('close.simplelightbox', function(){
-			console.log('Requested for closing');
-		})
-		.on('closed.simplelightbox', function(){
-			console.log('Closed');
-		})
-		.on('change.simplelightbox', function(){
-			console.log('Requested for change');
-		})
-		.on('next.simplelightbox', function(){
-			console.log('Requested for next');
-		})
-		.on('prev.simplelightbox', function(){
-			console.log('Requested for prev');
-		})
-		.on('nextImageLoaded.simplelightbox', function(){
-			console.log('Next image loaded');
-		})
-		.on('prevImageLoaded.simplelightbox', function(){
-			console.log('Prev image loaded');
-		})
-		.on('changed.simplelightbox', function(){
-			console.log('Image changed');
-		})
-		.on('nextDone.simplelightbox', function(){
-			console.log('Image changed to next');
-		})
-		.on('prevDone.simplelightbox', function(){
-			console.log('Image changed to prev');
-		})
-		.on('error.simplelightbox', function(e){
-			console.log('No image found, go to the next/prev');
-			console.log(e);
-		});
 	});
 
 
 
-      $('.fullscreenbanner').revolution({
-         delay:9000,
-         startwidth:960,
-         startheight:500,
-         startWithSlide:0,
-         hideThumbs:0,
-         parallax:"mouse",
-         thumbWidth:100,
-         thumbHeight:50,
-         thumbAmount:3
-      });
+  $('.fullscreenbanner').revolution({
+     delay:6000,
+     transition:"fade",
+     startwidth:960,
+     startheight:500,
+     startWithSlide:0,
+     hideThumbs:0,
+     thumbWidth:100,
+     thumbHeight:50,
+     thumbAmount:3
+  });
 
-      $('#carousel').flexslider({
-        animation: "slide",
-        controlNav: false,
-        animationLoop: true,
-        slideshow: false,
-        itemWidth: 120,
-        itemMargin: 5,
-        asNavFor: '#slider'
-      });
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: true,
+    slideshow: false,
+    itemWidth: 120,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
 
-      $('#slider').flexslider({
-        animation: "slide",
-        controlNav: false,
-        animationLoop: false,
-        slideshow: false,
-        sync: "#carousel"
-      });
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
 
 
-      
+  new WOW().init();
+
+
+
 
 
 

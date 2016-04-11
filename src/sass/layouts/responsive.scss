@@ -1,50 +1,10 @@
 /* responsive styles */
 @media screen and (max-width:1024px) {
-  body {
-  }
-
   .main-filter {
     margin:0 !important;
     display: none !important;
   }
-  .mobile-nav {
-    display: block !important;
-    height: 45px;
-    line-height: 65px;
-    color:$lightBlack;
-    cursor:pointer;
-    .burger {
-      position: relative;
-    }
-    .mobile-menu {
-      @include position(absolute, 0 -280px null null);
-      height: 100vh;
-      z-index: 100;
-      padding: 5px;
-      background: $lightBlack;
-      font-family: $mainFont;
-      .close-mobile-menu {
-        position: absolute;
-        left: -47px;
-        top: -1px;
-        padding: 13px;
-        z-index: 100px;
-        color:$lightBlack !important;
-      }
-      li {
-        background: lighten($lightBlack, 10%);
-        width: 250px;
-        padding: 20px 30px;
-        height: 30px;
-        line-height: 0px;
-        margin-bottom: 0px;
-        border-bottom: 1px solid darken($green, 5%);
-        a{
-          color:$white;
-        }
-      }
-    }
-  }
+
   .left-filter{
     margin-bottom: 20px !important;
   }
@@ -59,21 +19,12 @@
         }
       }
     }
-
   }
 }
 
 @media screen and (max-width:965px) {
-  #top-mail {
-    display: none;
-  }
 
-  #slider-demo {
-    height:400px;
-    img {
-      height:400px;
-    }
-  }
+
 }
 
 

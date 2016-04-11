@@ -11,7 +11,7 @@
       <div class="container marginTop marginBottom">
 				<div class="row">
 					<div class="col-md-12">
-						<div class="all-tours">
+						<div class="all-tours ">
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
@@ -76,9 +76,7 @@
   								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
-
                   </div>
-
   							</div>
               </div>
               <div class="col-sm-6 col-md-4 ">

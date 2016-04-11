@@ -61,7 +61,7 @@ gulp.task('rev', function() {
 
 gulp.task('watch', function() {
   gulp.watch('./src/sass/**/*.*', ['styles']);
-  gulp.watch(['./src/js/functions.js'], ['scripts']);
+  gulp.watch(['./src/js/*.js'], ['scripts']);
   gulp.watch("./build/*.php");
 });
 

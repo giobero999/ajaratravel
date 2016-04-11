@@ -3,7 +3,7 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper  tours-page">
+  	<div class="wrapper tours-page">
   		<?php include('nav.php'); ?>
       <div class="page-cover tour-cover">
         <h3>ტურები</h3>

@@ -1,5 +1,6 @@
 // START tours styles
 .tours-page {
+    @include fadeInUp();
   .tour-cover {
     background:url('../img/tour-cover.jpg') center;
   }

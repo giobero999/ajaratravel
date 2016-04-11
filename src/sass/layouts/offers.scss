@@ -1,6 +1,8 @@
 // START about us styles
 .offers {
+      @include fadeInUp();
   .all-tours {
+
     .offers-tours{
       position:relative;
       border:1px solid lighten($lightBlack, 60%);
@@ -75,7 +77,7 @@
         height: 40px;
         width: 100%;
         line-height: 40px;
-        background: $red;
+        background: $red no-repeat;
         font-family: $textFont;
         color:$white;
         z-index:10;
@@ -90,6 +92,7 @@
           }
           #continent {
             background: darken($red, 8%) $bgShadow no-repeat;
+            background-size: cover;
           }
         }
       }

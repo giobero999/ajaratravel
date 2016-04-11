@@ -3,9 +3,9 @@
   <?php include('head.php') ?>
   <body>
   	<?php include('header.php'); ?>
-  	<div class="wrapper  about-us">
+  	<div class="wrapper  about-us wow">
   		<?php include('nav.php'); ?>
-      <div class="page-cover">
+      <div class="page-cover wow">
         <h3>ჩვენ შესახებ</h3>
       </div>
       <div class='container marginTop'>

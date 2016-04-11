@@ -4,22 +4,22 @@
  <?php include('head.php'); ?>
 
 <body>
-	<?php include('header.php'); ?>
+  <?php include('header.php'); ?>
 	<div class="wrapper ">
 			<div class="row slider no-gutter">
         <div class="fullscreenbanner">
           <ul>
-           <li data-transition="boxslide" data-slotamount="7">
+           <li data-transition="fade" data-slotamount="7">
              <img src="img/gallery/image1.jpg">
             </li>
-            <li data-transition="boxslide" data-slotamount="7">
+            <li data-transition="fade" data-slotamount="7">
               <img src="img/gallery/image2.jpg">
              </li>
           </ul>
         </div>
 			</div>
 			<div class="container marginTop">
-				<div class="row filter main-filter no-gutter">
+				<div class="row filter  main-filter no-gutter">
 						<div class="col-md-12 no-gutter" style="margin-top: -205px !important;" >
 							<input id="tab1" type="radio" name="tabs"  checked>
 							<label for="tab1" class="black"> ძიება</label>
@@ -122,7 +122,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container wow">
 				<div class="row">
 					<div class="owl-carousel categories">
 						<div><a href=""><i class="fa fa-tree fa-2x"></i><p>დასვენება</p></a></div>
@@ -147,10 +147,10 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="container marginTop marginBottom">
+			<div class="container marginTop marginBottom ">
 				<div class="row  ">
 					<div class="col-md-12">
-						<div class="owl-carousel top-tours top-tours-slider">
+						<div class="owl-carousel top-tours top-tours-slider wow">
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
 								<h3>1200 GEL</h3>
@@ -261,7 +261,7 @@
 			</div>
 			<div class="clear"></div>
 			<div class="container ">
-					<div class="new-tour-panel">
+					<div class="new-tour-panel wow">
 						<div class="col-md-3 filter left-filter black">
 							<div class="row no-gutter">
 								<h4 id="search-title">Advanced Search</h4>
@@ -479,9 +479,9 @@
 					</div>
 				</div>
 			</div>
-			<div class="container">
+			<div class="container ">
 				<div class="row no-gutter">
-					<div class="owl-carousel continental">
+					<div class="owl-carousel continental wow">
 						<div class="continent">
 							<h3 class="uppercase">ევროპა</h3>
 							<a href="#" class="view-all uppercase">ყველა</a>

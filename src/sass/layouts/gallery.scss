@@ -1,4 +1,5 @@
-.gallery-page {
+/* gallery styles start */
+#gallery-page {
   @include fadeInUp();
   .clear {
     clear: both;
@@ -55,3 +56,4 @@
     }
   }
 }
+/* gallery styles END */

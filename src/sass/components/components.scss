@@ -156,6 +156,8 @@
   }
 }
 
+
+/* filter styles start */
 .filter {
   @include fadeInUp();
   section {
@@ -256,7 +258,130 @@
     }
   }
 }
+/* filter styles end */
 
-footer {
-  height: 100%;
+#top {
+  height: 34px;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  background: $lightBlack;
+  color:$white;
+  .top-bar {
+    font-weight: 300;
+    margin:0 auto;
+    padding-top: 6px;
+    .top-bar-left {
+      #top-mail{
+        font-size:.9em;
+        padding-right: 15px;
+        border-right: 1px solid darken($lightBlack, 10%);
+      }
+      #top-phone {
+        padding-left: 10px;
+        font-size:.9em;
+      }
+    }
+    .top-bar-right {
+      font-family: $textFont;
+      .languages {
+        img {
+          display: inline-block;
+          width: 18px;
+        }
+      }
+    }
+  }
+
+  .colored-line {
+    width: 100%;
+    height: 3px;
+    margin-top: 6px;
+    background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
+  }
 }
+
+
+/* navigation styles */
+#navigation {
+  font-family: $mainFont;
+  width: 100%;
+  max-width: 100%;
+  margin:0 auto;
+  background:#fff;
+  nav {
+    background: none;
+    border:none;
+    .navbar-header {
+      .navbar-brand {
+        padding: 0;
+        .logo {
+            img {
+              width: 50%;
+            }
+        }
+      }
+    }
+    .mobile-bar {
+      border-radius: 0;
+    }
+    #navbarCollapse{
+      ul {
+        position: relative;
+       a
+        {
+          height: 40px;
+          line-height: 40px;
+          display:block;
+          color:#333;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+        li {
+          position: relative;
+          &:hover ul {
+          @include fadeInUp();
+          }
+        }
+        ul {
+          @include fadeOutDown();
+          position:absolute;
+          top:100%;
+          left:0;
+          background:#fff;
+          padding:7px 12px 5px;
+          margin-top: 5px;
+          border:1px solid $lightGray;
+           li {
+             margin-bottom:5px;
+             border-bottom: 1px solid $lightGray;
+              a {
+                height: 35px;
+                line-height: 35px;
+                padding: 0 5px;
+              }
+           }
+           &:before {
+             content:'';
+             position: absolute;
+             bottom:100%;
+             padding-top: 10px;
+             left:20px;
+             width: 0;
+             height: 0;
+             border-left: 7px solid transparent;
+             border-right:7px solid transparent;
+             border-bottom:7px solid $lightGray;
+           }
+
+           ul {
+             top:0;
+             left:100%;
+           }
+        }
+      }
+    }
+  }
+}
+/* navigation styles END */

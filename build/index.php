@@ -4,8 +4,8 @@
  <?php include('head.php'); ?>
 
 <body>
-  <?php include('header.php'); ?>
-	<div class="wrapper ">
+	<div class="wrapper" id="home-page">
+    <?php include('header.php'); ?>
 			<div class="row slider no-gutter">
         <div class="fullscreenbanner">
           <ul>

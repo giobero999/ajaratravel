@@ -14,6 +14,6 @@
 <script src="js/jquery.themepunch.plugins.min.js"></script>
 <script src="js/jquery.themepunch.revolution.min.js"></script>
 <script src="js/flex-slider.js"></script>
-<script src="js/collapse.js"></script>
+<script src="js/collapse.js"></script><!-- -->
 <script src="js/wow.js"></script>
 <script src="js/functions.js"></script>

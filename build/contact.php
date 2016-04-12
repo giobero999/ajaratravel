@@ -2,9 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
-  	<?php include('header.php'); ?>
-  	<div class="wrapper contact ">
-  		<?php include('nav.php'); ?>
+  	<div class="wrapper" id="contact-page">
+      <?php include('header.php'); ?>
       <div class="page-cover">
         <h3>კონტაქტი</h3>
       </div>

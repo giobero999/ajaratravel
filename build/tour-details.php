@@ -2,9 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
-    <?php include('header.php'); ?>
-    <div class="wrapper  tour-details">
-      <?php include('nav.php'); ?>
+    <div class="wrapper" id="tour-details">
+      <?php include('header.php'); ?>
       <div class="page-cover">
         <h3><span>ლონდონი</span> - <span>5</span> <span>დღე</span></h3>
       </div>
@@ -17,7 +16,6 @@
                      ლონდონი
                   </h3>
                   <h4 id="tour-cat"><i class="fa fa-tree fa-md"></i> დასვენება</h4>
-
                 </div>
               </div>
               <div class="col-md-12">

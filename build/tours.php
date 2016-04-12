@@ -2,9 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
-  	<?php include('header.php'); ?>
-  	<div class="wrapper tours-page">
-  		<?php include('nav.php'); ?>
+  	<div class="wrapper" id="tours-page">
+      <?php include('header.php'); ?>
       <div class="page-cover tour-cover">
         <h3>ტურები</h3>
       </div>

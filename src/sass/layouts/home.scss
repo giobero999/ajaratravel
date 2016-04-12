@@ -45,81 +45,9 @@
     border-color: #F59942;
 }
 
-header{
-  width: 100%;
-  .top {
-    height: 34px;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    background: $lightBlack;
-    color:$white;
-    .top-bar {
-      font-weight: 300;
-      max-width: 1200px;
-      margin:0 auto;
-      padding-top: 6px;
-      .top-bar-left {
-        #top-mail{
-          font-size:.9em;
-          padding-right: 15px;
-          border-right: 1px solid darken($lightBlack, 10%);
-        }
-        #top-phone {
-          padding-left: 10px;
-          font-size:.9em;
-        }
-      }
-      .top-bar-right {
-        font-family: $textFont;
-      }
-    }
 
-    .colored-line {
-      width: 100%;
-      height: 3px;
-      margin-top: -6px;
-      background: linear-gradient(to right, #f76570 0%,#f76570 8%,#f3a46b 8%,#f3a46b 16%,#f3a46b 16%,#ffd205 16%,#ffd205 24%,#ffd205 24%,#1bbc9b 24%,#1bbc9b 25%,#1bbc9b 32%,#14b9d5 32%,#14b9d5 40%,#c377e4 40%,#c377e4 48%,#f76570 48%,#f76570 56%,#f3a46b 56%,#f3a46b 64%,#ffd205 64%,#ffd205 72%,#1bbc9b 72%,#1bbc9b 80%,#14b9d5 80%,#14b9d5 80%,#14b9d5 89%,#c377e4 89%,#c377e4 100%);
-    }
-  }
-  .sticky-nav {
-    @include fadeInDownBig();
-    width:100%;
-    background:#fff;
-    .navigation {
-      font-family: $mainFont;
-      width: 100%;
-      max-width: 100%;
-      margin:0 auto;
-      background:#fff;
-      .navbar-header {
-        .navbar-brand {
-          padding: 0;
-          .logo {
-              img {
-                width: 50%;
-              }
-          }
-        }
-      }
-
-      .navbar-default {
-        background: none;
-        border:none;
-      }
-      .navbar {
-        margin-bottom: 2px;
-         li {
-           a {
-             line-height: 35px;
-           }
-         }
-      }
-    }
-  }
-}
 .wrapper {
-  min-height: calc(100vh - 160px);
+  min-height: 600px;
   .slider {
     @include fadeInUp();
     position: relative;

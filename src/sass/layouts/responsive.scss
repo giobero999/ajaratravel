@@ -22,9 +22,18 @@
   }
 }
 
-@media screen and (max-width:965px) {
+@media screen and (max-width:996px) {
+  #navigation nav #navbarCollapse ul a {
+    margin-right: -19px !important;
+    font-size: 12px !important;
+  }
+  .dropdown {
+    display: none;
+  }
 
-
+  .navbar-collapse {
+    border:none;
+  }
 }
 
 

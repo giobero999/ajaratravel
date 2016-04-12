@@ -2,9 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
-  	<?php include('header.php'); ?>
-  	<div class="wrapper  about-us wow">
-  		<?php include('nav.php'); ?>
+  	<div class="wrapper" id="about-page">
+      <?php include('header.php'); ?>
       <div class="page-cover wow">
         <h3>ჩვენ შესახებ</h3>
       </div>

@@ -2,9 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
-  	<?php include('header.php'); ?>
-  	<div class="wrapper gallery-page wow">
-  		<?php include('nav.php'); ?>
+  	<div class="wrapper wow" id="gallery-page">
+      <?php include('header.php'); ?>
       <div class="page-cover gallery-cover">
         <h3>გალერეა</h3>
       </div>
@@ -33,7 +32,6 @@
       </div>
     </div>
     <div class="marginBottom"></div>
-
   <?php include('footer.php')?>
   </body>
 </html>

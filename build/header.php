@@ -50,7 +50,7 @@
           </li>
           <li><a href="offers.php" class="uppercase">offers</a></li>
           <li><a href="contact.php">კონტაქტი</a></li>
-          <li><a href="contact.php">3</a></li>
+          <li><label for="sidebar-toggler" class="toggle"><i class="fa fa-shopping-cart" aria-hidden="true"></i></label></li>
         </ul>
       </div>
     </nav>

@@ -2,6 +2,8 @@
 <html>
   <?php include('head.php') ?>
   <body>
+    <input type="checkbox" id="sidebar-toggler" name="name" value="" >
+      <div class="page-wrap">
     <div class="wrapper" id="tour-details">
       <?php include('header.php'); ?>
       <div class="page-cover">
@@ -330,6 +332,8 @@
 
     </div>
     <div class="marginBottom"></div>
-    <?php include('footer.php')?>
+    <?php include('footer.php') ?>
+    <?php include('sidebar.php') ?>
+  </div>
   </body>
 </html>

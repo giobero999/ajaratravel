@@ -328,8 +328,7 @@
     #navbarCollapse{
       ul {
         position: relative;
-       a
-        {
+       a {
           height: 40px;
           line-height: 40px;
           display:block;
@@ -337,6 +336,10 @@
           &:hover {
             text-decoration: underline;
           }
+        }
+        .toggle {
+          margin-top: 25px;
+          margin-bottom: -10px;
         }
         li {
           position: relative;
@@ -382,6 +385,75 @@
         }
       }
     }
+
+    .toggle {
+
+    }
   }
 }
 /* navigation styles END */
+
+
+
+
+//sidebar styles start
+.sidebar {
+  @include position(fixed, 0px null 0 -240px);
+  @include transition(all .3s ease);
+  width:240px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  padding:34px 14px;
+  background:$lightBlack;
+  z-index:0;
+  font-size:1.2em;
+  .fav-items {
+    li {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-bottom:20px;
+      color:$lightGray;
+      text-decoration:none;
+      display:block;
+      a {
+        text-align:center;
+        font-family:$mainFont;
+        color:$lightGray;
+        img {
+          width:120px;
+        }
+        &:hover {
+          text-decoration:none;
+        }
+      }
+    }
+
+  }
+}
+
+#sidebar-toggler {
+  display:none;
+  &:checked + .page-wrap {
+    .sidebar {
+      left:0px;
+    }
+    .wrapper {
+      margin-left:240px;
+    }
+  }
+}
+
+.toggle {
+  cursor:pointer;
+}
+
+.sidebar-close {
+  position:absolute;
+  cursor:pointer;
+  top:5px;
+  right:5px;
+  color:$white;
+}
+
+//END sidebar Styles

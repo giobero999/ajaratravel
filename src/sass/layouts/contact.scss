@@ -1,6 +1,21 @@
 //contact styles Start`
 #contact-page {
-    @include fadeInUp();
+  @include fadeInUp();
+  .contact-us {
+    .form-control {
+      border-radius:0px;
+      font-family:$mainFont;
+      &:focus {
+        @include box-shadow(none);
+        border-color:$grey;
+      }
+    }
+    .send {
+      font-family:$mainFont;
+      border-radius:0;
+    }
+  }
+
 }
 
 //Contact styles END

@@ -9,64 +9,68 @@
       <div class="page-cover tour-cover">
         <h3>ტურები</h3>
       </div>
+
       <div class='container marginTop'>
         <div class='row'>
             <div class="col-md-12">
               <div class="container ">
                   <div class=" new-tour-panel">
+                    <!-- left filter start -->
                     <div class="col-md-3 left-filter black">
                       <div class="row no-gutter">
-                        <h4 id="search-title">Advanced Search</h4>
+                        <h4 id="search-title">ძიება</h4>
                         <form action="" class="">
                           <div class="col-md-12 el-marginBottom">
                             <select name="" class="select" >
-                              <option value="">All Destinations</option>
+                              <option value="">ყველა მიმართულება</option>
                               <option value="">Europe</option>
                               <option value="">Asia</option>
                               <option value="">America</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-12 el-marginBottom">
-                            <select name="" class="select" >
-                              <option value="">All Typologies</option>
+        										</select>
+        									</div>
+        									<div class="col-sm-12 el-marginBottom">
+        										<select name="" class="select" >
+                              <option value="">ყველა </option>
                               <option value="">Relax</option>
                               <option value="">Cultural</option>
                               <option value="">Luxury</option>
                               <option value="">Sport</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-12 el-marginBottom">
-                            <select name="" class="select" >
-                              <option value="">All Duration</option>
+        										</select>
+        									</div>
+        									<div class="col-sm-12 el-marginBottom">
+        										<select name="" class="select" >
+                              <option value="">ყველა დროით</option>
                               <option value="">1 - 3 Days</option>
                               <option value="">2 - 6 Days</option>
                               <option value="">3 - 9 Days</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-12 el-marginBottom">
-                            <select name="" class="select" >
-                              <option value="">All People</option>
-                              <option value="">1 person</option>
-                              <option value="">2 person</option>
-                              <option value="">3 person</option>
-                              <option value="">20 person</option>
-                            </select>
-                          </div>
-                          <div class="col-sm-6 el-marginBottom">
-                            <input type="text" class="form-control from-date" id="left-from" placeholder="From">
-                          </div>
-                          <div class="col-sm-6 el-marginBottom">
-                            <input type="text" class="form-control to-date" id="left-to" placeholder="To">
-                          </div>
-                          <div class="col-sm-12 el-marginBottom">
-                            <input type="text" class="" id="ion-left">
-                          </div>
-                          <div class="col-md-12 el-marginBottom">
-                            <input type="submit" class="form-control" id="search" value="search">
-                          </div>
+        										</select>
+        									</div>
+        									<div class="col-sm-12 el-marginBottom">
+        										<select name="" class="select" >
+        											<option value="">რაოდენობა</option>
+        											<option value="">1 person</option>
+        											<option value="">2 person</option>
+        											<option value="">3 person</option>
+        											<option value="">20 person</option>
+        										</select>
+        									</div>
+        									<div class="col-sm-6 el-marginBottom">
+        										<input type="text" class="form-control from-date" id="left-from" placeholder="დან">
+        									</div>
+        									<div class="col-sm-6 el-marginBottom">
+        										<input type="text" class="form-control to-date" id="left-to" placeholder="მდე">
+        									</div>
+        									<div class="col-sm-12 el-marginBottom">
+        										<input type="text" class="" id="ion-left">
+        									</div>
+        									<div class="col-md-12 el-marginBottom">
+        										<input type="submit" class="form-control" id="search" value="მოძებნე">
+        									</div>
                         </form>
                       </div>
-                    </div>
+                    </div><!-- left filter END -->
+
+                    <!-- tours start -->
                     <div class="col-md-9 new-tour">
                       <div class="new-tour-els">
                         <div class="row single-el no-gutter">
@@ -416,7 +420,7 @@
                     </div>
                     <!--  END Tours list-->
 
-                    <!-- paginatio -->
+                    <!-- pagination -->
                   <div class="col-sm-offset-4 col-md-4 col-md-offset-6">
                     <nav>
                     <ul class="pagination">

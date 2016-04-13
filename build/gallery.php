@@ -4,7 +4,7 @@
   <body>
     <input type="checkbox" id="sidebar-toggler" name="name" value="" >
       <div class="page-wrap">
-  	<div class="wrapper wow" id="gallery-page">
+  	<div class="wrapper" id="gallery-page">
       <?php include('header.php'); ?>
       <div class="page-cover gallery-cover">
         <h3>გალერეა</h3>

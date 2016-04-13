@@ -1,3 +1,4 @@
+/* GLOBAL STYLES START */
 @font-face {
     font-family: 'bpg-arial';
     src: url('fonts/bpg/bpg-arial-webfont.eot'); /* IE9 Compat Modes */
@@ -48,3 +49,8 @@ h3 {
 p {
   font-family:$textFont;
 }
+
+.btn-default {
+  border-radius:0;
+}
+/* GLOBAL STYLES END */

@@ -10,6 +10,7 @@
         <h3><span>ლონდონი</span> - <span>5</span> <span>დღე</span></h3>
       </div>
       <div class='container marginTop'>
+          <!-- tours details start -->
           <div class="col-md-8 ">
             <div class="row ">
               <div class="col-md-12 ">
@@ -158,10 +159,10 @@
                   </div>
                 </div>
               </div>
-
             </div>
+          </div><!-- tour details END -->
 
-          </div>
+          <!-- tours book start, (price, viza, book) -->
           <div class="col-md-4">
             <div class="row">
               <div class="col-md-12 ">
@@ -196,7 +197,7 @@
                               <input type="text" class="form-control" id="people" placeholder="" value="ლონდონი" required>
                             </div>
                             <div class="col-md-12">
-                              <input type="date"  class="form-control" id="date" value="date" required>
+                              <input type="text"  class="form-control" id="date"  value="" placeholder="თარიღი" required>
                             </div>
                             <div class="col-md-12">
                               <textarea type="date"  class="form-control" col="4" id="date" value="" placeholder="ტექსტი..."></textarea>
@@ -215,7 +216,7 @@
                         <form action="" class="form-horizontal" autocomplete="off">
                           <div class="advanced">
                             <div class="col-sm-12">
-                              558 606 606
+                              <h3 id="contact-phone">+995 2 558 606 606</h3>
                             </div>
                           </div>
                         </form>
@@ -225,7 +226,9 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div><!-- tours book END -->
+
+          <!-- tours book review start -->
           <div class="col-md-12">
             <div class="review">
               <h3>მიმოხილვა</h3>
@@ -234,8 +237,10 @@
                  იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
               </p>
             </div>
-          </div>
+          </div><!-- tours  review END -->
+
           <div class="clear"></div>
+
     			<div class="container marginTop">
     				<div class="row new-tour">
     					<div class="col-md-12 ">
@@ -246,6 +251,7 @@
     					</div>
     				</div>
     			</div>
+          <!-- same tours start -->
           <div class="row">
             <div class="col-md-12">
               <div class="all-tours">
@@ -327,7 +333,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div><!-- same tours END -->
         </div>
 
     </div>

@@ -4,10 +4,14 @@
  <?php include('head.php'); ?>
 
 <body>
+  <div class="" id="loader-wrapper">
+    <div id="loader"><!-- Place at bottom of page --></div>
+  </div>
   <input type="checkbox" id="sidebar-toggler" name="name" value="" >
     <div class="page-wrap">
 	<div class="wrapper" id="home-page">
     <?php include('header.php'); ?>
+    <!-- slider content START, -->
 			<div class="row slider no-gutter">
         <div class="fullscreenbanner">
           <ul>
@@ -19,7 +23,9 @@
              </li>
           </ul>
         </div>
-			</div>
+			</div><!-- slider content END, -->
+
+      <!-- filter content START, -->
 			<div class="container marginTop">
 				<div class="row filter  main-filter no-gutter">
 						<div class="col-md-12 no-gutter" style="margin-top: -205px !important;" >
@@ -33,19 +39,19 @@
 										<form action="" class="form-horizontal" autocomplete="off">
 											<div class="form-group">
 												<div class="col-md-3">
-													<input type="text" class="form-control" id="destination" placeholder="Type Your Destination" >
+													<input type="text" class="form-control" id="destination" placeholder="მოძებნე" >
 												</div>
 												<div class="col-md-2">
-													<input type="text" class="form-control from-date" id="from" placeholder="From">
+													<input type="text" class="form-control from-date" id="from" placeholder="დან">
 												</div>
 												<div class="col-md-2">
-													<input type="text" class="form-control to-date" id="to" placeholder="To">
+													<input type="text" class="form-control to-date" id="to" placeholder="მდე">
 												</div>
 												<div class="col-md-3">
 													<input type="text" class="" id="ion-default">
 												</div>
 												<div class="col-md-2">
-													<input type="submit" class="form-control" id="search" value="search">
+													<input type="submit" class="form-control" id="search" value="ძიება">
 												</div>
 											</div>
 										</form>
@@ -85,7 +91,7 @@
 											</div>
 											<div class="col-sm-6 col-md-3">
 												<select name="" class="select" >
-													<option value="">ყველა ადამიანი</option>
+													<option value="">რაოდენობა</option>
 													<option value="">1 person</option>
 													<option value="">2 person</option>
 													<option value="">3 person</option>
@@ -95,16 +101,16 @@
 										</div>
 										<div class="form-group ">
 											<div class="col-md-3">
-												<input type="text" class="form-control from-date" placeholder="From">
+												<input type="text" class="form-control from-date" placeholder="დან">
 											</div>
 											<div class="col-md-3">
-												<input type="text" class="form-control to-date"  placeholder="To">
+												<input type="text" class="form-control to-date"  placeholder="მდე">
 											</div>
 											<div class="col-md-3">
 												<input type="text" class="" id="ion-advanced">
 											</div>
 											<div class="col-md-3">
-												<input type="submit" class="form-control" id="search" value="search">
+												<input type="submit" class="form-control" id="search" value="ძიება">
 											</div>
 										</div>
 										</form>
@@ -113,7 +119,7 @@
 							</section>
 						</div>
 				</div>
-			</div>
+			</div><!-- filter content END, -->
 			<div class="container">
 				<div class="row new-tour">
 					<div class="col-md-12 ">
@@ -124,6 +130,7 @@
 					</div>
 				</div>
 			</div>
+      <!-- categories tours content START, -->
 			<div class="container wow">
 				<div class="row">
 					<div class="owl-carousel categories">
@@ -136,7 +143,7 @@
 						<div><a href=""><i class="fa fa-hourglass-start fa-2x"></i><p>სხვა</p></a></div>
 					</div>
 				</div>
-			</div>
+			</div><!-- categories content END, -->
 			<div class="clear"></div>
 			<div class="container marginTop marginBottom">
 				<div class="row new-tour">
@@ -149,8 +156,9 @@
 				</div>
 			</div>
 			<div class="clear"></div>
+      <!-- popular tours content START, -->
 			<div class="container marginTop marginBottom ">
-				<div class="row  ">
+				<div class="row">
 					<div class="col-md-12">
 						<div class="owl-carousel top-tours top-tours-slider wow">
 							<div class="single-tour">
@@ -249,7 +257,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div><!-- popular tours content END, -->
 			<div class="clear"></div>
 			<div class="container marginTop marginBottom">
 				<div class="row new-tour ">
@@ -262,40 +270,41 @@
 				</div>
 			</div>
 			<div class="clear"></div>
-			<div class="container ">
+        <!-- new tours content START, -->
+			  <div class="container ">
 					<div class="new-tour-panel wow">
 						<div class="col-md-3 filter left-filter black">
 							<div class="row no-gutter">
-								<h4 id="search-title">Advanced Search</h4>
+								<h4 id="search-title">ძიება</h4>
 								<form action="" class="">
 									<div class="col-md-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">All Destinations</option>
-											<option value="">Europe</option>
-											<option value="">Asia</option>
-											<option value="">America</option>
+                      <option value="">ყველა მიმართულება</option>
+                      <option value="">Europe</option>
+                      <option value="">Asia</option>
+                      <option value="">America</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">All Typologies</option>
-											<option value="">Relax</option>
-											<option value="">Cultural</option>
-											<option value="">Luxury</option>
-											<option value="">Sport</option>
+                      <option value="">ყველა </option>
+                      <option value="">Relax</option>
+                      <option value="">Cultural</option>
+                      <option value="">Luxury</option>
+                      <option value="">Sport</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">All Duration</option>
-											<option value="">1 - 3 Days</option>
-											<option value="">2 - 6 Days</option>
-											<option value="">3 - 9 Days</option>
+                      <option value="">ყველა დროით</option>
+                      <option value="">1 - 3 Days</option>
+                      <option value="">2 - 6 Days</option>
+                      <option value="">3 - 9 Days</option>
 										</select>
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<select name="" class="select" >
-											<option value="">All People</option>
+											<option value="">რაოდენობა</option>
 											<option value="">1 person</option>
 											<option value="">2 person</option>
 											<option value="">3 person</option>
@@ -303,16 +312,16 @@
 										</select>
 									</div>
 									<div class="col-sm-6 el-marginBottom">
-										<input type="text" class="form-control from-date" id="left-from" placeholder="From">
+										<input type="text" class="form-control from-date" id="left-from" placeholder="დან">
 									</div>
 									<div class="col-sm-6 el-marginBottom">
-										<input type="text" class="form-control to-date" id="left-to" placeholder="To">
+										<input type="text" class="form-control to-date" id="left-to" placeholder="მდე">
 									</div>
 									<div class="col-sm-12 el-marginBottom">
 										<input type="text" class="" id="ion-left">
 									</div>
 									<div class="col-md-12 el-marginBottom">
-										<input type="submit" class="form-control" id="search" value="search">
+										<input type="submit" class="form-control" id="search" value="მოძებნე">
 									</div>
 								</form>
 							</div>
@@ -469,8 +478,10 @@
 							</div>
 						</div>
 				</div>
-			</div>
+			</div><!-- new tours content END, -->
+
 			<div class="clear"></div>
+
 			<div class="container marginTop marginBottom">
 				<div class="row new-tour">
 					<div class="col-md-12 marginTop">
@@ -481,6 +492,7 @@
 					</div>
 				</div>
 			</div>
+      <!-- continents content start -->
 			<div class="container ">
 				<div class="row no-gutter">
 					<div class="owl-carousel continental wow">
@@ -524,13 +536,31 @@
 						</div>
 					</div>
 				</div>
-			</div>
+			</div><!-- continent content END -->
 		</div>
-	<div class="marginBottom"></div>
-<?php include('footer.php'); ?>
-<?php include('sidebar.php'); ?>
-</div>
-</body>
 
+    <!-- modal content start, video -->
+    <div id="myVideo" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">ლონდონი</h4>
+          </div>
+          <div class="modal-body">
+            <iframe width="100%" height="300px" src="https://www.youtube.com/embed/vVy9Lgpg1m8" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">დახურვა</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal content, video -->
+
+    <?php include('footer.php'); ?>
+    <?php include('sidebar.php'); ?>
+  </div>
+</body>
 
 </html>

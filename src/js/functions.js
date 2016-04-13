@@ -1,4 +1,6 @@
 $(document).ready(function(){
+
+  // category scrolling
   $('.categories').owlCarousel ({
     items:7,
     margin:10,
@@ -23,7 +25,9 @@ $(document).ready(function(){
             loop:true
         }
     }
-  });
+  });// end category scrolling
+
+  // popular tours scrolling
   $(".top-tours-slider").owlCarousel({
     nav:'false',
     loop:true,
@@ -54,8 +58,9 @@ $(document).ready(function(){
             lazyLoad:true
         }
     }
-  });
+  });// popular tours scrolling end
 
+  // continet scrolling start
   $('.continental').owlCarousel ({
     items:7,
     margin:10,
@@ -78,9 +83,10 @@ $(document).ready(function(){
             loop:false
         }
     }
-  });
+  });// continet scrolling end
 
 
+  //price ranger start
   $("#ion-default, #ion-left").ionRangeSlider({
     type: "double",
     grid: false,
@@ -88,7 +94,7 @@ $(document).ready(function(){
     max: 1000,
     from: 200,
     to: 800,
-    prefix: "$"
+    prefix: "Gel "
   });
 
   $("#ion-advanced").ionRangeSlider({
@@ -98,29 +104,36 @@ $(document).ready(function(){
     max: 1000,
     from: 200,
     to: 800,
-    prefix: "$"
-  });
+    prefix: "Gel "
+  }); //price ranger end
 
+  // select2 plugin, this is a select design changing plugin
   $('.select').select2({
     minimumResultsForSearch: -1
-  });
+  });//end select2
 
-    $( ".from-date" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      onClose: function( selectedDate ) {
-        $( ".to" ).datepicker( "option", "minDate", selectedDate );
-      }
-    });
-    $( ".to-date" ).datepicker({
-      defaultDate: "+1w",
-      changeMonth: true,
-      numberOfMonths: 1,
-      onClose: function( selectedDate ) {
-        $( ".from" ).datepicker( "option", "maxDate", selectedDate );
-      }
-    });
+  // jqueryui plugin, datepicker
+  $( "#date" ).datepicker({
+    defaultDate: "+1w",
+    changeMonth: true,
+    numberOfMonths: 1,
+  });
+  $( ".from-date" ).datepicker({
+    defaultDate: "+1w",
+    changeMonth: true,
+    numberOfMonths: 1,
+    onClose: function( selectedDate ) {
+      $( ".to" ).datepicker( "option", "minDate", selectedDate );
+    }
+  });
+  $( ".to-date" ).datepicker({
+    defaultDate: "+1w",
+    changeMonth: true,
+    numberOfMonths: 1,
+    onClose: function( selectedDate ) {
+      $( ".from" ).datepicker( "option", "maxDate", selectedDate );
+    }
+  }); //end datepicker
 
   $('.tool').hover(function(){
     console.log("hover");
@@ -183,14 +196,16 @@ $(document).ready(function(){
   new WOW().init();
 
 
+  $(".video").on('click', function(){
+    $("#myVideo").modal("show");
+  });
 
-
-
-
-
-
-
-
+  $("#navigation").sticky({topSpacing:0});
 
 
 }); //end ready
+
+$( window ).load(function() {
+  $("#loader-wrapper").fadeOut();
+  $('body').fadeIn();
+});

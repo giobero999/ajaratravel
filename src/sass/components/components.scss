@@ -1,3 +1,5 @@
+/* *************** */
+  /* COMPONENTS STYLES START */
 .right {
   float:right;
 }
@@ -96,6 +98,7 @@
   cursor: pointer;
 }
 
+//PAGES COVER STYLE
 .page-cover {
   width:100%;
   height:300px;
@@ -118,6 +121,7 @@
     height:inherit;
   }
 }
+
 #about-text {
   font-family:$textFont;
   font-size:1.2em;
@@ -187,15 +191,12 @@
       }
     }
   }
-
   .advanced {
     margin-bottom: 10px;
   }
-
   #tab1, #tab2, #tab3 {
     display: none;
   }
-
   label {
     display: inline-block;
     margin: 0 0 0px;
@@ -206,42 +207,32 @@
     color: #bbb;
     border: 0px solid transparent;
   }
-
   label:before {
     font-family: fontawesome;
     font-weight: normal;
     margin-right: 10px;
   }
-
   label[for*='1']:before { content: '\f002'; }
   label[for*='2']:before { content: '\f17d'; }
-
-
   label:hover {
     color: #888;
     cursor: pointer;
   }
-
   input:checked + label {
     color: $green;
     border: 0px solid #ddd;
     border-top: 2px solid orange;
     border-bottom: 0px solid #fff;
   }
-
   #tab1:checked ~ #content1,
   #tab2:checked ~ #content2,
-  #tab3:checked ~ #content3
-   {
+  #tab3:checked ~ #content {
     display: block;
   }
-
   #search {
     background: $green url('../img/filter.png') no-repeat;
     background-size: cover;
-
   }
-
   @media screen and (max-width: 650px) {
     label {
       font-size: 0;
@@ -251,7 +242,6 @@
       font-size: 18px;
     }
   }
-
   @media screen and (max-width: 400px) {
     label {
       padding: 15px;
@@ -260,6 +250,7 @@
 }
 /* filter styles end */
 
+/* TOP BAR */
 #top {
   height: 34px;
   width: 100%;
@@ -305,6 +296,8 @@
 /* navigation styles */
 #navigation {
   font-family: $mainFont;
+  z-index: 11111111111111;
+  border-bottom:1px solid $lightGray;
   width: 100%;
   max-width: 100%;
   margin:0 auto;
@@ -385,16 +378,9 @@
         }
       }
     }
-
-    .toggle {
-
-    }
   }
 }
 /* navigation styles END */
-
-
-
 
 //sidebar styles start
 .sidebar {
@@ -431,7 +417,6 @@
 
   }
 }
-
 #sidebar-toggler {
   display:none;
   &:checked + .page-wrap {
@@ -455,5 +440,119 @@
   right:5px;
   color:$white;
 }
+/* ENS SIDEBAR STYLES */
 
-//END sidebar Styles
+/* SELECT2 STYLES START */
+.select2-container--default .select2-selection--single {
+  background: $lightBlack;
+  color:$white;
+  border-radius: 0;
+  height: 45px;
+  padding: 8px 0;
+}
+
+.select2-dropdown {
+    background: $lightBlack;
+    border-color:lighten($lightBlack, 5%);
+    color:#b1adad;
+}
+
+.select2-container--default .select2-results__option[aria-selected=true] {
+  background: $lightBlack
+
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color:#b1adad;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height:45px;
+}
+.select2-container--default .select2-selection--single {
+  border-color:lighten($lightBlack, 5%);
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  color:#b1adad;
+  font-size:1.2em;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  color:#b1adad;
+  font-size:1.2em;
+  background-color: lighten($lightBlack, 5%);
+}
+
+.select2-container--krajee.select2-container--focus .select2-selection {
+    box-shadow: none;
+    border-color: #F59942;
+}
+/* SELECT2 STYLES END */
+
+
+/* modal Styles  Start*/
+.modal-content {
+  border-radius: 0;
+  font-family: $mainFont;
+  button {
+    border-radius: 0;
+  }
+}/* modal Stles END */
+
+
+/* loader start */
+#loader-wrapper {
+  @include position(fixed, 0px 0px 0px 0px);
+  z-index:10000;
+  width: 100%;
+  height: 100%;
+  background: $white;
+  #loader {
+    position: relative;
+    display: block;
+    left:50%;
+    top:50%;
+    width: 50px;
+    height: 50px;
+    margin-left:-25px;
+    margin-top:-25px;
+    border:3px solid transparent;
+    border-top:3px solid $orange;
+    border-radius: 50%;
+    @include animation(spin 1.5s linear infinite);
+    &:before {
+      content:'';
+      @include position( absolute, 5px);
+      border:3px solid transparent;
+      border-top:3px solid $red;
+      border-radius: 50%;
+      @include animation(spin 2s linear infinite);
+    }
+    &:after {
+      content:'';
+      @include position( absolute, 15px);
+      border:3px solid transparent;
+      border-top:3px solid $green;
+      border-radius: 50%;
+      @include animation(spin 3.0s linear infinite);
+    }
+  }
+
+    @include keyframes(spin) {
+    0 {
+      @include transform(rotate(0deg));
+    }
+    100% {
+      @include transform(rotate(360deg));
+    }
+  }
+}
+
+.loaded #loader-wrapper {
+  visibility: hidden;
+}
+/* loader END */
+
+
+/* COMPONENTS STYLES END */

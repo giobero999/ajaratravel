@@ -4,8 +4,8 @@
   <body>
     <input type="checkbox" id="sidebar-toggler" name="name" value="" >
       <div class="page-wrap">
+        <?php include('header.php'); ?>
         <div class="wrapper" id="contact-page">
-          <?php include('header.php'); ?>
           <div class="page-cover">
             <h3>კონტაქტი</h3>
           </div>

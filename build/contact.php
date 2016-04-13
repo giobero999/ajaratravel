@@ -4,8 +4,8 @@
   <body>
     <input type="checkbox" id="sidebar-toggler" name="name" value="" >
       <div class="page-wrap">
+        <?php include('header.php'); ?>
       	<div class="wrapper" id="contact-page">
-          <?php include('header.php'); ?>
           <div id="map" >
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d33742.671049029675!2d41.62729854102992!3d41.624210420383214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sge!4v1460485643479" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
           </div>

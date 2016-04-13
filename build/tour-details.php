@@ -4,8 +4,8 @@
   <body>
     <input type="checkbox" id="sidebar-toggler" name="name" value="" >
       <div class="page-wrap">
+        <?php include('header.php'); ?>
     <div class="wrapper" id="tour-details">
-      <?php include('header.php'); ?>
       <div class="page-cover">
         <h3><span>ლონდონი</span> - <span>5</span> <span>დღე</span></h3>
       </div>

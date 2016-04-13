@@ -4,8 +4,8 @@
   <body>
     <input type="checkbox" id="sidebar-toggler" name="name" value="" >
       <div class="page-wrap">
+        <?php include('header.php'); ?>
   	<div class="wrapper" id="gallery-page">
-      <?php include('header.php'); ?>
       <div class="page-cover gallery-cover">
         <h3>გალერეა</h3>
       </div>

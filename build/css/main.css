@@ -11239,7 +11239,8 @@ textarea {
 /* navigation styles */
 #navigation {
   font-family: "arial-caps";
-  z-index: 11111111111111;
+  z-index: 1111111;
+  position: relative;
   border-bottom: 1px solid #e4e4e4;
   width: 100%;
   max-width: 100%;
@@ -11255,7 +11256,8 @@ textarea {
     #navigation nav .mobile-bar {
       border-radius: 0; }
     #navigation nav #navbarCollapse ul {
-      position: relative; }
+      position: relative;
+      z-index: 11111; }
       #navigation nav #navbarCollapse ul a {
         height: 40px;
         line-height: 40px;
@@ -11335,6 +11337,7 @@ textarea {
         -o-backface-visibility: hidden;
         backface-visibility: hidden;
         position: absolute;
+        z-index: 11111;
         top: 100%;
         left: 0;
         background: #fff;
@@ -11366,7 +11369,7 @@ textarea {
 /* navigation styles END */
 .sidebar {
   position: fixed;
-  top: 0px;
+  top: 75px;
   bottom: 0;
   left: -240px;
   -webkit-transition: all 0.3s ease;
@@ -11409,7 +11412,7 @@ textarea {
 .sidebar-close {
   position: absolute;
   cursor: pointer;
-  top: 5px;
+  top: 5;
   right: 5px;
   color: #ffffff; }
 
@@ -11468,7 +11471,7 @@ textarea {
   right: 0px;
   bottom: 0px;
   left: 0px;
-  z-index: 10000;
+  z-index: 10000000000;
   width: 100%;
   height: 100%;
   background: #ffffff; }
@@ -12674,3 +12677,7 @@ footer {
 @media screen and (max-width: 520px) {
   #top-mail {
     display: none; } }
+
+@media screen and (max-width: 320px) {
+  .navbar-brand > img {
+    width: 200px; } }

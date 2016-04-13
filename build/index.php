@@ -9,8 +9,8 @@
   </div>
   <input type="checkbox" id="sidebar-toggler" name="name" value="" >
     <div class="page-wrap">
+      <?php include('header.php'); ?>
 	<div class="wrapper" id="home-page">
-    <?php include('header.php'); ?>
     <!-- slider content START, -->
 			<div class="row slider no-gutter">
         <div class="fullscreenbanner">

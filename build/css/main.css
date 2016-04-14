@@ -10965,7 +10965,7 @@ p {
 .clear {
   clear: both; }
 
-.line {
+.line, .left-line {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
   -webkit-animation-iteration-count: 1;
@@ -11002,6 +11002,10 @@ p {
   height: 3px;
   background: #b1b1b1;
   margin: 10px auto; }
+
+.left-line {
+  margin: 5px 0;
+  height: 2px; }
 
 .marginTop {
   margin-top: 2em; }
@@ -11206,6 +11210,26 @@ textarea {
       padding: 15px; } }
 
 /* filter styles end */
+/* date */
+.post-date, .new-post-date, .details-tour-date {
+  margin-top: 22px;
+  margin-right: 5px;
+  font-size: 1.4em;
+  float: right;
+  font-family: "bpg-arial";
+  color: #14B9D5; }
+  .post-date h5, .new-post-date h5, .details-tour-date h5 {
+    text-align: right; }
+
+.new-post-date {
+  margin-top: -35px;
+  margin-right: 10px; }
+
+.details-tour-date {
+  margin-top: 0;
+  font-size: 1.1em;
+  float: none; }
+
 /* TOP BAR */
 #top {
   height: 34px;
@@ -11893,13 +11917,13 @@ textarea {
         padding: 10px;
         font-weight: normal;
         font-family: "bpg-arial"; }
-      .wrapper .new-tour-panel .new-tour-els li {
+      .wrapper .new-tour-panel .new-tour-els ul li {
         padding: 0 5px;
         display: inline-block; }
-        .wrapper .new-tour-panel .new-tour-els li .tool {
+        .wrapper .new-tour-panel .new-tour-els ul li .tool {
           border-radius: 0;
           background: #ffffff; }
-          .wrapper .new-tour-panel .new-tour-els li .tool i {
+          .wrapper .new-tour-panel .new-tour-els ul li .tool i {
             color: #6a6a6a; }
       .wrapper .new-tour-panel .new-tour-els .new-price {
         vertical-align: middle;
@@ -12444,7 +12468,7 @@ footer {
     color: #F76570;
     font-size: 1.8em;
     font-family: "arial-caps";
-    margin-bottom: 10px; }
+    margin-bottom: 3px; }
     #tour-details .tour-name h3 {
       float: left;
       text-align: left; }

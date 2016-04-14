@@ -179,42 +179,8 @@
                   <a href="tour-details.php">სრულად</a>
                 </div>
                 <i class="fa fa-film fa-md video"></i>
-							</div>
-              <div class="single-tour">
-								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
-								<img src="img/gallery/london.jpg" alt="">
-								<p><span id="tour-title">ლონდონი</span></p>
-								<div class="caption">
-									<div class="cont-relax">
-										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-									</div>
-									<div>
-										<h4><i class="fa fa-info"></i> დასვენება</h4>
-									</div>
-								</div>
-								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-                <div class="info">
-                  <a href="tour-details.php">სრულად</a>
-                </div>
-                <i class="fa fa-film fa-md video"></i>
-							</div>
-              <div class="single-tour">
-								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
-								<img src="img/gallery/london.jpg" alt="">
-								<p><span id="tour-title">ლონდონი</span></p>
-								<div class="caption">
-									<div class="cont-relax">
-										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
-									</div>
-									<div>
-										<h4><i class="fa fa-info"></i> დასვენება</h4>
-									</div>
-								</div>
-								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-                <div class="info">
-                  <a href="tour-details.php">სრულად</a>
+                <div class="post-date">
+                  <h5>22.04.2016</h5>
                 </div>
 							</div>
               <div class="single-tour">
@@ -235,6 +201,9 @@
                   <a href="tour-details.php">სრულად</a>
                 </div>
                 <i class="fa fa-film fa-md video"></i>
+                <div class="post-date">
+                  <h5>22.04.2016</h5>
+                </div>
 							</div>
               <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
@@ -252,6 +221,52 @@
 								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                 <div class="info">
                   <a href="tour-details.php">სრულად</a>
+                </div>
+                <div class="post-date">
+                  <h5>22.04.2016</h5>
+                </div>
+							</div>
+              <div class="single-tour">
+								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
+								<h3>1200 GEL</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
+								</div>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
+                <i class="fa fa-film fa-md video"></i>
+                <div class="post-date">
+                  <h5>22.04.2016</h5>
+                </div>
+							</div>
+              <div class="single-tour">
+								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
+								<h3>1200 GEL</h3>
+								<img src="img/gallery/london.jpg" alt="">
+								<p><span id="tour-title">ლონდონი</span></p>
+								<div class="caption">
+									<div class="cont-relax">
+										<h4 id="continent"><i class="fa fa-location-arrow"></i> ევროპა</h4>
+									</div>
+									<div>
+										<h4><i class="fa fa-info"></i> დასვენება</h4>
+									</div>
+								</div>
+								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+                <div class="info">
+                  <a href="tour-details.php">სრულად</a>
+                </div>
+                <div class="post-date">
+                  <h5>22.04.2016</h5>
                 </div>
 							</div>
 						</div>
@@ -338,6 +353,9 @@
 									<div class="col-md-6 no-gutter">
 										<div class="text">
 											<h3 id="title">რომი</h3>
+                      <div class="new-post-date">
+                        <h5>22.04.2016</h5>
+                      </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
 											</p>
@@ -387,6 +405,9 @@
 									<div class="col-md-6 no-gutter">
 										<div class="text">
 											<h3 id="title">რომი</h3>
+                      <div class="new-post-date">
+                        <h5>22.04.2016</h5>
+                      </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
 											</p>
@@ -436,6 +457,9 @@
 									<div class="col-md-6 no-gutter">
 										<div class="text">
 											<h3 id="title">რომი</h3>
+                      <div class="new-post-date">
+                        <h5>22.04.2016</h5>
+                      </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
 											</p>

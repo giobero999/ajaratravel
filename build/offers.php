@@ -30,9 +30,11 @@
   								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
-
                   </div>
                   <i class="fa fa-film fa-md video"></i>
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
+                  </div>
   							</div>
               </div>
 
@@ -54,9 +56,10 @@
   								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
-
                   </div>
-
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
+                  </div>
   							</div>
               </div>
 
@@ -78,6 +81,9 @@
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
                   </div>
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
+                  </div>
   							</div>
               </div>
               <div class="col-sm-6 col-md-4 ">
@@ -97,9 +103,35 @@
   								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
-
                   </div>
                   <i class="fa fa-film fa-md video"></i>
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
+                  </div>
+  							</div>
+              </div>
+              <div class="col-sm-6 col-md-4 ">
+                <div class=" offers-tours">
+  								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
+  								<h3><span>1200</span> GEL</h3>
+  								<img src="img/gallery/roma.jpg" alt="">
+  								<p><span id="tour-title">ბერლინი</span></p>
+  								<div class="caption">
+  									<div class="cont-relax">
+  										<h4 id="continent"><i class="fa fa-location-arrow"></i> აზია</h4>
+  									</div>
+  									<div>
+  										<h4><i class="fa fa-info"></i> კონცერტი</h4>
+  									</div>
+  								</div>
+  								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
+                  <div class="info">
+                    <a href="tour-details.php">სრულად</a>
+                  </div>
+                  <i class="fa fa-film fa-md video"></i>
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
+                  </div>
   							</div>
               </div>
               <div class="col-sm-6 col-md-4 ">
@@ -122,28 +154,9 @@
 
                   </div>
                   <i class="fa fa-film fa-md video"></i>
-  							</div>
-              </div>
-              <div class="col-sm-6 col-md-4 ">
-                <div class=" offers-tours">
-  								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
-  								<img src="img/gallery/roma.jpg" alt="">
-  								<p><span id="tour-title">ბერლინი</span></p>
-  								<div class="caption">
-  									<div class="cont-relax">
-  										<h4 id="continent"><i class="fa fa-location-arrow"></i> აზია</h4>
-  									</div>
-  									<div>
-  										<h4><i class="fa fa-info"></i> კონცერტი</h4>
-  									</div>
-  								</div>
-  								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
-                  <div class="info">
-                    <a href="tour-details.php">სრულად</a>
-
+                  <div class="post-date">
+                    <h5>22.04.2016</h5>
                   </div>
-                  <i class="fa fa-film fa-md video"></i>
   							</div>
               </div>
 						</div>

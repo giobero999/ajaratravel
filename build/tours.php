@@ -83,6 +83,9 @@
                           <div class="col-md-6 no-gutter">
                             <div class="text">
                               <h3 id="title">რომი</h3>
+                              <div class="new-post-date">
+                                <h5>22.04.2016</h5>
+                              </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
                               </p>
@@ -132,6 +135,9 @@
                           <div class="col-md-6 no-gutter">
                             <div class="text">
                               <h3 id="title">რომი</h3>
+                              <div class="new-post-date">
+                                <h5>22.04.2016</h5>
+                              </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
                               </p>
@@ -230,6 +236,9 @@
                           <div class="col-md-6 no-gutter">
                             <div class="text">
                               <h3 id="title">რომი</h3>
+                              <div class="new-post-date">
+                                <h5>22.04.2016</h5>
+                              </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
                               </p>
@@ -328,6 +337,9 @@
                           <div class="col-md-6 no-gutter">
                             <div class="text">
                               <h3 id="title">რომი</h3>
+                              <div class="new-post-date">
+                                <h5>22.04.2016</h5>
+                              </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
                               </p>

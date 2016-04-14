@@ -14,12 +14,12 @@
           <div class="col-md-8 ">
             <div class="row ">
               <div class="col-md-12 ">
+                <h3 class="details-tour-date">22.04.2016</h3>
                 <div class="tour-name">
-                  <h3>
-                     ლონდონი
-                  </h3>
+                  <h3>ლონდონი</h3>
                   <h4 id="tour-cat"><i class="fa fa-tree fa-md"></i> დასვენება</h4>
                 </div>
+                <div class="line orange"></div>
               </div>
               <div class="col-md-12">
                   <div id="slider" class="flexslider">

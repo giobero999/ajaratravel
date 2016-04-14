@@ -37,7 +37,12 @@
   height: 3px;
   background: $grey;
   margin:10px auto;
+}
 
+.left-line {
+  @extend .line;
+  margin:5px 0;
+  height: 2px;
 }
 
 .marginTop {
@@ -249,6 +254,32 @@
   }
 }
 /* filter styles end */
+
+/* date */
+.post-date {
+  margin-top: 22px;
+  margin-right: 5px;
+  font-size: 1.4em;
+  float: right;
+  font-family: $textFont;
+  color:$blue;
+  h5 {
+    text-align: right;
+  }
+}
+
+.new-post-date {
+  @extend .post-date;
+  margin-top: -35px;
+  margin-right: 10px;
+}
+
+.details-tour-date {
+  @extend .post-date;
+  margin-top: 0;
+  font-size: 1.1em;
+  float:none;
+}
 
 /* TOP BAR */
 #top {

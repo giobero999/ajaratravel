@@ -12488,6 +12488,13 @@ footer {
     font-size: 1.7em;
     font-family: "arial-caps";
     margin-bottom: 10px; }
+  #tour-details .period {
+    margin: 10px auto;
+    width: 100%;
+    background: #e4e4e4;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center; }
   #tour-details .use-visa {
     height: 80px;
     line-height: 80px;

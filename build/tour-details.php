@@ -167,7 +167,10 @@
             <div class="row">
               <div class="col-md-12 ">
                 <div class="people">
-                  <h3><span>1000</span> Gel<i> / </i><span>5</span> <span>დღე</span></h3>
+                  <h3><span>10001</span> Gel<i> / </i><span>15</span> <span>ადამიანი</span></h3>
+                </div>
+                <div class="period">
+                  <h3><i class="fa fa-calendar fa-lg"></i> <span>27 აპრილი - 4 მაისი</span></h3>
                 </div>
                 <div class="use-visa">
                   <h3><i class="fa fa-map-marker fa-lg"></i> ესაჭიროება ვიზა</h3>

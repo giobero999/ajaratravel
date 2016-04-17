@@ -64,6 +64,14 @@
     font-family:$mainFont;
     margin-bottom:10px;
   }
+  .period {
+    margin: 10px auto;
+    width: 100%;
+    background: $lightGray;
+    padding: 20px;
+    font-size: 1.3em;
+    text-align: center;
+  }
   .use-visa {
     height: 80px;
     line-height: 80px;

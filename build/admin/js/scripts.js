@@ -7,10 +7,10 @@
    // Sidebar toggle
 
    jQuery('.menu-list > a').click(function() {
-      
+
       var parent = jQuery(this).parent();
       var sub = parent.find('> ul');
-      
+
       if(!jQuery('body').hasClass('sidebar-collapsed')) {
          if(sub.is(':visible')) {
             sub.slideUp(300, function(){
@@ -90,7 +90,7 @@
        owl.reinit();
 
    });
-   
+
 
    searchform_reposition();
 
@@ -148,7 +148,7 @@
 
 
     // collapsible panel
-    
+
     $('.panel .tools .t-collapse').click(function () {
         var el = $(this).parents(".panel").children(".panel-body");
         if ($(this).hasClass("fa-chevron-down")) {
@@ -160,7 +160,7 @@
     });
 
 
-    // close panel 
+    // close panel
     $('.panel .tools .t-close').click(function () {
         $(this).parents(".panel").parent().remove();
     });
@@ -198,6 +198,11 @@
     // popovers
 
     $('.popovers').popover();
+
+
+    $('.btn-review').on('click', function(){
+      $(".days-review").after().append('<input type="email" class="form-control" id="inputEmail1" placeholder="Email"> <br/>  <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>');
+    });
 
 
 

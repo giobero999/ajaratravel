@@ -20,14 +20,17 @@
             <li>
                 <h3 class="navigation-title">Navigation</h3>
             </li>
-            <li><a href="index.html"><i class="fa fa-home"></i> <span>Dashboard</span></a></li>
             <li class="menu-list">
-                <a href=""><i class="fa fa-laptop"></i>  <span>Layouts</span></a>
+                <a href=""><i class="fa fa-laptop"></i>  <span>Tours</span></a>
                 <ul class="child-list">
-                    <li><a href="boxed-layout.html"> Boxed Page</a></li>
-                    <li><a href="collapsed-menu.html"> Sidebar Collapsed</a></li>
-                    <li><a href="blank-page.html"> Blank page</a></li>
-                    <li><a href="different-theme-layouts.html"> Different Theme Layouts</a></li>
+                    <li><a href="tours.php"> All tours</a></li>
+                    <li><a href="create-tour.php"> Create tour</a></li>
+                </ul>
+            </li>
+            <li class="menu-list">
+                <a href=""><i class="fa fa-laptop"></i>  <span>Gallery</span></a>
+                <ul class="child-list">
+                    <li><a href="gallery.php"> Change Gallery</a></li>
                 </ul>
             </li>
             <li class="menu-list"><a href=""><i class="fa fa-book"></i> <span>UI Elements</span></a>
@@ -55,12 +58,7 @@
                 </ul>
             </li>
 
-            <li class="menu-list nav-active"><a href="javascript:;"><i class="fa fa-th-list"></i> <span>Data Tables</span></a>
-                <ul class="child-list">
-                    <li class="active"><a href="table-static.html"> Basic Table</a></li>
-                    <li><a href="table-dynamic.html"> Advanced Table</a></li>
-                </ul>
-            </li>
+
 
             <li class="menu-list"><a href=""><i class="fa fa-tasks"></i> <span>Forms</span></a>
                 <ul class="child-list">
@@ -71,32 +69,12 @@
                     <li><a href="form-editor.html"> Editors</a></li>
                 </ul>
             </li>
-
-            <li class="menu-list"><a href=""><i class="fa fa-bar-chart-o"></i> <span>Charts </span></a>
-                <ul class="child-list">
-                    <li><a href="flot-chart.html"> Flot Charts</a></li>
-                    <li><a href="morris-chart.html"> Morris Charts</a></li>
-                    <li><a href="chartjs.html"> Chartjs</a></li>
-                </ul>
-            </li>
             <li>
                 <h3 class="navigation-title">Extra</h3>
             </li>
 
-            <li class="menu-list"><a href="javascript:;"><i class="fa fa-envelope-o"></i> <span>Email <span class="label noti-arrow bg-danger pull-right">4 Unread</span> </span></a>
-                <ul class="child-list">
-                    <li><a href="inbox.html"> Inbox</a></li>
-                    <li><a href="inbox-details.html"> View Mail</a></li>
-                    <li><a href="inbox-compose.html"> Compose Mail</a></li>
-                </ul>
-            </li>
 
-            <li class="menu-list"><a href="javascript:;"><i class="fa fa-map-marker"></i> <span>Maps</span></a>
-                <ul class="child-list">
-                    <li><a href="google-map.html"> Google Map</a></li>
-                    <li><a href="vector-map.html"> Vector Map</a></li>
-                </ul>
-            </li>
+
 
             <li class="menu-list"><a href=""><i class="fa fa-file-text"></i> <span>Extra Pages</span></a>
                 <ul class="child-list">

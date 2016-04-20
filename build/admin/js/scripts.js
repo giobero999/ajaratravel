@@ -201,7 +201,18 @@
 
 
     $('.btn-review').on('click', function(){
-      $(".days-review").after().append('<input type="email" class="form-control" id="inputEmail1" placeholder="Email"> <br/>  <textarea name="" class="form-control" id="" cols="30" rows="10"></textarea>');
+      $(".days-review").after().append('<div class="m-b-20 bottom-border"><input type="email" class="form-control" id="daysInput" placeholder="Day"> <br/>  <textarea name="" class="form-control " id="" placeholder="description" cols="30" rows="5"></textarea></div>');
+    });
+
+    $(".btn-remove").click(function(){
+      var result = confirm("Want to delete?");
+      if (result) {
+        $(this).closest('tr').remove();
+      }
+    });
+
+    $('.btn-hide').on('click', function() {
+      $(this).children('i').toggleClass("fa-eye-slash font-red");
     });
 
 

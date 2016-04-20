@@ -8179,7 +8179,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/* 
+/*
  * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
@@ -12673,3 +12673,9 @@ footer {
 @media screen and (max-width: 320px) {
   .navbar-brand > img {
     width: 200px; } }
+
+
+/* //my styles */
+.font-red {
+  color:rgb(175, 66, 66) !important; 
+}

@@ -8,5 +8,5 @@
 	<meta name="name" content="content">
 	<title>ajaratravel.ge</title>
 	<link rel="shortcut icon" type="image/png" href="">
-	<link rel="stylesheet" href="css/main.css?rev=d83ab2b4cfd200602aea4696ada9262c">
+	<link rel="stylesheet" href="css/main.css">
 </head>

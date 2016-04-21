@@ -45,91 +45,89 @@
                 <div class="panel-body">
                   <ul class="gallery">
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
-                              <img src="img/gallery/1.jpg" alt=""/>
+                              <img src="img/gallery/cover.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/2.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/3.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/6.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/5.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/4.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/1.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/2.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/3.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/5.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
-                          <a href="#">
-                              <img src="img/gallery/3.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/4.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/1.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/2.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/6.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/4.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
-                          <a href="#">
-                              <img src="img/gallery/5.jpg" alt=""/>
-                          </a>
-                      </li>
-                      <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/3.jpg" alt=""/>
                           </a>

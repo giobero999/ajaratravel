@@ -20,6 +20,7 @@
             <li>
                 <h3 class="navigation-title">Navigation</h3>
             </li>
+            <li><a href="about-us.php"><i class="fa fa-laptop"></i> Home</a></li>
             <li class="menu-list">
                 <a href=""><i class="fa fa-laptop"></i>  <span>Tours</span></a>
                 <ul class="child-list">
@@ -27,18 +28,18 @@
                     <li><a href="create-tour.php"> Create tour</a></li>
                 </ul>
             </li>
+            <li><a href="about-us.php"><i class="fa fa-laptop"></i> About us</a></li>
             <li class="menu-list">
-                <a href=""><i class="fa fa-laptop"></i>  <span>Gallery</span></a>
+                <a href=""><i class="fa fa-laptop"></i>  <span>Meeting</span></a>
                 <ul class="child-list">
-                    <li><a href="gallery.php"> Change Gallery</a></li>
+                    <li><a href="meeting.php"> All meetings</a></li>
+                    <li><a href="create-tour.php"> Create meeting</a></li>
                 </ul>
             </li>
-            <li class="menu-list">
-                <a href=""><i class="fa fa-laptop"></i>  <span>Slider</span></a>
-                <ul class="child-list">
-                    <li><a href="slider.php"> Change Slider</a></li>
-                </ul>
-            </li>
+
+            <li><a href="gallery.php"><i class="fa fa-laptop"></i> Gallery</a></li>
+            <li><a href="slider.php"><i class="fa fa-laptop"></i> Slider</a></li>
+            <li><a href="slider.php"><i class="fa fa-laptop"></i> Contact</a></li>
 
         </ul>
         <!--sidebar nav end-->

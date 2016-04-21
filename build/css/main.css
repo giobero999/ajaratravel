@@ -12673,9 +12673,3 @@ footer {
 @media screen and (max-width: 320px) {
   .navbar-brand > img {
     width: 200px; } }
-
-
-/* //my styles */
-.font-red {
-  color:rgb(175, 66, 66) !important; 
-}

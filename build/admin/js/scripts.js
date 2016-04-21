@@ -215,6 +215,13 @@
       $(this).children('i').toggleClass("fa-eye-slash font-red");
     });
 
+    $('.delete-image').on('click', function() {
+      var result = confirm("Want to delete?");
+      if (result) {
+        $(this).closest('li').remove();
+      }
+    });
+
 
 
 })(jQuery);

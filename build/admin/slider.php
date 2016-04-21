@@ -14,7 +14,7 @@
             <!-- page head start-->
             <div class="page-head">
                 <h3>
-                    Slider
+                    Gallery
                 </h3>
             </div>
 
@@ -23,7 +23,7 @@
             <div class="profile-desk">
               <section class="panel">
                   <header class="panel-heading">
-                      Upload image
+                      Dropzone
                   <span class="tools pull-right">
                       <a class="fa fa-repeat box-refresh" href="javascript:;"></a>
                       <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
@@ -36,37 +36,76 @@
 
             <section class="panel">
                 <header class="panel-heading">
-                    Slider Images
+                    Dropzone
                 <span class="tools pull-right">
                     <a class="fa fa-repeat box-refresh" href="javascript:;"></a>
                     <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
                 </span>
                 </header>
                 <div class="panel-body">
-                  <ul class="gallery">
+                  <ul class="gallery slider-images">
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
-                              <img src="img/gallery/1.jpg" alt=""/>
+                              <img src="img/gallery/cover.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/2.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/3.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/6.jpg" alt=""/>
                           </a>
                       </li>
                       <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
                           <a href="#">
                               <img src="img/gallery/5.jpg" alt=""/>
+                          </a>
+                      </li>
+                      <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
+                          <a href="#">
+                              <img src="img/gallery/4.jpg" alt=""/>
+                          </a>
+                      </li>
+                      <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
+                          <a href="#">
+                              <img src="img/gallery/1.jpg" alt=""/>
+                          </a>
+                      </li>
+                      <li>
+                        <div class="remove-gal-img">
+                          <i class="fa fa-close fa-lg delete-image"></i>
+                        </div>
+                          <a href="#">
+                              <img src="img/gallery/2.jpg" alt=""/>
                           </a>
                       </li>
                   </ul>

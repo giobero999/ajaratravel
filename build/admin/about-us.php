@@ -18,11 +18,53 @@
 
             <div class="wrapper">
               <section class="panel">
-                  <header class="panel-heading ">
-                      wysihtml5 Editor
-                  </header>
+                <header class="panel-heading tab-dark">
+                    <ul class="nav nav-tabs">
+                        <li class="active">
+                            <a data-toggle="tab" href="#georgian">
+                                Georgian
+                            </a>
+                        </li>
+                        <li >
+                            <a data-toggle="tab" href="#english">
+                                English
+                            </a>
+                        </li>
+                        <li class="">
+                            <a data-toggle="tab" href="#russian">
+                                Russian
+                            </a>
+                        </li>
+
+                    </ul>
+                </header>
                   <div class="panel-body">
-                      <textarea class="wysihtml5 form-control" rows="12"></textarea>
+                    <div class="panel-body">
+                      <div class="tab-content">
+                          <div id="georgian" class="tab-pane  active">
+                              <div class="col-md-12 m-b-10 bottom-border">
+                                <div class="">
+                                  <textarea class="wysihtml5 form-control" rows="8"></textarea>
+                                </div>
+                              </div>
+                            </div>
+
+                          <div id="english" class="tab-pane">
+                            <div class="col-md-12 m-b-10 bottom-border">
+                              <div class="">
+                                  <textarea class="wysihtml5 form-control" ></textarea>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="russian" class="tab-pane ">
+                            <div class="col-md-12 m-b-10 bottom-border">
+                              <div class="">
+                                  <textarea class="wysihtml5 form-control" ></textarea>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
                   </div>
               </section>
             </div>

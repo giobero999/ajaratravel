@@ -6518,12 +6518,50 @@ a.view-all:hover {
 }
 
 .gallery li{
+  position: relative;
     display: inline-block;
     width: 30%;
     margin: 0 0 20px 21px;
 }
 
+.gallery li:hover .remove-gal-img{
+  opacity:1;
+
+}
+
 .gallery li img{
     width: 100%;
     height: auto;
+}
+
+/* //my styles */
+.font-red {
+  color:rgb(175, 66, 66) !important;
+}
+
+.uploaded-images li {
+  width: 29%;
+}
+
+.remove-gal-img {
+  position: absolute;
+
+  text-align: right;
+  background: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  opacity: 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.delete-image{
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.slider-images li{
+  width: 48%;
 }

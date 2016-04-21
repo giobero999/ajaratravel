@@ -385,7 +385,32 @@
                           </span>
                         </div>
                         <div class="panel-body">
-
+                          <ul class="gallery uploaded-images">
+                            <li>
+                              <div class="remove-gal-img">
+                                <i class="fa fa-close fa-lg delete-image"></i>
+                              </div>
+                                <a href="#">
+                                    <img src="img/gallery/cover.jpg" alt=""/>
+                                </a>
+                            </li>
+                            <li>
+                              <div class="remove-gal-img">
+                                <i class="fa fa-close fa-lg delete-image"></i>
+                              </div>
+                                <a href="#">
+                                    <img src="img/gallery/2.jpg" alt=""/>
+                                </a>
+                            </li>
+                            <li>
+                              <div class="remove-gal-img">
+                                <i class="fa fa-close fa-lg delete-image"></i>
+                              </div>
+                                <a href="#">
+                                    <img src="img/gallery/3.jpg" alt=""/>
+                                </a>
+                            </li>
+                          </ul>
                         </div>
                       </section>
                       <section class="panel">

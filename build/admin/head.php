@@ -5,7 +5,7 @@
     <meta name="author" content="Mosaddek">
     <meta name="keyword" content="slick, flat, dashboard, bootstrap, admin, template, theme, responsive, fluid, retina">
     <link rel="shortcut icon" href="javascript:;" type="image/png">
-    <title>ajaratravel</title>
+    <title>ajaratravel.ge</title>
     <!--right slidebar-->
     <!--right slidebar-->
     <link href="css/slidebars.css" rel="stylesheet">

@@ -221,6 +221,16 @@
         $(this).closest('li').remove();
       }
     });
+    $('.delete-menu').on('click', function() {
+      var result = confirm("Want to delete?");
+      if (result) {
+        $(this).closest('li').remove();
+      }
+    });
+
+    $("menu-item").on('hover', function(){
+      
+    });
 
 
 

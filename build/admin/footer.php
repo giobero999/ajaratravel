@@ -1,6 +1,5 @@
 <!-- Placed js at the end of the document so the pages load faster -->
 <script src="js/jquery-1.10.2.min.js"></script>
-<script src="js/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.min.js"></script>
@@ -19,20 +18,15 @@
 <script src="js/sparkline/jquery.sparkline.js"></script>
 <script src="js/sparkline/sparkline-init.js"></script>
 
-
 <!--bootstrap picker-->
 <script type="text/javascript" src="js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-daterangepicker/moment.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-daterangepicker/daterangepicker.js"></script>
-<script type="text/javascript" src="js/bootstrap-colorpicker/js/bootstrap-colorpicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
 <!--bootstrap-fileinput-master-->
 <script type="text/javascript" src="js/bootstrap-fileinput-master/js/fileinput.js"></script>
 <script type="text/javascript" src="js/file-input-init.js"></script>
-
-<!--picker initialization-->
-<script src="js/picker-init.js"></script>
 
 <!--Icheck-->
 <script src="js/icheck/skins/icheck.min.js"></script>
@@ -46,14 +40,9 @@
 <script src="js/tags-input-init.js"></script>
 
 
-<!--touchspin spinner-->
-<script src="js/touchspin.js"></script>
-
-<!--spinner init-->
-<script src="js/spinner-init.js"></script>
-
 <!--dropzone-->
 <script src="js/dropzone.js"></script>
+
 
 <!--select2-->
 <script src="js/select2.js"></script>
@@ -64,18 +53,17 @@
 <script type="text/javascript" src="js/bootstrap-wysihtml5/wysihtml5-0.3.0.js"></script>
 <script type="text/javascript" src="js/bootstrap-wysihtml5/bootstrap-wysihtml5.js"></script>
 
+<!--nestable -->
+<script src="js/nestable/jquery.nestable.js"></script>
+<script src="js/nestable-init.js"></script>
 
 <!--common scripts for all pages-->
 <script src="js/scripts.js"></script>
 
-
 <script>
-
-    jQuery(document).ready(function(){
-        $('.wysihtml5').wysihtml5();
-
-    });
-
+  jQuery(document).ready(function(){
+      $('.wysihtml5').wysihtml5();
+  });
 </script>
 
 

@@ -38,6 +38,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.php">მთავარი</a></li>
             <li><a href="about.php">ჩვენ შესახებ</a></li>
+            <li><a href="meetings.php">შეხვედრები</a></li>
             <li>
               <a href="tours.php">ტურები</a>
               <ul class="dropdown">
@@ -49,7 +50,7 @@
             <li>
               <a href="gallery.php">გალერეა</a>
             </li>
-            <li><a href="offers.php" class="uppercase">offers</a></li>
+            <li><a href="offers.php" class="uppercase">ფასდაკლებები</a></li>
             <li><a href="contact.php">კონტაქტი</a></li>
             <li><label for="sidebar-toggler" class="toggle"><i class="fa fa-shopping-cart" aria-hidden="true"></i></label></li>
           </ul>

@@ -27,6 +27,7 @@ gulp.task('browser-sync',['php', 'styles', 'scripts'], function() {
 
 gulp.task('styles', function () {
   gulp.src('./src/sass/main.scss')
+    .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(plumber())
     .pipe(gulp.dest('./build/css/'));

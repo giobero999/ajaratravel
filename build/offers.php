@@ -167,8 +167,8 @@
           </div>
           <div class='col-xs-12'>
             <div class="container">
-              <div class="col-md-offset-5 col-md-6">
-                <div class="row">
+              
+                <div class="text-center">
                   <nav>
                   <ul class="pagination">
                     <li>
@@ -189,7 +189,7 @@
                   </ul>
                 </nav>
                 </div>
-              </div>
+
             </div>
 					</div>
 				</div>

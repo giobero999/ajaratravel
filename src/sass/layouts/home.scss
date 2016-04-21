@@ -130,6 +130,8 @@
       bottom: 0;
       margin-top: 0;
       margin-bottom: 0;
+      height:94px;
+      overflow:hidden;
       font-weight: normal;
       font-family: $textFont;
       padding: 15px
@@ -195,6 +197,9 @@
         #description {
           color: $grey;
           margin:0;
+          overflow:hidden;
+          margin-bottom: 5px;
+          height:105px;
           padding: 10px;
           font-weight: normal;
           font-family: $textFont;

@@ -19,6 +19,8 @@
     <!--tagsinput-->
     <link href="css/tagsinput.css" rel="stylesheet">
 
+
+
     <!--bootstrap-fileinput-master-->
     <link rel="stylesheet" type="text/css" href="js/bootstrap-fileinput-master/css/fileinput.css" />
 
@@ -35,10 +37,12 @@
     <!--bootstrap-touchspin-->
     <link href="css/bootstrap-touchspin.css" rel="stylesheet">
 
+    <!--nestable-->
+    <link rel="stylesheet" type="text/css" href="js/nestable/jquery.nestable.css" />
+
     <!--bootstrap picker-->
     <link rel="stylesheet" type="text/css" href="js/bootstrap-datepicker/css/datepicker.css"/>
     <link rel="stylesheet" type="text/css" href="js/bootstrap-timepicker/compiled/timepicker.css"/>
-    <link rel="stylesheet" type="text/css" href="js/bootstrap-colorpicker/css/colorpicker.css"/>
     <link rel="stylesheet" type="text/css" href="js/bootstrap-daterangepicker/daterangepicker-bs3.css"/>
     <link rel="stylesheet" type="text/css" href="js/bootstrap-datetimepicker/css/datetimepicker.css"/>
 

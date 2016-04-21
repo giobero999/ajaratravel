@@ -49,7 +49,7 @@
                                       <label>Tour Name</label>
                                       <div class="iconic-input">
                                           <i class="fa fa-microphone-slash"></i>
-                                          <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london">
+                                          <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london" required>
                                       </div>
                                   </div>
                                 </div>
@@ -57,7 +57,7 @@
                                   <label>Price</label>
                                   <div class="input-group m-b-10">
                                     <span class="input-group-addon"><strong>GEL</strong></span>
-                                    <input type="text" class="form-control" placeholder="Enter the Price">
+                                    <input type="text" class="form-control" placeholder="Enter the Price" required>
                                   </div>
                                 </div>
 
@@ -75,7 +75,7 @@
                                       small description
                                   </header>
                                   <div class="">
-                                      <textarea class="wysihtml5 form-control" rows="6"></textarea>
+                                      <textarea class="wysihtml5 form-control" rows="6" required></textarea>
                                   </div>
                                 </div>
                                 <div class="col-md-12 m-b-10 bottom-border">
@@ -83,7 +83,7 @@
                                       large description
                                   </header>
                                   <div class="">
-                                      <textarea class="wysihtml5 form-control" rows="12"></textarea>
+                                      <textarea class="wysihtml5 form-control" rows="12" required></textarea>
                                   </div>
                                 </div>
                                 <div class="">
@@ -215,22 +215,43 @@
                   </section>
                 </div>
                 <div class="col-md-5">
-                  <section class="panel">
-                    <div class="panel-heading">
-                      People
-                      <span class="tools pull-right">
-                          <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
-                      </span>
+                <section class="panel">
+                  <div class="panel-heading">
+                    date show
+                    <span class="tools pull-right">
+                        <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
+                    </span>
+                  </div>
+                  <div class="panel-body">
+                    <div class="form-group">
+                      <div class="input-group date form_datetime-component">
+                        <input type="text" class="form-control" readonly="" size="16" required>
+                        <span class="input-group-btn">
+                        <button type="button" class="btn btn-primary date-set"><i class="fa fa-calendar"></i></button>
+                        </span>
+                      </div>
                     </div>
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <label>People</label>
-                            <div class="iconic-input">
-                                <i class="fa fa-microphone-slash"></i>
-                                <input type="text" class="form-control" placeholder="enter the number of people">
-                            </div>
-                        </div>
-                    </section>
+                  </section>
+                <section class="panel">
+                  <div class="panel-heading">
+                    People
+                    <span class="tools pull-right">
+                        <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
+                    </span>
+                  </div>
+                  <div class="panel-body">
+                      <div class="form-group">
+                        <select class="form-control  select2">
+                          <option value="AK">1</option>
+                          <option value="HI">2</option>
+                          <option value="CA">3</option>
+                          <option value="NV">4</option>
+                          <option value="OR">5</option>
+                          <option value="WA">10</option>
+                          <option value="WA">10 +</option>
+                        </select>
+                      </div>
+                  </section>
                   <section class="panel">
                     <div class="panel-heading">
                       date
@@ -240,7 +261,7 @@
                     </div>
                     <div class="panel-body">
                       <div class="form-group">
-                          <div class="input-group input-large custom-date-range" data-date="13/07/2013" data-date-format="mm/dd/yyyy">
+                          <div class="input-group input-large custom-date-range" data-date="13/07/2013" data-date-format="mm/dd/yyyy" required>
                               <input type="text" class="form-control dpd1" name="from">
                               <span class="input-group-addon">To</span>
                               <input type="text" class="form-control dpd2" name="to">
@@ -299,15 +320,45 @@
                           </span>
                         </div>
                         <div class="panel-body">
-                          <div class="form-group">
-                              <select class="form-control  select2">
-                                <option value="AK">Alaska</option>
-                                <option value="HI">Hawaii</option>
-                                <option value="CA">California</option>
-                                <option value="NV">Nevada</option>
-                                <option value="OR">Oregon</option>
-                                <option value="WA">Washington</option>
-                              </select>
+                          <div class="form-group icheck-row">
+                              <div class="col-md-6">
+                                  <input type="checkbox" checked class="iCheck-flat-green" required>
+                                  <label class="  control-label">relax</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">hello</label>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green" >
+                                  <label class="  control-label">Sea</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">Concert</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">Paty</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">Cruise</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">hello</label>
+                              </div>
+
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green" >
+                                  <label class="  control-label">Sea</label>
+                              </div>
+                              <div class="col-md-6">
+                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <label class="  control-label">Concert</label>
+                              </div>
                           </div>
                         </div>
                       </section>
@@ -321,29 +372,51 @@
                         <div class="panel-body">
                           <div class="form-group icheck-row">
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green" >
+                                  <input type="checkbox" class="iCheck-flat-green" required>
                                   <label class="  control-label">Europe</label>
                               </div>
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <input type="checkbox" class="iCheck-flat-green" required>
                                   <label class="  control-label">Azia</label>
                               </div>
 
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green" >
+                                  <input type="checkbox" class="iCheck-flat-green"  required>
                                   <label class="  control-label">North America</label>
                               </div>
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <input type="checkbox" class="iCheck-flat-green" required>
                                   <label class="  control-label">South America</label>
                               </div>
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <input type="checkbox" class="iCheck-flat-green" required>
                                   <label class="  control-label">Africa</label>
                               </div>
                               <div class="col-md-6">
-                                  <input type="checkbox" class="iCheck-flat-green">
+                                  <input type="checkbox" class="iCheck-flat-green" required>
                                   <label class="  control-label">Australia</label>
+                              </div>
+                          </div>
+                        </div>
+                      </section>
+                      <section class="panel">
+                        <div class="panel-heading">
+                          Georgian tour or abroad
+                          <span class="tools pull-right">
+                              <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
+                          </span>
+                        </div>
+                        <div class="panel-body">
+                          <div class="form-group">
+                              <div class="col-lg-12">
+                                <div class="col-md-4 radio-custom radio-info">
+                                    <input type="radio" value="yes"  name="offer-georgia" id="offer-georgia">
+                                    <label for="offer-georgia">Georgian</label>
+                                </div>
+                                <div class="col-md-2 radio-custom radio-info">
+                                    <input type="radio" checked value="no" name="offer-georgia" id="offer-abroad">
+                                    <label for="offer-abroad">Abroad</label>
+                                </div>
                               </div>
                           </div>
                         </div>
@@ -423,7 +496,7 @@
                         <div class="panel-body">
                           <div class="form-group icheck-row">
                               <div class="form-group">
-                                  <input id="file-2" class="file" type="file" multiple=true>
+                                  <input id="file-2" class="file" type="file" multiple=true required>
                             </div>
                           </div>
                         </div>

@@ -1,5 +1,44 @@
 @charset "UTF-8";
-
+/*media queries*/
+/* @import "helpers/convert-units";
+@import "helpers/directional-values";
+@import "helpers/font-source-declaration";
+@import "helpers/gradient-positions-parser";
+@import "helpers/linear-angle-parser";
+@import "helpers/linear-gradient-parser";
+@import "helpers/linear-positions-parser";
+@import "helpers/linear-side-corner-parser";
+@import "helpers/radial-arg-parser";
+@import "helpers/radial-positions-parser";
+@import "helpers/radial-gradient-parser";
+@import "helpers/render-gradients";
+@import "helpers/shape-size-stripper";
+@import "helpers/str-to-num"; */
+/* @import "css3/animation";
+@import "css3/appearance";
+@import "css3/backface-visibility";
+@import "css3/background";
+@import "css3/background-image";
+@import "css3/border-image";
+@import "css3/calc";
+@import "css3/columns";
+@import "css3/filter";
+@import "css3/flex-box";
+@import "css3/font-face";
+@import "css3/font-feature-settings";
+@import "css3/hidpi-media-query";
+@import "css3/hyphens";
+@import "css3/image-rendering";
+@import "css3/keyframes";
+@import "css3/linear-gradient";
+@import "css3/perspective";
+@import "css3/placeholder";
+@import "css3/radial-gradient";
+@import "css3/selection";
+@import "css3/text-decoration";
+@import "css3/transform";
+@import "css3/transition";
+@import "css3/user-select"; */
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -8179,7 +8218,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-/*
+/* 
  * 	Default theme - Owl Carousel CSS File
  */
 .owl-theme .owl-nav {
@@ -11794,6 +11833,8 @@ textarea {
       bottom: 0;
       margin-top: 0;
       margin-bottom: 0;
+      height: 94px;
+      overflow: hidden;
       font-weight: normal;
       font-family: "bpg-arial";
       padding: 15px; }
@@ -11875,6 +11916,9 @@ textarea {
       .wrapper .new-tour-panel .new-tour-els .text #description {
         color: #b1b1b1;
         margin: 0;
+        overflow: hidden;
+        margin-bottom: 5px;
+        height: 105px;
         padding: 10px;
         font-weight: normal;
         font-family: "bpg-arial"; }
@@ -12277,6 +12321,8 @@ footer {
       bottom: 0;
       margin-top: 0;
       margin-bottom: 0;
+      height: 85px;
+      overflow: hidden;
       font-weight: normal;
       font-family: "bpg-arial";
       padding: 5px 5px; }
@@ -12370,6 +12416,27 @@ footer {
       width: 40%; }
 
 /* gallery styles END */
+#meeting-page {
+  color: #434A54; }
+  #meeting-page .title-date h4 {
+    font-family: "arial-caps";
+    text-align: left;
+    float: left; }
+  #meeting-page .meeting-img {
+    position: relative; }
+    #meeting-page .meeting-img img {
+      position: relative;
+      width: 100%; }
+    #meeting-page .meeting-img p {
+      position: absolute;
+      top: 19px;
+      right: 0;
+      background: #ffffff;
+      font-size: 1.1em;
+      padding: 10px;
+      text-align: right;
+      float: right; }
+
 /* // START tour-details styles */
 #tour-details {
   -webkit-animation-name: fadeInUp;
@@ -12642,6 +12709,11 @@ footer {
 
 /* //Contact styles END */
 /* responsive styles */
+@media screen and (max-width: 1200px) {
+  #navigation nav #navbarCollapse ul a {
+    font-size: 11px !important;
+    margin-right: -19px !important; } }
+
 @media screen and (max-width: 1024px) {
   .main-filter {
     margin: 0 !important;
@@ -12656,9 +12728,11 @@ footer {
         margin-bottom: 5px !important; } }
 
 @media screen and (max-width: 996px) {
+  .navbar-right {
+    margin-right: -105px !important; }
   #navigation nav #navbarCollapse ul a {
     margin-right: -19px !important;
-    font-size: 12px !important; }
+    font-size: 11px !important; }
   .toggle {
     margin-left: 17px; }
   .dropdown {

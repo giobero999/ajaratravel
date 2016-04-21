@@ -1,0 +1,27 @@
+// metting styles
+#meeting-page {
+    color:$lightBlack;
+    .title-date {
+      h4 {
+        font-family:$mainFont;
+        text-align:left;
+        float:left;
+      }
+    }
+
+    .meeting-img {
+      position:relative;
+      img {
+        position:relative;
+        width:100%;
+      }
+      p {
+        @include position (absolute, 19px 0 null null);
+        background:$white;
+        font-size:1.1em;
+        padding: 10px;
+        text-align:right;
+        float:right;
+      }
+    }
+}

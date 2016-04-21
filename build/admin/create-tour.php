@@ -25,17 +25,17 @@
                         <ul class="nav nav-tabs">
                             <li class="active">
                                 <a data-toggle="tab" href="#georgian">
-                                    Georgian
+                                    <img src="img/flags/ge.png" alt="" width="16" /> <strong> GE</strong>
                                 </a>
                             </li>
                             <li >
                                 <a data-toggle="tab" href="#english">
-                                    English
+                                    <img src="img/flags/en.png" alt="" width="16" /><strong> EN</strong>
                                 </a>
                             </li>
                             <li class="">
                                 <a data-toggle="tab" href="#russian">
-                                    Russian
+                                    <img src="img/flags/ru.png" alt="" width="16" /><strong> RU</strong>
                                 </a>
                             </li>
 

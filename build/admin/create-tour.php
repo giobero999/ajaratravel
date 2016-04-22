@@ -105,7 +105,7 @@
                           </div>
                         </div>
 
-                        <div id="english" class="tab-pane active ">
+                        <div id="english" class="tab-pane ">
                           <div class="col-md-12">
                             <div class="form-group">
                               <label>Tour Name</label>
@@ -168,7 +168,7 @@
                           </div>
                         </div>
 
-                        <div id="russian" class="tab-pane active ">
+                        <div id="russian" class="tab-pane ">
                           <div class="col-md-12">
                             <div class="form-group">
                               <label>Tour Name</label>

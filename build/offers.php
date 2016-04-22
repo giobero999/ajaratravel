@@ -7,7 +7,7 @@
         <?php include('header.php'); ?>
   	<div class="wrapper" id="offers-page">
       <div class="page-cover">
-        <h3>ტურები</h3>
+        <h3>ფასდაკლებები</h3>
       </div>
       <div class="container marginTop marginBottom">
 				<div class="row">
@@ -16,7 +16,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
+  								<h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/gallery/roma.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -33,7 +36,7 @@
                   </div>
                   <i class="fa fa-film fa-md video"></i>
                   <div class="post-date">
-                    <h5>22.04.2016</h5>
+                    <h5><span>21.04.2016</span> - <span>31.04.2016</span></h5>
                   </div>
   							</div>
               </div>
@@ -41,8 +44,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class="offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
-  								<!-- <h6><i class="fa fa-dollar"></i>details</h6> -->
+                  <h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/1.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -66,7 +71,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
+                  <h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/gallery/roma.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -89,7 +97,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
+                  <h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/gallery/roma.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -113,7 +124,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
+                  <h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/gallery/roma.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -137,7 +151,10 @@
               <div class="col-sm-6 col-md-4 ">
                 <div class=" offers-tours">
   								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-  								<h3><span>1200</span> GEL</h3>
+                  <h3>
+                    <span>1200</span> GEL <br>
+                    <span class="old-price">1400 GEL</span>
+                  </h3>
   								<img src="img/gallery/roma.jpg" alt="">
   								<p><span id="tour-title">ბერლინი</span></p>
   								<div class="caption">
@@ -151,7 +168,6 @@
   								<h5 id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quibusdam fugit laborum iure cum nesciunt incidunt neque ad ab autem obcaecati eligendi facilis, natus, aut placeat, doloribus, unde dolore? Porro.</h5>
                   <div class="info">
                     <a href="tour-details.php">სრულად</a>
-
                   </div>
                   <i class="fa fa-film fa-md video"></i>
                   <div class="post-date">
@@ -161,13 +177,10 @@
               </div>
 						</div>
             <!-- END Tours -->
-
-
-
           </div>
+
           <div class='col-xs-12'>
             <div class="container">
-              
                 <div class="text-center">
                   <nav>
                   <ul class="pagination">

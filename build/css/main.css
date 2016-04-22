@@ -10947,6 +10947,9 @@ p {
 .uppercase {
   text-transform: uppercase; }
 
+.text-center {
+  text-align: center; }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -11107,6 +11110,10 @@ textarea {
   textarea:focus {
     outline: none;
     box-shadow: none; }
+
+.old-price {
+  text-decoration: line-through;
+  color: #F76570; }
 
 /* filter styles start */
 .filter {
@@ -11615,6 +11622,39 @@ textarea {
   visibility: hidden; }
 
 /* loader END */
+/* footer styles */
+footer {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  background: #434A54; }
+  footer .powered-by {
+    text-align: right; }
+    footer .powered-by a {
+      color: #ffffff; }
+  footer .social-icons a {
+    margin-left: 7px; }
+    footer .social-icons a img {
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: gray;
+      /* IE 6-9 */
+      -webkit-transition: all 0.3s ease-in-out;
+      -o-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  footer .social-icons a:hover img {
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    -ms-filter: grayscale(0%);
+    -o-filter: grayscale(0%);
+    filter: grayscale(0%);
+    filter: gray;
+    /* IE 6-9 */ }
+
 /* COMPONENTS STYLES END */
 /* HOME MAIN STYLES START */
 .wrapper {
@@ -11789,7 +11829,7 @@ textarea {
       font-weight: 100;
       font-family: arial;
       border: 1px solid #e2e4e7;
-      padding: 7px 20px;
+      padding: 2px 10px;
       font-size: 1.4em;
       margin: 0;
       opacity: .9; }
@@ -12087,18 +12127,6 @@ textarea {
       .wrapper .continental .continent:hover .view-all {
         opacity: 1; }
 
-footer {
-  width: 100%;
-  height: 30px;
-  line-height: 30px;
-  font-size: .8em;
-  color: #ffffff;
-  background: #434A54; }
-  footer p {
-    text-align: center; }
-    footer p a {
-      color: #ffffff; }
-
 /* HOME MAIN STYLES END */
 /* // START about us styles */
 #about-page {
@@ -12176,7 +12204,8 @@ footer {
   -o-backface-visibility: hidden;
   backface-visibility: hidden; }
   #tours-page .tour-cover {
-    background: url("../img/tour-cover.jpg") center; }
+    background: url("../img/tour-cover.jpg") center no-repeat;
+    background-size: cover; }
   #tours-page .pagination li a {
     color: #09A5AB;
     padding: 2px 10px; }
@@ -12279,7 +12308,7 @@ footer {
       font-weight: 100;
       font-family: arial;
       border: 1px solid #e2e4e7;
-      padding: 7px 20px;
+      padding: 2px 10px;
       font-size: 1.4em;
       margin: 0;
       opacity: .9; }
@@ -12341,6 +12370,8 @@ footer {
       color: #6a6a6a;
       background: #ffffff;
       border: 1px solid #e4e4e4; }
+    #offers-page .all-tours .offers-tours .post-date h5, #offers-page .all-tours .offers-tours .new-post-date h5, #offers-page .all-tours .offers-tours .details-tour-date h5 {
+      font-size: 0.7em; }
   #offers-page .numbers {
     margin: 0 auto; }
 
@@ -12509,7 +12540,7 @@ footer {
   #tour-details .people {
     height: 100px;
     line-height: 100px;
-    background: #F76570 url("../img/filter.png") no-repeat;
+    background: #14B9D5 url("../img/filter.png") no-repeat;
     background-size: cover;
     color: #ffffff;
     text-align: center;
@@ -12695,7 +12726,18 @@ footer {
   -moz-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   -o-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+  height: 100vh; }
+  #contact-page .contact-title {
+    font-family: "arial-caps"; }
+  #contact-page .address-info p {
+    font-family: "arial-caps";
+    padding: 10px 0;
+    border-bottom: 1px solid #f1f3f5; }
+    #contact-page .address-info p:first-child {
+      padding-top: 0; }
+    #contact-page .address-info p span {
+      padding-left: 8px; }
   #contact-page .contact-us .form-control {
     border-radius: 0px;
     font-family: "arial-caps"; }

@@ -1,7 +1,22 @@
 <footer>
-  <p>
-    © Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With love
-  </p>
+  <div class="no-gutter">
+    <div class="container">
+      <div class="col-md-4">
+        <div class="pull-left">
+          <p class="powered-by">
+            © Copyright 2016 by <a href="Starlab.ge" class="uppercase">starlab.ge</a> - Made With love
+          </p>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="social-icons pull-right">
+          <a href="#"><img src="img/fb.png" alt="" height="30"/></a>
+          <a href="#"><img src="img/youtube.png" alt="" height="30"/></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap-tooltip.js"></script>

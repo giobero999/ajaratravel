@@ -84,7 +84,7 @@
                             <div class="text">
                               <h3 id="title">რომი</h3>
                               <div class="new-post-date">
-                                <h5>22.04.2016</h5>
+                                <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                               </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -105,20 +105,17 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
                           <div class="col-md-2 no-gutter">
-                            <div class="new-price orange" class="">
+                            <div class="new-price blue" class="">
                               <div>
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price"></span>
+                  								</h2>
                                 </div>
                                 <a href="">სრულად</a>
                               </div>
@@ -136,7 +133,7 @@
                             <div class="text">
                               <h3 id="title">რომი</h3>
                               <div class="new-post-date">
-                                <h5>22.04.2016</h5>
+                                <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                               </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -157,20 +154,17 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
                           <div class="col-md-2 no-gutter">
-                            <div class="new-price red" class="">
+                            <div class="new-price blue" class="">
                               <div>
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price"></span>
+                  								</h2>
                                 </div>
                                 <a href="#">სრულად</a>
                               </div>
@@ -206,11 +200,6 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
@@ -218,8 +207,10 @@
                             <div class="new-price blue " class="">
                               <div style="">
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price">1400 GEL</span>
+                  								</h2>
                                 </div>
                                 <a href="#">სრულად</a>
                               </div>
@@ -237,7 +228,7 @@
                             <div class="text">
                               <h3 id="title">რომი</h3>
                               <div class="new-post-date">
-                                <h5>22.04.2016</h5>
+                                <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                               </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -258,20 +249,17 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
                           <div class="col-md-2 no-gutter">
-                            <div class="new-price green " class="">
+                            <div class="new-price blue " class="">
                               <div style="">
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price">1400 GEL</span>
+                  								</h2>
                                 </div>
                                 <a href="#">სრულად</a>
                               </div>
@@ -307,20 +295,17 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
                           <div class="col-md-2 no-gutter">
-                            <div class="new-price purple " class="">
+                            <div class="new-price blue " class="">
                               <div style="">
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price">1400 GEL</span>
+                  								</h2>
                                 </div>
                                 <a href="#">სრულად</a>
                               </div>
@@ -338,7 +323,7 @@
                             <div class="text">
                               <h3 id="title">რომი</h3>
                               <div class="new-post-date">
-                                <h5>22.04.2016</h5>
+                                <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                               </div>
                               <p id="description">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -359,69 +344,17 @@
                                     <i class="fa fa-users fa-md"></i>
                                   </button>
                                 </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
                               </ul>
                             </div>
                           </div>
                           <div class="col-md-2 no-gutter">
-                            <div class="new-price purple " class="">
+                            <div class="new-price blue " class="">
                               <div style="">
                                 <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
-                                </div>
-                                <a href="#">სრულად</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row single-el no-gutter">
-                          <div class="col-md-4 no-gutter" >
-                            <div class="new-tour-img">
-                              <i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-                              <img src="img/gallery/roma.jpg" alt="" />
-                            </div>
-                          </div>
-                          <div class="col-md-6 no-gutter">
-                            <div class="text">
-                              <h3 id="title">რომი</h3>
-                              <p id="description">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
-                              </p>
-                              <ul>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="აზია">
-                                    <i class="fa fa-location-arrow fa-md"></i>
-                                  </button>
-                                </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="კრუიზი">
-                                    <i class="fa fa-ship fa-md"></i></a>
-                                  </button>
-                                </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="3 ადამიანი">
-                                    <i class="fa fa-users fa-md"></i>
-                                  </button>
-                                </li>
-                                <li>
-                                  <button type="button" class="btn btn-default tool" title="2-5 დღე">
-                                    <i class="fa fa-calendar fa-md"></i>
-                                  </button>
-                                </li>
-                              </ul>
-                            </div>
-                          </div>
-                          <div class="col-md-2 no-gutter">
-                            <div class="new-price red">
-                              <div style="">
-                                <div id="price">
-                                  <h1>1000</h1>
-                                  <h2>GEL</h2>
+                                  <h2>
+                                    <span>1200</span> GEL <br>
+                                    <span class="old-price"></span>
+                  								</h2>
                                 </div>
                                 <a href="#">სრულად</a>
                               </div>
@@ -433,33 +366,33 @@
                     <!--  END Tours list-->
 
                     <!-- pagination -->
+                  <section>
                     <div class='col-xs-12'>
                       <div class="container">
-                        
-                          <div class="text-center">
-                            <nav>
-                            <ul class="pagination">
-                              <li>
-                                <a href="#" aria-label="Previous">
-                                  <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
-                                </a>
-                              </li>
-                              <li><a href="#">1</a></li>
-                              <li><a href="#">2</a></li>
-                              <li><a href="#">3</a></li>
-                              <li><a href="#">4</a></li>
-                              <li><a href="#">5</a></li>
-                              <li>
-                                <a href="#" aria-label="Next">
-                                  <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
-                                </a>
-                              </li>
-                            </ul>
-                          </nav>
+                          <div class="row">
+                            <div class="text-center">
+                              <ul class="pagination">
+                                <li>
+                                  <a href="#" aria-label="Previous">
+                                    <span aria-hidden="true"><i class="fa fa-chevron-left"></i></span>
+                                  </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">4</a></li>
+                                <li><a href="#">5</a></li>
+                                <li>
+                                  <a href="#" aria-label="Next">
+                                    <span aria-hidden="true"><i class="fa fa-chevron-right"></i></span>
+                                  </a>
+                                </li>
+                              </ul>
+                            </div>
                           </div>
-
                       </div>
-          					</div>
+                    </div>
+                  </section>
                 </div>
 
               </div>

@@ -17,96 +17,111 @@
             </div>
 
             <div class="wrapper">
-              <div class="col-md-5">
-                <section class="panel">
-                  <div class="panel-heading">
-                    meeting time
-                    <span class="tools pull-right">
+              <form class="" action="index.html" method="post">
+                <div class="col-md-5">
+                  <section class="panel">
+                    <div class="panel-heading">
+                      meeting time
+                      <span class="tools pull-right">
                         <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
-                    </span>
-                  </div>
-                  <div class="panel-body">
-                    <div class="form-group">
-                      <div class="input-group date form_datetime-component">
-                        <input type="text" class="form-control" readonly="" size="16">
-                        <span class="input-group-btn">
-                        <button type="button" class="btn btn-primary date-set"><i class="fa fa-calendar"></i></button>
-                        </span>
+                      </span>
+                    </div>
+                    <div class="panel-body">
+                      <div class="form-group">
+                        <div class="input-group date form_datetime-component">
+                          <input type="text" class="form-control" readonly="" size="16" required>
+                          <span class="input-group-btn">
+                            <button type="button" class="btn btn-primary date-set"><i class="fa fa-calendar"></i></button>
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </section>
-                <section class="panel">
-                  <div class="panel-heading">
-                    upload image
-                    <span class="tools pull-right">
+                  <section class="panel">
+                    <div class="panel-heading">
+                      upload image
+                      <span class="tools pull-right">
                         <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
-                    </span>
-                  </div>
-                  <div class="panel-body">
-                    <div class="form-group icheck-row">
+                      </span>
+                    </div>
+                    <div class="panel-body">
+                      <div class="form-group icheck-row">
                         <div class="form-group">
-                            <input id="file-2" class="file" type="file" multiple=true>
+                            <input id="file-2" class="file" type="file" multiple=false required>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </section>
-              </div>
-              <div class="col-md-7">
-                <section class="panel">
-                  <header class="panel-heading tab-dark">
+                  </section>
+                </div>
+                <div class="col-md-7">
+                  <section class="panel">
+                    <header class="panel-heading tab-dark">
                       <ul class="nav nav-tabs">
-                          <li class="active">
-                              <a data-toggle="tab" href="#georgian">
-                                  Georgian
-                              </a>
-                          </li>
-                          <li >
-                              <a data-toggle="tab" href="#english">
-                                  English
-                              </a>
-                          </li>
-                          <li class="">
-                              <a data-toggle="tab" href="#russian">
-                                  Russian
-                              </a>
-                          </li>
-
+                        <li class="active">
+                          <a data-toggle="tab" href="#georgian">
+                            <img src="img/flags/ge.png" alt="" width="16" /> <strong> GE</strong>
+                          </a>
+                        </li>
+                        <li >
+                          <a data-toggle="tab" href="#english">
+                            <img src="img/flags/en.png" alt="" width="16" /><strong> EN</strong>
+                          </a>
+                        </li>
+                        <li class="">
+                          <a data-toggle="tab" href="#russian">
+                            <img src="img/flags/ru.png" alt="" width="16" /><strong> RU</strong>
+                          </a>
+                        </li>
                       </ul>
-                  </header>
-                    <div class="panel-body">
-                      <div class="tab-content">
-                          <div id="georgian" class="tab-pane  active">
+                    </header>
+                      <div class="panel-body">
+                        <div class="tab-content">
+                            <div id="georgian" class="tab-pane  active">
                               <div class="col-md-12 m-b-10 bottom-border">
                                 <div class="">
-                                  <textarea class="wysihtml5 form-control" rows="8"></textarea>
+                                  <textarea class="wysihtml5 form-control" rows="8" required></textarea>
                                 </div>
                               </div>
                             </div>
 
-                          <div id="english" class="tab-pane">
-                            <div class="col-md-12 m-b-10 bottom-border">
-                              <div class="">
+                            <div id="english" class="tab-pane">
+                              <div class="col-md-12 m-b-10 bottom-border">
+                                <div class="">
                                   <textarea class="wysihtml5 form-control" ></textarea>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                          <div id="russian" class="tab-pane ">
-                            <div class="col-md-12 m-b-10 bottom-border">
-                              <div class="">
+
+                            <div id="russian" class="tab-pane ">
+                              <div class="col-md-12 m-b-10 bottom-border">
+                                <div class="">
                                   <textarea class="wysihtml5 form-control" ></textarea>
+                                </div>
                               </div>
                             </div>
-                          </div>
+                        </div>
+                      </div>
+                  </section>
+                </div>
+                <div class="col-md-12">
+                  <section class="panel">
+                    <div class="panel-body">
+                      <div class="form-group icheck-row">
+                          <div class="form-group">
+                            <button type="submit" class="btn btn-success btn-lg btn-block">Create Tour</button>
+                        </div>
                       </div>
                     </div>
-                </section>
-
-              </div>
+                  </section>
+                </div>
+              </form>
             </div>
 
             <footer>
                 2016 &copy; Made with Love.
             </footer>
+
+
         </div>
         <!-- body content end-->
     </section>

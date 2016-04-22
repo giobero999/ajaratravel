@@ -7,7 +7,7 @@
         <?php include('header.php'); ?>
         <div class="wrapper" id="contact-page">
           <div class="page-cover">
-            <h3>კონტაქტი</h3>
+            <h3>ჩვენ შესახებ</h3>
           </div>
           <div class='container marginTop'>
             <div class='row no-gutter'>

@@ -163,7 +163,9 @@
 						<div class="owl-carousel top-tours top-tours-slider wow">
 							<div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
+                <h3>
+                  <span>1200</span> GEL <br>
+								</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -180,12 +182,15 @@
                 </div>
                 <i class="fa fa-film fa-md video"></i>
                 <div class="post-date">
-                  <h5>22.04.2016</h5>
+                  <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                 </div>
 							</div>
               <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
+								<h3>
+                  <span>1200</span> GEL <br>
+                  <span class="old-price">1400 GEL</span>
+								</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -202,12 +207,15 @@
                 </div>
                 <i class="fa fa-film fa-md video"></i>
                 <div class="post-date">
-                  <h5>22.04.2016</h5>
+                  <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                 </div>
 							</div>
               <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
+                <h3>
+                  <span>1200</span> GEL <br>
+                  <span class="old-price">1400 GEL</span>
+								</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -223,7 +231,7 @@
                   <a href="tour-details.php">სრულად</a>
                 </div>
                 <div class="post-date">
-                  <h5>22.04.2016</h5>
+                  <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                 </div>
 							</div>
               <div class="single-tour">
@@ -245,12 +253,14 @@
                 </div>
                 <i class="fa fa-film fa-md video"></i>
                 <div class="post-date">
-                  <h5>22.04.2016</h5>
+                  <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                 </div>
 							</div>
               <div class="single-tour">
 								<i class="fa fa-heart-o fa-heart fa-2x favorite"></i>
-								<h3>1200 GEL</h3>
+                <h3>
+                  <span>1200</span> GEL <br>
+								</h3>
 								<img src="img/gallery/london.jpg" alt="">
 								<p><span id="tour-title">ლონდონი</span></p>
 								<div class="caption">
@@ -266,7 +276,7 @@
                   <a href="tour-details.php">სრულად</a>
                 </div>
                 <div class="post-date">
-                  <h5>22.04.2016</h5>
+                  <h5><span>22.04.2016</span> - <span>30.04.2016</span></h5>
                 </div>
 							</div>
 						</div>
@@ -354,7 +364,7 @@
 										<div class="text">
 											<h3 id="title">რომი</h3>
                       <div class="new-post-date">
-                        <h5>22.04.2016</h5>
+                        <h5><span>22.04.2016</span> - <span>28.04.2016</span></h5>
                       </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -375,22 +385,19 @@
 														<i class="fa fa-users fa-md"></i>
 													</button>
 												</li>
-												<li>
-													<button type="button" class="btn btn-default tool" title="2-5 დღე">
-														<i class="fa fa-calendar fa-md"></i>
-													</button>
-												</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-2 no-gutter">
-										<div class="new-price orange" class="">
+										<div class="new-price blue" class="">
 											<div>
 												<div id="price">
-													<h1>1000</h1>
-													<h2>GEL</h2>
+                          <h2>
+                            <span>1200</span> GEL <br>
+                            <span class="old-price"></span>
+                          </h2>
 												</div>
-												<a href="">სრულად</a>
+												<a href="tour-details.php">სრულად</a>
 											</div>
 										</div>
 									</div>
@@ -406,7 +413,7 @@
 										<div class="text">
 											<h3 id="title">რომი</h3>
                       <div class="new-post-date">
-                        <h5>22.04.2016</h5>
+                        <h5><span>22.04.2016</span> - <span>28.04.2016</span></h5>
                       </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -427,20 +434,17 @@
 														<i class="fa fa-users fa-md"></i>
 													</button>
 												</li>
-												<li>
-													<button type="button" class="btn btn-default tool" title="2-5 დღე">
-														<i class="fa fa-calendar fa-md"></i>
-													</button>
-												</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-2 no-gutter">
-										<div class="new-price red" class="">
+										<div class="new-price blue" class="">
 											<div>
 												<div id="price">
-													<h1>1000</h1>
-													<h2>GEL</h2>
+                          <h2>
+                            <span>1200</span> GEL <br>
+                            <span class="old-price">1500 GEL</span>
+                          </h2>
 												</div>
 												<a href="#">სრულად</a>
 											</div>
@@ -458,7 +462,7 @@
 										<div class="text">
 											<h3 id="title">რომი</h3>
                       <div class="new-post-date">
-                        <h5>22.04.2016</h5>
+                        <h5><span>22.04.2016</span> - <span>28.04.2016</span></h5>
                       </div>
 											<p id="description">
 												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam recusandae ducimus illo laboriosam illum. Sunt, architecto, exercitationem. Voluptates aspernatur nemo, consequatur, omnis quibusdam ea maiores ad dolorem adipisci delectus quasi.
@@ -479,20 +483,17 @@
 														<i class="fa fa-users fa-md"></i>
 													</button>
 												</li>
-												<li>
-													<button type="button" class="btn btn-default tool" title="2-5 დღე">
-														<i class="fa fa-calendar fa-md"></i>
-													</button>
-												</li>
 											</ul>
 										</div>
 									</div>
 									<div class="col-md-2 no-gutter">
-										<div class="new-price purple " class="">
+										<div class="new-price blue " class="">
 											<div style="">
 												<div id="price">
-													<h1>1000</h1>
-													<h2>GEL</h2>
+                          <h2>
+                            <span>1200</span> GEL <br>
+                            <span class="old-price"></span>
+                          </h2>
 												</div>
 												<a href="#">სრულად</a>
 											</div>

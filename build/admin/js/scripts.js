@@ -117,12 +117,6 @@
       }
    }
 
-    // right slidebar
-
-    $(function(){
-        $.slidebars();
-    });
-
     // body scroll
 
     $("html").niceScroll({
@@ -229,7 +223,7 @@
     });
 
     $("menu-item").on('hover', function(){
-      
+
     });
 
 

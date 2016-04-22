@@ -2,6 +2,24 @@
 /* //contact styles Start` */
 #contact-page {
   @include fadeInUp();
+  height: 100vh;
+  .contact-title {
+    font-family: $mainFont;
+  }
+
+  .address-info {
+    p {
+      font-family: $mainFont;
+      padding: 10px 0;
+      border-bottom: 1px solid #f1f3f5;
+      &:first-child {
+        padding-top: 0;
+      }
+      span {
+        padding-left: 8px;
+      }
+    }
+  }
   .contact-us {
     .form-control {
       border-radius:0px;

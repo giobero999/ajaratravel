@@ -1,5 +1,5 @@
 <!-- Placed js at the end of the document so the pages load faster -->
-<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-1.11.1.min.js"></script>
 <script src="js/jquery-migrate.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr.min.js"></script>
@@ -7,23 +7,19 @@
 <!--Nice Scroll-->
 <script src="js/jquery.nicescroll.js" type="text/javascript"></script>
 
-<!--right slidebar-->
-<script src="js/slidebars.min.js"></script>
-
 <!--switchery-->
 <script src="js/switchery/switchery.min.js"></script>
 <script src="js/switchery/switchery-init.js"></script>
 
-<!--Sparkline Chart-->
-<script src="js/sparkline/jquery.sparkline.js"></script>
-<script src="js/sparkline/sparkline-init.js"></script>
 
 <!--bootstrap picker-->
 <script type="text/javascript" src="js/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
-<script type="text/javascript" src="js/bootstrap-daterangepicker/moment.min.js"></script>
 <script type="text/javascript" src="js/bootstrap-daterangepicker/daterangepicker.js"></script>
 <script type="text/javascript" src="js/bootstrap-timepicker/js/bootstrap-timepicker.js"></script>
+
+<!--picker initialization-->
+<script src="js/picker-init.js"></script>
 <!--bootstrap-fileinput-master-->
 <script type="text/javascript" src="js/bootstrap-fileinput-master/js/fileinput.js"></script>
 <script type="text/javascript" src="js/file-input-init.js"></script>

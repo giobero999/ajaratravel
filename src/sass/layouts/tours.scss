@@ -2,7 +2,8 @@
 #tours-page {
     @include fadeInUp();
   .tour-cover {
-    background:url('../img/tour-cover.jpg') center;
+    background:url('../img/tour-cover.jpg') center no-repeat;
+    background-size: cover;
   }
   .pagination {
     li {

@@ -25,6 +25,16 @@
               <div class="row">
                   <div class="col-lg-12">
                       <section class="panel">
+                          <header class="panel-heading head-border">
+                            <form class="" action="index.html" method="post">
+                              <div class="input-group m-b-10">
+                                  <input type="text" class="form-control" placeholder="Search tour">
+                                  <span class="input-group-btn">
+                                    <button type="submit" class="btn btn-white" >Go</button>
+                                  </span>
+                              </div>
+                            </form>
+                          </header>
                           <table class="table table-striped custom-table table-hover">
                               <thead>
                                   <tr>
@@ -38,7 +48,7 @@
                                   <tr>
                                       <td>34</td>
                                       <td class="hidden-xs">Lorem Ipsum dorolo imit</td>
-                                      <td>22.05.2016 </td>
+                                      <td>22.04.2016</td>
                                       <td class="hidden-xs">
                                         <button class="btn btn-default btn-xs btn-hide"><i class="fa fa-eye"></i> hide</button>
                                         <button class="btn btn-primary btn-xs btn-edit"><i class="fa fa-pencil"></i> edit</button>
@@ -48,7 +58,7 @@
                                   <tr>
                                       <td>34</td>
                                       <td class="hidden-xs">Lorem Ipsum dorolo imit</td>
-                                      <td>2.05.2016 </td>
+                                      <td>22.04.2016</td>
                                       <td class="hidden-xs">
                                           <button class="btn btn-default btn-xs btn-hide"><i class="fa fa-eye"></i> hide</button>
                                           <button class="btn btn-primary btn-xs btn-edit"><i class="fa fa-pencil"></i> edit</button>
@@ -58,7 +68,7 @@
                                   <tr>
                                       <td>34</td>
                                       <td class="hidden-xs">Lorem Ipsum dorolo imit</td>
-                                      <td>22.05.2016 </td>
+                                      <td>22.04.2016</td>
                                       <td class="hidden-xs">
                                         <button class="btn btn-default btn-xs btn-hide"><i class="fa fa-eye"></i> hide</button>
                                         <button class="btn btn-primary btn-xs btn-edit"><i class="fa fa-pencil"></i> edit</button>
@@ -68,7 +78,7 @@
                                   <tr>
                                       <td>34</td>
                                       <td class="hidden-xs">Lorem Ipsum dorolo imit</td>
-                                      <td>693030.00$ </td>
+                                      <td>22.04.2016</td>
                                       <td class="hidden-xs">
                                         <button class="btn btn-default btn-xs btn-hide"><i class="fa fa-eye"></i> hide</button>
                                         <button class="btn btn-primary btn-xs btn-edit"><i class="fa fa-pencil"></i> edit</button>
@@ -111,4 +121,5 @@
         </div>
         <!-- body content end-->
     </section>
+
 <?php include("footer.php"); ?>

@@ -32,7 +32,7 @@
           <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle mobile-bar">
               <i class="fa fa-bars fa-2x "></i>
           </button>
-          <a href="#" class="navbar-brand"><img src="img/logo.png"  alt="" /></a>
+          <a href="index.php" class="navbar-brand"><img src="img/logo.png"  alt="" /></a>
         </div>
         <div id="navbarCollapse" class="collapse navbar-collapse ">
           <ul class="nav navbar-nav navbar-right">

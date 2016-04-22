@@ -7,7 +7,7 @@
         <?php include('header.php'); ?>
         <div class="wrapper" id="meeting-page">
           <div class="page-cover">
-            <h3>კონტაქტი</h3>
+            <h3>შეხვედრები</h3>
           </div>
           <div class='container marginTop'>
             <div class='row'>
@@ -28,7 +28,7 @@
                       <h4>შეხვედრა ხვალ</h4>
                     </div>
                     <div class="meeting-img">
-                        <img src="img/meet/1.jpg" alt="" />
+                        <img src="img/2.jpg" alt="" />
                         <p>22.04.2016</p>
                     </div>
                   </a>

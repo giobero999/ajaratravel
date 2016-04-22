@@ -167,7 +167,12 @@
             <div class="row">
               <div class="col-md-12 ">
                 <div class="people">
-                  <h3><span>10001</span> Gel<i> / </i><span>15</span> <span>ადამიანი</span></h3>
+                  <h3>
+                    <span>10001</span> GEL
+                    <i> / </i>
+                    <span>15</span>
+                    <span>ადამიანი</span>
+                  </h3>
                 </div>
                 <div class="period">
                   <h3><i class="fa fa-calendar fa-lg"></i> <span>27 აპრილი - 4 მაისი</span></h3>
@@ -188,7 +193,7 @@
                         <form action="" class="form-horizontal" autocomplete="off">
                           <div class="form-group">
                             <div class="col-md-12">
-                              <input type="text" class="form-control" id="name" placeholder="სახელი" required>
+                              <input type="text" class="form-control" id="name" placeholder="სახელი გვარი" required>
                             </div>
                             <div class="col-md-12">
                               <input type="mail" class="form-control" id="email" placeholder="ელ.ფოსტა" required>
@@ -197,10 +202,10 @@
                               <input type="text" class="form-control" id="people" placeholder="# ადამიანი" required>
                             </div>
                             <div class="col-md-6">
-                              <input type="text" class="form-control" id="people" placeholder="" value="ლონდონი" required>
+                              <input type="text" class="form-control" id="title" placeholder="" value="ლონდონი" required>
                             </div>
                             <div class="col-md-12">
-                              <input type="text"  class="form-control" id="date"  value="" placeholder="თარიღი" required>
+                                <input type="text" class="form-control" id="phone" value="" placeholder="ტელეფონი" required>
                             </div>
                             <div class="col-md-12">
                               <textarea type="date"  class="form-control" col="4" id="date" value="" placeholder="ტექსტი..."></textarea>
@@ -227,6 +232,12 @@
                     </div>
                   </section>
                 </div>
+                <br>
+                <section>
+                  <div class="">
+                    facebook share and like
+                  </div>
+                </section>
               </div>
             </div>
           </div><!-- tours book END -->

@@ -22,191 +22,214 @@
                 <div class="col-md-7">
                   <section class="panel">
                     <header class="panel-heading tab-dark">
-                        <ul class="nav nav-tabs">
-                            <li class="active">
-                                <a data-toggle="tab" href="#georgian">
-                                    <img src="img/flags/ge.png" alt="" width="16" /> <strong> GE</strong>
-                                </a>
-                            </li>
-                            <li >
-                                <a data-toggle="tab" href="#english">
-                                    <img src="img/flags/en.png" alt="" width="16" /><strong> EN</strong>
-                                </a>
-                            </li>
-                            <li class="">
-                                <a data-toggle="tab" href="#russian">
-                                    <img src="img/flags/ru.png" alt="" width="16" /><strong> RU</strong>
-                                </a>
-                            </li>
-
-                        </ul>
+                      <ul class="nav nav-tabs">
+                        <li class="active">
+                          <a data-toggle="tab" href="#georgian">
+                            <img src="img/flags/ge.png" alt="" width="16" /> <strong> GE</strong>
+                          </a>
+                        </li>
+                        <li >
+                          <a data-toggle="tab" href="#english">
+                            <img src="img/flags/en.png" alt="" width="16" /><strong> EN</strong>
+                          </a>
+                        </li>
+                        <li class="">
+                          <a data-toggle="tab" href="#russian">
+                            <img src="img/flags/ru.png" alt="" width="16" /><strong> RU</strong>
+                          </a>
+                        </li>
+                      </ul>
                     </header>
                     <div class="panel-body">
                       <div class="tab-content">
-                          <div id="georgian" class="tab-pane active ">
-                                <div class="col-md-12">
-                                  <div class="form-group">
-                                      <label>Tour Name</label>
-                                      <div class="iconic-input">
-                                          <i class="fa fa-microphone-slash"></i>
-                                          <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london" required>
-                                      </div>
-                                  </div>
-                                </div>
-                                <div class="col-md-6">
-                                  <label>Price</label>
-                                  <div class="input-group m-b-10">
-                                    <span class="input-group-addon"><strong>GEL</strong></span>
-                                    <input type="text" class="form-control" placeholder="Enter the Price" required>
-                                  </div>
-                                </div>
-
-                                <div class="col-md-6">
-                                  <div class="form-group">
-                                      <label>Contact Number</label>
-                                      <div class="iconic-input">
-                                          <i class="fa fa-mobile"></i>
-                                          <input type="text" class="form-control" placeholder="number" value="558 606 606">
-                                      </div>
-                                  </div>
-                                </div>
-                                <div class="col-md-12">
-                                  <header class="panel-heading ">
-                                      small description
-                                  </header>
-                                  <div class="">
-                                      <textarea class="wysihtml5 form-control" rows="6" required></textarea>
-                                  </div>
-                                </div>
-                                <div class="col-md-12 m-b-10 bottom-border">
-                                  <header class="panel-heading ">
-                                      large description
-                                  </header>
-                                  <div class="">
-                                      <textarea class="wysihtml5 form-control" rows="12" required></textarea>
-                                  </div>
-                                </div>
-                                <div class="">
-                                  <div class="panel-heading">
-                                    DAYS REVIEW
-                                  </div>
-                                  <div class="panel-body days-review">
-                                      <div class="">
-                                        <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
-                                      </div>
-                                      <br/>
-                                  </div>
-                                </div>
-                            </div>
-
-                          <div id="english" class="tab-pane ">
-                            <div class="col-md-12">
-                              <div class="form-group">
-                                  <label>Tour Name</label>
-                                  <div class="iconic-input">
-                                      <i class="fa fa-microphone-slash"></i>
-                                      <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london">
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <label>Price</label>
-                              <div class="input-group m-b-10">
-                                <span class="input-group-addon"><i class="fa  fa-euro"></i></span>
-                                <input type="text" class="form-control" placeholder="Enter the Price">
-                              </div>
-                            </div>
-                            <div class="col-md-6">
-                              <div class="form-group">
-                                  <label>Contact Number</label>
-                                  <div class="iconic-input">
-                                      <i class="fa fa-mobile"></i>
-                                      <input type="text" class="form-control" placeholder="number" value="+767 54 44 541">
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <header class="panel-heading ">
-                                  small description
-                              </header>
-                              <div class="">
-                                  <textarea class="wysihtml5 form-control" ></textarea>
-                              </div>
-                            </div>
-                            <div class="col-md-12 m-b-10 bottom-border">
-                              <header class="panel-heading ">
-                                  large description
-                              </header>
-                              <div class="">
-                                  <textarea class="wysihtml5 form-control" rows="12"></textarea>
-                              </div>
-                            </div>
-                            <div class="">
-                              <div class="panel-heading">
-                                DAYS REVIEW
-                              </div>
-                              <div class="panel-body days-review">
-                                  <div class="">
-                                    <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
-                                  </div>
-                                  <br/>
+                        <div id="georgian" class="tab-pane active ">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Tour Name</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-circle"></i>
+                                <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london" required>
                               </div>
                             </div>
                           </div>
-                          <div id="russian" class="tab-pane ">
-                            <div class="col-md-12">
-                              <div class="form-group">
-                                  <label>Tour Name</label>
-                                  <div class="iconic-input">
-                                      <i class="fa fa-microphone-slash"></i>
-                                      <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london">
-                                  </div>
-                              </div>
+                          <div class="col-md-6">
+                            <label>Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><strong>GEL</strong></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price" required>
                             </div>
-                            <div class="col-md-6">
-                              <label>Price</label>
-                              <div class="input-group m-b-10">
-                                <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
-                                <input type="text" class="form-control" placeholder="Enter the Price">
-                              </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Old Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><strong>GEL</strong></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price">
                             </div>
-                            <div class="col-md-6">
-                              <div class="form-group">
-                                  <label>Contact Number</label>
-                                  <div class="iconic-input">
-                                      <i class="fa fa-mobile"></i>
-                                      <input type="text" class="form-control" placeholder="number" value="+1 120 456 55">
-                                  </div>
-                              </div>
-                            </div>
-                            <div class="col-md-12">
-                              <header class="panel-heading ">
-                                  small description
-                              </header>
-                              <div class="">
-                                  <textarea class="wysihtml5 form-control" rows="6"></textarea>
-                              </div>
-                            </div>
-                            <div class="col-md-12 m-b-10 bottom-border">
-                              <header class="panel-heading ">
-                                  large description
-                              </header>
-                              <div class="">
-                                  <textarea class="wysihtml5 form-control" rows="12"></textarea>
-                              </div>
-                            </div>
-                            <div class="">
-                              <div class="panel-heading">
-                                DAYS REVIEW
-                              </div>
-                              <div class="panel-body days-review">
-                                  <div class="">
-                                    <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
-                                  </div>
-                                  <br/>
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Contact Number</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-mobile"></i>
+                                <input type="text" class="form-control" placeholder="number" value="558 606 606">
                               </div>
                             </div>
                           </div>
+                          <div class="col-md-12">
+                            <header class="panel-heading ">
+                              small description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="6" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 m-b-10 bottom-border">
+                            <header class="panel-heading ">
+                              large description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="12" required></textarea>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="panel-heading">
+                              DAYS REVIEW
+                            </div>
+                            <div class="panel-body days-review">
+                              <div class="">
+                                <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
+                              </div>
+                              <br/>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div id="english" class="tab-pane active ">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Tour Name</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-circle"></i>
+                                <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london" required>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><i class="fa fa-euro"></i></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price" required>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Old Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><i class="fa fa-euro"></i></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price">
+                            </div>
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Contact Number</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-mobile"></i>
+                                <input type="text" class="form-control" placeholder="number" value="558 606 606">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <header class="panel-heading ">
+                              small description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="6" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 m-b-10 bottom-border">
+                            <header class="panel-heading ">
+                              large description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="12" required></textarea>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="panel-heading">
+                              DAYS REVIEW
+                            </div>
+                            <div class="panel-body days-review">
+                              <div class="">
+                                <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
+                              </div>
+                              <br/>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div id="russian" class="tab-pane active ">
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Tour Name</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-circle"></i>
+                                <input type="text" class="form-control" placeholder="Enter tour name, example: Tbilisi - roma - london" required>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price" required>
+                            </div>
+                          </div>
+                          <div class="col-md-6">
+                            <label>Old Price</label>
+                            <div class="input-group m-b-10">
+                              <span class="input-group-addon"><i class="fa fa-dollar"></i></span>
+                              <input type="text" class="form-control" placeholder="Enter the Price">
+                            </div>
+                          </div>
+
+                          <div class="col-md-12">
+                            <div class="form-group">
+                              <label>Contact Number</label>
+                              <div class="iconic-input">
+                                <i class="fa fa-mobile"></i>
+                                <input type="text" class="form-control" placeholder="number" value="558 606 606">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12">
+                            <header class="panel-heading ">
+                              small description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="6" required></textarea>
+                            </div>
+                          </div>
+                          <div class="col-md-12 m-b-10 bottom-border">
+                            <header class="panel-heading ">
+                              large description
+                            </header>
+                            <div class="">
+                              <textarea class="wysihtml5 form-control" rows="12" required></textarea>
+                            </div>
+                          </div>
+                          <div class="">
+                            <div class="panel-heading">
+                              DAYS REVIEW
+                            </div>
+                            <div class="panel-body days-review">
+                              <div class="">
+                                <button type="button" class="btn btn-warning btn-review"><i class="fa fa-plus"></i> Add </button>
+                              </div>
+                              <br/>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </section>
@@ -449,6 +472,21 @@
                                   </div>
                           </div>
                         </div>
+                      </section>
+                      <section class="panel">
+                          <header class="panel-heading">
+                              Tags
+                              <span class="tools pull-right">
+                                  <a class="fa fa-repeat box-refresh" href="javascript:;"></a>
+                                  <a class="t-collapse fa fa-chevron-down" href="javascript:;"></a>
+                              </span>
+
+                          </header>
+                          <div class="panel-body">
+                              <div class="form-group">
+                                  <input type="text" class="tags tags-input" data-type="tags" value="foo,bar,baz,roffle"/>
+                              </div>
+                          </div>
                       </section>
                       <section class="panel">
                         <div class="panel-heading">

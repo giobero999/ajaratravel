@@ -7,7 +7,7 @@
         <?php include('header.php'); ?>
         <div class="wrapper" id="meeting-page">
           <div class="page-cover">
-            <h3>კონტაქტი</h3>
+            <h3>შეხვედრა</h3>
           </div>
           <div class='container marginTop'>
             <div class='row'>

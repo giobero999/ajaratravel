@@ -107,10 +107,12 @@ $(document).ready(function(){
     prefix: "Gel "
   }); //price ranger end
 
+
   // select2 plugin, this is a select design changing plugin
   $('.select').select2({
     minimumResultsForSearch: -1
   });//end select2
+
 
   // jqueryui plugin, datepicker
   $( "#date" ).datepicker({
@@ -135,6 +137,8 @@ $(document).ready(function(){
     }
   }); //end datepicker
 
+
+  //hover tooltip
   $('.tool').hover(function(){
     console.log("hover");
     $(this).tooltip('show');
@@ -145,23 +149,15 @@ $(document).ready(function(){
   });
 
 
-  $(".burger").on('click', function() {
-    $(".mobile-menu").animate({"right":0},300).removeClass("hidden");
-    $('body').css({"overflow":"hidden"});
-  });
-
-  $(".close-mobile-menu").click(function() {
-    $(".mobile-menu").animate({"right":"-300px"},300).addClass("hidden");
-    $('body').css({"overflow":"scroll"});
-  });
 
 
+  //gallery
   $(function(){
 		var $gallery = $('.gallery a').simpleLightbox();
 	});
 
 
-
+//slider
   $('.fullscreenbanner').revolution({
      delay:6000,
      transition:"fade",
@@ -191,20 +187,26 @@ $(document).ready(function(){
     slideshow: false,
     sync: "#carousel"
   });
+  //end slider
 
 
+  //fadein effects for elements
   new WOW().init();
 
 
+  //video modal
   $(".video").on('click', function(){
     $("#myVideo").modal("show");
   });
+
 
   $("#navigation").sticky({topSpacing:0});
 
 
 }); //end ready
 
+
+//loader
 $( window ).load(function() {
   $("#loader-wrapper").fadeOut();
   $('body').fadeIn();
